@@ -142,6 +142,18 @@ export class FidelityScene extends Phaser.Scene {
     this.app = this.registry.get("app");
     this.H = this.app.height;
     const status = document.getElementById("loading");
+    // Phaser retries network errors, but HTTP 5xx reaches onLoad instead of
+    // onError. Route temporary CDN responses through the same bounded retry.
+    this.load.on("addfile", (_key: string, _type: string, _loader: Phaser.Loader.LoaderPlugin, file: Phaser.Loader.File) => {
+      const loaded = file.onLoad.bind(file);
+      file.onLoad = (xhr: XMLHttpRequest, event: ProgressEvent) => {
+        if ((xhr.status === 429 || xhr.status >= 500) && file.retryAttempts > 0) {
+          setTimeout(() => file.onError(xhr, event), 500);
+          return;
+        }
+        loaded(xhr, event);
+      };
+    });
     this.load.on("loaderror", (file: Phaser.Loader.File) => this.failedAssets.push(file.key));
     for (const [key, url] of Object.entries(this.app.manifest.faces))
       this.load.image(`faces.${key}`, url);

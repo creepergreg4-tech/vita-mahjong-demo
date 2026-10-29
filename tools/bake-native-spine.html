@@ -1,0 +1,44 @@
+<!doctype html><meta charset="utf-8"><canvas id="view" width="320" height="320"></canvas>
+<script src="/node_modules/phaser/plugins/spine4.1/src/runtimes/spine-webgl.js"></script>
+<script>
+const canvas=document.querySelector('canvas');
+const gl=canvas.getContext('webgl',{alpha:true,premultipliedAlpha:true,preserveDrawingBuffer:true,antialias:true});
+const renderer=new spine.SceneRenderer(canvas,gl);
+const native='/public/assets/reward-fx/native/';
+const loaded={};
+window.loadNative=async (name,atlasName)=>{
+  if(loaded[name])return loaded[name];
+  const atlas=new spine.TextureAtlas(await (await fetch(native+atlasName+'.atlas')).text());
+  for(const p of atlas.pages){const img=new Image();img.src=native+p.name;await img.decode();p.setTexture(new spine.GLTexture(gl,img));}
+  const reader=new spine.SkeletonBinary(new spine.AtlasAttachmentLoader(atlas));
+  const data=reader.readSkeletonData(new Uint8Array(await (await fetch(native+name+'.skel')).arrayBuffer()));
+  return loaded[name]={data,atlas};
+};
+window.inspectNative=async(name,atlasName)=>{const {data}=await loadNative(name,atlasName);return {name,version:data.version,x:data.x,y:data.y,width:data.width,height:data.height,skins:data.skins.map(s=>s.name),animations:data.animations.map(a=>({name:a.name,duration:a.duration})),bones:data.bones.map(b=>({name:b.name,x:b.x,y:b.y,scaleX:b.scaleX,scaleY:b.scaleY})),slots:data.slots.map(s=>({name:s.name,blendMode:s.blendMode,attachment:s.attachmentName}))};};
+function pose(data,animation,time,skin){const s=new spine.Skeleton(data);if(skin)s.setSkinByName(skin);s.setToSetupPose();data.findAnimation(animation).apply(s,0,time,false,[],1,spine.MixBlend.replace,spine.MixDirection.mixIn);s.updateWorldTransform();return s;}
+window.boundsNative=async (name,atlasName,animation,skin)=>{
+ const {data}=await loadNative(name,atlasName);const a=data.findAnimation(animation);const total={x:Infinity,y:Infinity,right:-Infinity,top:-Infinity};
+ for(let t=0;t<Math.max(1/24,a.duration);t+=1/24){const s=pose(data,animation,t,skin);const p=new spine.Vector2(),z=new spine.Vector2();s.getBounds(p,z,[]); if(!isFinite(p.x)||!isFinite(z.x))continue;total.x=Math.min(total.x,p.x);total.y=Math.min(total.y,p.y);total.right=Math.max(total.right,p.x+z.x);total.top=Math.max(total.top,p.y+z.y);}
+ return {...total,width:total.right-total.x,height:total.top-total.y};
+};
+window.renderNative=async ({name,atlasName,animation,time,width=320,height=320,bounds})=>{
+ const {data}=await loadNative(name,atlasName);canvas.width=width;canvas.height=height;gl.viewport(0,0,width,height);
+ const zoom=Math.max(bounds.width/width,bounds.height/height)*1.06;
+ renderer.camera.setViewport(width,height);renderer.camera.zoom=zoom;renderer.camera.position.set(bounds.x+bounds.width/2,bounds.y+bounds.height/2,0);
+ gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT);renderer.begin();renderer.drawSkeleton(pose(data,animation,time),true);renderer.end();
+ return canvas.toDataURL('image/png');
+};
+window.renderLayers=async ({layers,time,width=320,height=320,bounds,scan=false})=>{
+ canvas.width=width;canvas.height=height;gl.viewport(0,0,width,height);
+ const zoom=Math.max(bounds.width/width,bounds.height/height)*1.04;
+ renderer.camera.setViewport(width,height);renderer.camera.zoom=zoom;renderer.camera.position.set(bounds.x+bounds.width/2,bounds.y+bounds.height/2,0);
+ gl.clearColor(0,0,0,0);gl.clear(gl.COLOR_BUFFER_BIT);renderer.begin();
+ for(const l of layers){if(time<(l.delay||0))continue;const {data}=await loadNative(l.name,l.atlasName);const s=pose(data,l.animation,Math.max(0,time-(l.delay||0)),l.skin);s.x=l.x||0;s.y=l.y||0;s.scaleX=s.scaleY=l.scale||1;s.updateWorldTransform();renderer.drawSkeleton(s,true);}
+ renderer.end();
+ if(scan){const pixels=new Uint8Array(width*height*4);gl.readPixels(0,0,width,height,gl.RGBA,gl.UNSIGNED_BYTE,pixels);let x0=width,y0=height,x1=-1,y1=-1,count=0;for(let y=0;y<height;y++)for(let x=0;x<width;x++){const i=(y*width+x)*4;if(pixels[i+3]>8){x0=Math.min(x0,x);y0=Math.min(y0,y);x1=Math.max(x1,x);y1=Math.max(y1,y);count++;}}return{x0,y0,x1,y1,count,world:{x:(x0-width/2)*zoom+renderer.camera.position.x,y:(y0-height/2)*zoom+renderer.camera.position.y,right:(x1+1-width/2)*zoom+renderer.camera.position.x,top:(y1+1-height/2)*zoom+renderer.camera.position.y}};}
+ return canvas.toDataURL('image/png');
+};
+window.startSheet=(width,height)=>{window.sheet=document.createElement('canvas');sheet.width=width;sheet.height=height;window.sheetCtx=sheet.getContext('2d');};
+window.addSheetFrame=(x,y)=>{sheetCtx.drawImage(canvas,x,y);};
+window.finishSheet=()=>sheet.toDataURL('image/png');
+</script>
