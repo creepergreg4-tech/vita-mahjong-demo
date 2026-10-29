@@ -2,7 +2,7 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { makeLineLevel } from "../src/core/levels";
 import lineData from "../src/core/line-level-data.json";
-import { Puzzle } from "../src/core/rules";
+import { Puzzle, experimentClearActions } from "../src/core/rules";
 import { solve } from "../src/core/solver";
 import {
   free,
@@ -270,7 +270,7 @@ const basic = () =>
   ]);
 const negativeSeed = () => {
   let seed = 1;
-  while (((Math.imul(seed, 1664525) + 1013904223) >>> 0) / 4294967296 < 0.85)
+  while (((Math.imul(seed, 1664525) + 1013904223) >>> 0) / 4294967296 < 0.7)
     seed++;
   return seed;
 };
@@ -343,6 +343,29 @@ test("unlocked stash explicitly permits a surface clamped normal; no normal tap 
   assert.equal(p.s.slot, 1);
   assert.deepEqual(p.s.tray, []);
 });
+
+test("stash takes and reveals a clamped blue-back in one action; cover, tools and undo remain correct", () => {
+  const p = game([tile(0, 0, 0), tile(1, 1, 1), tile(2, 2, 2), tile(3, 1, 4)]);
+  p.s.tiles[1].hidden = true;
+  p.s.tiles[1].everHidden = true;
+  p.s.slotOpen = true;
+  p.toggleStash();
+  const ev = p.tap(1);
+  assert.deepEqual(ev.map(e => e.type), ["flip", "stash"]);
+  assert.equal(p.s.slot, 1);
+  assert.equal(p.s.tiles[1].hidden, false);
+  assert.equal(p.s.moves, 1);
+  assert.equal(p.s.slotPending, 1);
+  p.use("undo");
+  assert.equal(p.s.slot, null);
+  assert.equal(p.s.tiles[1].hidden, true);
+  assert.equal(p.s.slotOpen, true);
+  p.s.tiles.push(tile(4, 2, 1, 0, 1));
+  p.toggleStash();
+  assert.equal(p.tap(1)[0].type, "notice");
+  assert.equal(p.s.tiles[1].hidden, true);
+  assert.equal(p.s.slot, null);
+});
 test("initial screenshot geometry: bottom x1 tile stays on board when both bottom neighbors exist", async () => {
   const { makeLevels } = await import("../src/core/levels");
   const p = new Puzzle(makeLevels()[0]);
@@ -352,6 +375,32 @@ test("initial screenshot geometry: bottom x1 tile stays on board when both botto
   const before = clone(p.s);
   assert.equal(p.tap(t.id)[0].type, "blocked");
   assert.deepEqual(p.s, before);
+});
+
+test("clamped bomb, move and gift can be stashed without activating and survive save/undo", () => {
+  for (const kind of ["bomb", "move", "gift"] as const) {
+    const p = game([tile(0, 0, 0), tile(1, 0, 1, 0, 0, kind), tile(2, 0, 2), tile(3, 0, 4, 0, 0, kind)]);
+    assert.equal(p.tap(1)[0].type, "blocked");
+    p.s.slotOpen = true;
+    p.toggleStash();
+    assert.deepEqual(p.tap(1).map(e => e.type), ["stash"]);
+    assert.equal(p.s.slot, 1);
+    assert.equal(p.s.matches, 0);
+    const restored = new Puzzle(p.level);
+    assert.equal(restored.restore(p.export()), true, `${kind} reserved save is valid`);
+    assert.equal(restored.s.slot, 1);
+    assert.equal(restored.tap(1)[0].type, "collect");
+    assert.equal(restored.s.slotPending, 1);
+    const paired = restored.tap(3);
+    const effect = kind === "move" ? "unlock" : kind;
+    assert.equal(paired.filter(e => e.type === effect).length, 1);
+    restored.use("undo");
+    assert.equal(restored.s.slotPending, 1);
+    p.use("undo");
+    assert.equal(p.s.slot, null);
+    assert.equal(p.s.tiles[1].removed, false);
+    assert.equal(p.s.tiles[1].kind, kind);
+  }
 });
 test("covered tiles cannot collect or stash; collected cover immediately reveals underneath", () => {
   const p = game([
@@ -705,14 +754,14 @@ test("save/restore rejects V1 and restores tray, reservation and undo costs", ()
   assert.deepEqual(q.s.tray, []);
   assert.equal(q.restore({ ...data, rulesVersion: 1 }), false);
 });
-test("uniform deterministic gift seeds keep negative branch near 15 percent", () => {
+test("real gift draws keep the light negative branch near 30 percent", () => {
   let negative = 0;
+  const p = basic();
   for (let i = 0; i < 10000; i++) {
-    const seed = (i * 2654435761) >>> 0;
-    if (((Math.imul(seed, 1664525) + 1013904223) >>> 0) / 4294967296 >= 0.85)
-      negative++;
+    p.s.seed = (i * 2654435761) >>> 0;
+    if (!p.gift()[0].positive) negative++;
   }
-  assert.ok(negative > 1400 && negative < 1600);
+  assert.ok(negative > 2900 && negative < 3100);
 });
 
 const beltGame = () => {
@@ -1000,18 +1049,23 @@ test("experiment results use legal board pairs, bounded fire and exact inventory
       Math.imul(index + 1, 2654435761) >>> 0,
     );
     p.s.experiment!.streak = p.s.experiment!.threshold - 1;
+    p.s.experiment!.activations = 1; // First delivery is always a stack; sample later weights.
     const before = clone(p.s.inventory);
     const events = p.apply({ type: "pair", a: 0, b: 1 }),
       e = events.find((e) => e.type === "experiment")!;
     assert.ok(e);
     seen.add(e.result!);
-    assert.equal(p.s.experiment!.activations, 1);
+    assert.equal(p.s.experiment!.activations, 2);
     assert.equal(p.s.experiment!.streak, 0);
     assert.ok(
       !events.some((e) => e.type === "shuffle"),
       "random reward never forces shuffle",
     );
-    if (e.result === "pairMove" || e.result === "pairBomb") {
+    if (e.result === "stackNormal") {
+      assert.equal(e.ids!.length, 6);
+      assert.equal(e.boardAfter!.tiles.length - e.boardBefore!.tiles.length, 6);
+      assert.equal(experimentClearActions(p.s)!.length, 6);
+    } else if (e.result === "pairMove" || e.result === "pairBomb") {
       assert.equal(e.ids!.length, 2);
       assert.ok(e.boardBefore && e.boardAfter);
       for (const id of e.ids!) {
@@ -1045,6 +1099,7 @@ test("experiment results use legal board pairs, bounded fire and exact inventory
     "pairBomb",
     "pairMove",
     "shuffle",
+    "stackNormal",
     "undo",
   ]);
 });
@@ -1054,6 +1109,7 @@ test("slot +2 rewards are rare independent outcomes; experiments stop after thre
   for (let index = 0; index < 500; index++) {
     const p = experimentPuzzle("slots", Math.imul(index + 1, 2654435761) >>> 0);
     p.s.experiment!.streak = 2;
+    p.s.experiment!.activations = 1;
     const event = p
       .apply({ type: "pair", a: 0, b: 1 })
       .find((e) => e.type === "experiment")!;
@@ -1064,9 +1120,11 @@ test("slot +2 rewards are rare independent outcomes; experiments stop after thre
     )
       double++;
   }
-  assert.ok(double > 8 && double < 55, `rare doubles ${double}`);
+  assert.ok(double > 2 && double < 40, `rare doubles ${double}`);
   const p = experimentPuzzle();
   for (let step = 0; step < 100 && !p.won; step++) {
+    const stack = experimentClearActions(p.s);
+    if (stack?.length) { for (const action of stack) p.apply(action); continue; }
     const a = p.s.tiles.find((t) => free(p.s, t));
     if (!a) break;
     const b = p.s.tiles.find(

@@ -56,6 +56,12 @@ export interface Experiment {
   maxActivations: number;
   position: "top" | "bottom" | "side";
 }
+/** Finite ordinary deliveries remain identifiable after shuffle, save and undo. */
+export interface ExperimentBatch {
+  activation: number;
+  ids: number[];
+  faces: [number, number, number];
+}
 export interface Level {
   lineGuide?: number[];
   experiment?: Experiment;
@@ -76,7 +82,11 @@ export type Action =
   | { type: "wait"; a: -1 }
   | { type: "stash"; a: number };
 export interface State {
-  experiment?: Experiment & { streak: number; activations: number };
+  experiment?: Experiment & {
+    streak: number;
+    activations: number;
+    batches?: ExperimentBatch[];
+  };
   /** Fictional round points, never a measurement of intelligence. */
   bonusIQ?: number;
   bonus?: {
@@ -130,6 +140,7 @@ export interface Event {
     | "notice";
   actor?: "dragon" | "slots";
   result?:
+    | "stackNormal"
     | "pairMove"
     | "pairBomb"
     | "fire"
@@ -139,6 +150,7 @@ export interface Event {
     | "shuffle"
     | "iq";
   amount?: number;
+  previewFaces?: number[];
   charge?: number;
   threshold?: number;
   activation?: number;
@@ -262,8 +274,7 @@ export function canStash(s: State, t: Tile): boolean {
     s.slot === null &&
     s.slotPending == null &&
     !t.removed &&
-    !t.hidden &&
-    t.kind === "normal" &&
+    !t.bonus &&
     exposed(s, t)
   );
 }

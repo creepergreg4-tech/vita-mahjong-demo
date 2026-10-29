@@ -17,6 +17,12 @@ import {
 } from "../src/core/model";
 const levels = makeLevels();
 const runs = 32;
+function campaignWitness(level: Level): Action[] {
+  if (!level.experiment) return level.solution!;
+  const path = solve(new Puzzle(level).s, 250000, 1500);
+  assert.ok(path, `actual engine certificate for machine level ${level.id}`);
+  return path;
+}
 /** Instrument the actual shared entry point, including nested blast/gift calls.
  * Checking emitted events after the pair vanished would miss illegal bypasses. */
 function auditedPuzzle(level: Level) {
@@ -283,12 +289,12 @@ test("gift veil never re-hides a revealed initial blue card", () => {
   assert.ok(!events[0].ids?.includes(back.id));
 });
 
-test("all 30 stored witnesses complete through actual collection, bomb and gift effects without consumables", () => {
+test("all 30 base or machine-expanded witnesses complete through actual effects without consumables", () => {
   for (const level of levels) {
     const p = auditedPuzzle(level);
     assert.ok(level.solution?.length);
     let collects = 0;
-    for (const action of level.solution!) {
+    for (const action of campaignWitness(level)) {
       const events = checkedApply(p, action);
       assert.ok(
         events.some(
@@ -451,7 +457,7 @@ test("experimental boards have three real manual-triggered deliveries and remain
     const p = new Puzzle(level),
       restored = new Puzzle(level);
     let triggers = 0;
-    for (const action of level.solution!) {
+    for (const action of campaignWitness(level)) {
       const events = p.apply(action);
       triggers += events.filter((e) => e.type === "experiment").length;
       assert.ok(restored.restore(p.export()), `experiment restore ${level.id}`);
@@ -468,9 +474,10 @@ test("runtime hints cover every initial and midpoint certified state using the d
   const timings: number[] = [];
   for (const level of levels) {
     const p = new Puzzle(level);
-    for (const index of [0, Math.floor(level.solution!.length / 2)]) {
+    const witness = campaignWitness(level);
+    for (const index of [0, Math.floor(witness.length / 2)]) {
       if (index)
-        for (const action of level.solution!.slice(0, index)) p.apply(action);
+        for (const action of witness.slice(0, index)) p.apply(action);
       const before = p.s.inventory.hint,
         start = performance.now(),
         events = p.use("hint"),

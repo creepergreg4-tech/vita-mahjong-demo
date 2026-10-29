@@ -26,6 +26,50 @@ import {
 } from "./model";
 import { solve, registerTransition, registerWitness } from "./solver";
 
+/** A small local certificate, independent of consumables and future board rewards.
+ * Both tops differ; opening the second face needs room for a deliberate pick.
+ * Returning these six cards to removed restores every pre-delivery board gate. */
+export function experimentClearActions(s: State): Action[] | null {
+  const batch = s.experiment?.batches?.find((b) =>
+    b.ids.some((id) => s.tiles.some((t) => t.id === id && !t.removed)),
+  );
+  if (!batch) return [];
+  const search = (state: State): Action[] | null => {
+    if (batch.ids.every((id) => state.tiles.find((t) => t.id === id)?.removed))
+      return [];
+    if (state.tray.length >= TRAY_CAPACITY) return null;
+    for (const id of [2, 1, 5, 4, 0, 3].map((i) => batch.ids[i])) {
+      const t = state.tiles.find((t) => t.id === id)!;
+      if (t.kind !== "normal" || !(free(state, t) || state.slot === id)) continue;
+      const next = clone(state), card = next.tiles.find((t) => t.id === id)!;
+      const partner = next.tray.find((other) =>
+        same(next.tiles.find((t) => t.id === other)!, card),
+      );
+      if (next.slot === id) next.slot = null;
+      if (partner !== undefined) {
+        card.removed = true;
+        next.tiles.find((t) => t.id === partner)!.removed = true;
+        next.tray = next.tray.filter((id) => id !== partner);
+      } else next.tray.push(id);
+      const tail = search(next);
+      if (tail) return [{ type: "collect", a: id }, ...tail];
+    }
+    return null;
+  };
+  return search(s);
+}
+
+function experimentPositions(level: Level, batchIndex: number) {
+  const xs = level.tiles.map((t) => t.x), ys = level.tiles.map((t) => t.y);
+  const cx = (Math.min(...xs) + Math.max(...xs)) / 2;
+  const cy = (Math.min(...ys) + Math.max(...ys)) / 2;
+  const z = Math.max(...level.tiles.map((t) => t.z)) + 1 + batchIndex * 3;
+  return Array.from({ length: 6 }, (_, i) => {
+    const layer = i % 3, side = i < 3 ? -1 : 1;
+    return { x: cx + side * (1.2 + layer * 0.14), y: cy - layer * 0.13, z: z + layer };
+  });
+}
+
 const witnessHints = new Map<
   string,
   {
@@ -185,8 +229,6 @@ export class Puzzle {
       (data.rulesVersion >= 4 && data.signature !== this.signature()) ||
       data.level !== this.level.id ||
       !Array.isArray(data.state?.tiles) ||
-      data.state.tiles.length !==
-        this.level.tiles.length + (data.state.bonus ? 2 : 0) ||
       !Array.isArray(data.state.tray) ||
       data.state.tray.length > TRAY_CAPACITY
     )
@@ -195,7 +237,9 @@ export class Puzzle {
       if (
         !s ||
         !Array.isArray(s.tiles) ||
-        s.tiles.length !== this.level.tiles.length + (s.bonus ? 2 : 0) ||
+        s.tiles.length !== this.level.tiles.length + (s.bonus ? 2 : 0) +
+          (Array.isArray(s.experiment?.batches) ? s.experiment.batches.length * 6 : 0) ||
+        new Set(s.tiles.map((t) => t.id)).size !== s.tiles.length ||
         !Array.isArray(s.tray) ||
         new Set(s.tray).size !== s.tray.length ||
         s.tray.length > TRAY_CAPACITY
@@ -227,7 +271,39 @@ export class Puzzle {
           s.bonusIQ! > 60
         )
           return false;
+        const batches = e.batches ?? [];
+        if (!Array.isArray(batches) || batches.length > e.activations || batches.length > 3)
+          return false;
+        let lastActivation = 0;
+        const firstId = Math.max(...this.level.tiles.map((t) => t.id)) + 3;
+        for (const [index, batch] of batches.entries()) {
+          if (!batch || !Number.isInteger(batch.activation) ||
+            batch.activation <= lastActivation || batch.activation > e.activations ||
+            !Array.isArray(batch.faces) || batch.faces.length !== 3 ||
+            new Set(batch.faces).size !== 3 ||
+            !batch.faces.every((f) => Number.isInteger(f) && f >= 0 && f < 12) ||
+            JSON.stringify(batch.ids) !== JSON.stringify(Array.from({ length: 6 }, (_, i) => firstId + index * 6 + i)))
+            return false;
+          lastActivation = batch.activation;
+          const positions = experimentPositions(this.level, index);
+          if (batch.ids.some((id, i) => {
+            const t = s.tiles.find((t) => t.id === id), p = positions[i];
+            return !t || t.bonus || t.x !== p.x || t.y !== p.y || t.z !== p.z;
+          })) return false;
+        }
       } else if (s.experiment) return false;
+      const parity = new Map<string, number>();
+      for (const t of s.tiles) {
+        if (!Number.isInteger(t.face) || t.face < 0 ||
+          !["normal", "move", "bomb", "gift"].includes(t.kind) ||
+          typeof t.removed !== "boolean" || typeof t.hidden !== "boolean" ||
+          typeof t.everHidden !== "boolean") return false;
+        if (!t.removed && !t.bonus) {
+          const key = `${t.kind}:${t.kind === "normal" ? t.face : 0}`;
+          parity.set(key, (parity.get(key) || 0) + 1);
+        }
+      }
+      if (s.experiment && [...parity.values()].some((count) => count % 2)) return false;
       if (s.bonus) {
         const ids = [
           Math.max(...this.level.tiles.map((t) => t.id)) + 1,
@@ -244,7 +320,7 @@ export class Puzzle {
         )
           return false;
         for (let i = 0; i < 2; i++) {
-          const t = s.tiles[this.level.tiles.length + i];
+          const t = s.tiles.find((t) => t.id === ids[i]);
           if (
             !t ||
             t.id !== ids[i] ||
@@ -340,7 +416,7 @@ export class Puzzle {
       return (
         s.slotPending === null ||
         s.tiles.some(
-          (t) => t.id === s.slotPending && !t.removed && t.kind === "normal",
+          (t) => t.id === s.slotPending && !t.removed && !t.bonus,
         )
       );
     };
@@ -389,7 +465,7 @@ export class Puzzle {
     )
       return [];
     const boardBefore = this.boardSnapshot(),
-      id = Math.max(...this.s.tiles.map((t) => t.id)) + 1,
+      id = Math.max(...this.level.tiles.map((t) => t.id)) + 1,
       ids: [number, number] = [id, id + 1];
     this.s.bonus = { ids, remainingMs: 12000, status: "active" };
     this.s.tiles.push(
@@ -625,8 +701,10 @@ export class Puzzle {
     if (!t || t.removed) return [];
     if (this.stashMode) {
       if (!canStash(this.s, t))
-        return [{ type: "notice", text: "选一张无遮挡的普通牌或槽内普通牌" }];
+        return [{ type: "notice", text: t.bonus ? "限时礼盒请在倒计时内直接配对" : "可暂存左右夹住的表面牌；先移开上方盖住的牌" }];
       this.save();
+      const reveal = t.hidden;
+      t.hidden = false;
       const before = [...this.s.tray],
         source = before.includes(id) ? "tray" : "board";
       this.s.tray = this.s.tray.filter((x) => x !== id);
@@ -636,6 +714,7 @@ export class Puzzle {
       this.stashMode = false;
       this.selected = null;
       return [
+        ...(reveal ? [{ type: "flip" as const, ids: [id] }] : []),
         {
           type: "stash",
           ids: [id],
@@ -703,7 +782,7 @@ export class Puzzle {
           type: "unlock",
           stashCharges: this.s.stashCharges,
           amount: -1,
-          text: "已启用储存的暂存机会 · 选一张表面普通牌",
+          text: "已启用储存的暂存机会 · 选一张表面牌",
         },
       ];
     }
@@ -717,7 +796,7 @@ export class Puzzle {
     return [
       {
         type: "notice",
-        text: this.stashMode ? "选一张表面普通牌或槽内普通牌" : "已取消暂存",
+        text: this.stashMode ? "点表面牌暂存 · 夹住、蓝背和特殊牌均可" : "已取消暂存",
       },
     ];
   }
@@ -815,19 +894,26 @@ export class Puzzle {
     if (!e || e.activations >= e.maxActivations || this.won) return [];
     e.streak++;
     if (e.streak < e.threshold) return [];
+    // Keep a charged delivery pending until its local six-pick certificate fits.
+    // Existing unfinished deliveries are solved before another stack arrives.
+    if (this.s.tray.length > 1 || e.batches?.some((b) =>
+      b.ids.some((id) => this.s.tiles.some((t) => t.id === id && !t.removed)))) {
+      e.streak = e.threshold - 1;
+      return [];
+    }
     e.streak = 0;
     e.activations++;
     const pair = this.blastTargets(1)[0];
     const pool: NonNullable<Event["result"]>[] =
       e.type === "dragon"
-        ? ["hint", "undo", "magnet", "pairMove", "pairBomb", "fire"]
-        : ["hint", "undo", "magnet", "shuffle", "pairMove", "pairBomb", "iq"];
+        ? ["stackNormal", "stackNormal", "stackNormal", "stackNormal", "stackNormal", "stackNormal", "stackNormal", "stackNormal", "hint", "undo", "magnet", "pairMove", "pairBomb", "fire"]
+        : ["stackNormal", "stackNormal", "stackNormal", "stackNormal", "stackNormal", "stackNormal", "stackNormal", "stackNormal", "stackNormal", "hint", "undo", "magnet", "shuffle", "pairMove", "pairBomb", "iq"];
     const available = pool.filter(
       (r) =>
         (pair || !["pairMove", "pairBomb", "fire"].includes(r)) &&
         (r !== "pairMove" || (!this.s.slotOpen && this.s.slotPending === null)),
     );
-    const result = available[Math.floor(random(this.s) * available.length)];
+    const result = e.activations === 1 ? "stackNormal" : available[Math.floor(random(this.s) * available.length)];
     const amount = e.type === "slots" && random(this.s) < 0.08 ? 2 : 1;
     const ev: Event[] = [
       {
@@ -841,7 +927,31 @@ export class Puzzle {
         ids: [],
       },
     ];
-    if (result === "pairMove" || result === "pairBomb") {
+    if (result === "stackNormal") {
+      const boardBefore = this.boardSnapshot();
+      const batches = (e.batches ??= []), index = batches.length;
+      const heldFaces = this.s.tiles.filter((t) =>
+        (this.s.tray.includes(t.id) || this.s.slot === t.id) && t.kind === "normal",
+      ).map((t) => t.face);
+      const visibleFaces = this.s.tiles.filter((t) => free(this.s, t) && t.kind === "normal").map((t) => t.face);
+      const palette = shuffled(Array.from({ length: 12 }, (_, i) => i).filter((f) => !heldFaces.includes(f)), this.s);
+      palette.sort((a, b) => Number(visibleFaces.includes(a)) - Number(visibleFaces.includes(b)));
+      const faces = palette.slice(0, 3) as [number, number, number];
+      const id = Math.max(...this.level.tiles.map((t) => t.id)) + 3 + index * 6;
+      const ids = Array.from({ length: 6 }, (_, i) => id + i);
+      const positions = experimentPositions(this.level, index);
+      const [a, b, c] = faces;
+      this.s.tiles.push(...ids.map((id, i): Tile => ({
+        id, ...positions[i], face: [c, b, a, c, a, b][i], kind: "normal",
+        removed: false, hidden: false, everHidden: false,
+      })));
+      batches.push({ activation: e.activations, ids, faces });
+      Object.assign(ev[0], {
+        amount: 6, ids, previewFaces: faces,
+        boardBefore, boardAfter: this.boardSnapshot(),
+        text: "落下两叠普通牌 · 先拆开不同顶牌，再寻找配对",
+      });
+    } else if (result === "pairMove" || result === "pairBomb") {
       const boardBefore = this.boardSnapshot();
       for (const t of pair!) {
         t.kind = result === "pairMove" ? "move" : "bomb";
@@ -893,7 +1003,7 @@ export class Puzzle {
   }
   gift(): Event[] {
     const tutorial = this.level.id === 13,
-      positive = tutorial || random(this.s) < 0.85;
+      positive = random(this.s) < 0.7;
     if (!positive) {
       const ts = shuffled(
         this.s.tiles.filter(
@@ -958,12 +1068,15 @@ export class Puzzle {
     return ev;
   }
   private certifiedHintPath(): Action[] | null {
+    // Machine emissions alter IDs and future reward draws. Validate the actual
+    // engine route, rather than handing out a stale authored-board suffix.
+    if (this.s.experiment) return solve(this.s, 60000, 150);
     if (!this.level.solution?.length) return null;
     const signature = `${this.level.id}:${this.signature()}:${JSON.stringify(this.level.solution)}`;
     let cache = witnessHints.get(signature);
     if (!cache) {
       const replay = new Puzzle(this.level),
-        path = this.level.solution;
+        path = clone(this.level.solution);
       replay.save = () => {};
       replay.simulation = true;
       cache = {
@@ -1094,10 +1207,10 @@ export class Puzzle {
         {
           type: "hint",
           ids: hidden.length ? [hidden[0]] : a.type === "pair" ? ids : [a.a],
-          text: hidden.length
-            ? "先翻开这张牌"
-            : a.type === "stash"
-              ? "先点暂存格，再移入这张牌"
+          text: a.type === "stash"
+            ? "先点暂存格，再点这张牌移入；蓝背会自动翻开"
+            : hidden.length
+              ? "先翻开这张牌"
               : "点这张牌，收入四格槽",
         },
       ];
@@ -1300,8 +1413,6 @@ export class Puzzle {
       ];
     const ev: Event[] = [];
     if (a.type === "stash") {
-      const t = this.s.tiles.find((t) => t.id === a.a);
-      if (t?.hidden) ev.push(...this.tap(a.a));
       if (!this.s.slotOpen && (this.s.stashCharges || 0) > 0)
         ev.push(...this.toggleStash());
       this.stashMode = true;
@@ -1328,7 +1439,7 @@ registerTransition((state, action) => {
     difficulty: 1,
     seed: state.seed,
     source: "search",
-    tiles: [],
+    tiles: state.tiles.filter((t) => !t.bonus && !state.experiment?.batches?.some((b) => b.ids.includes(t.id))),
   });
   p.s = clone(state);
   p.save = () => {};

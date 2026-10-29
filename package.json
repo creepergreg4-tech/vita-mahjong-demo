@@ -1,13 +1,13 @@
 {
   "name": "vita-mahjong-clever-pairs",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "private": true,
   "type": "module",
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "tsc --noEmit && vite build --outDir dist-v2 --emptyOutDir",
     "preview": "vite preview --outDir dist-v2 --host 0.0.0.0",
-    "test": "tsx --test tests/rules.test.ts tests/level-quality.test.ts"
+    "test": "tsx --test tests/rules.test.ts tests/level-quality.test.ts tests/experiment-puzzles.test.ts"
   },
   "dependencies": {
     "phaser": "3.90.0"

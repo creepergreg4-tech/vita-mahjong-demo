@@ -17,6 +17,8 @@ export class ExperimentView {
   heads: Phaser.GameObjects.Image[] = [];
   machine?: Phaser.GameObjects.Sprite;
   reel?: Phaser.GameObjects.Image;
+  reelBacking?: Phaser.GameObjects.Image;
+  lastFaces: number[] = [];
   lastResult = "";
   lastOrigin?: Point;
   constructor(private g: FidelityScene) {}
@@ -69,13 +71,15 @@ export class ExperimentView {
           .setTint(0xffd665)
           .setAlpha(i < e.streak ? 1 : 0.35);
     } else {
-      g.txt(g.hud, 490, g.H * 0.45 - 70, "好运转轮", 16, "#f6df9c");
+      g.txt(g.hud, 490, g.H * 0.45 - 70, "叠牌转轮", 16, "#f6df9c");
       this.machine = g
         .nativeFx!.spawn("slotIdle", { x: 490, y: g.H * 0.45 }, 170, 10)
         .setOrigin(0.5, 0.31);
       g.hud.add(this.machine);
+      this.reelBacking = g.img(g.hud, 490, g.H * 0.45, "f.play.tilePlainBlue", 43, 53);
+      const sample = g.p.s.tiles.find(t => t.kind === "normal");
       this.reel = g.add
-        .image(490, g.H * 0.45, "ui.gift")
+        .image(490, g.H * 0.45, sample ? g.faceKey(sample) : "faces.dot2")
         .setDisplaySize(36, 36);
       g.hud.add(this.reel);
       g.txt(
@@ -90,15 +94,23 @@ export class ExperimentView {
         g.hud,
         490,
         g.H * 0.45 + 100,
-        left ? `剩 ${left} 次` : "本关已领完",
+        left ? `剩 ${left} 次` : "本关已结束",
         14,
         "#a7c4b5",
       );
-      if (this.lastResult) this.setReel(resultIcons[this.lastResult]);
+      if (this.lastResult === "stackNormal" && this.lastFaces.length && sample) {
+        this.setReel(g.faceKey({...sample, face: this.lastFaces[0]}));
+        this.lastFaces.forEach((face, i) => {
+          const tile = g.card({...sample, face, hidden: false}, 24, 30)
+            .setPosition(461 + i * 29, g.H * 0.45 + 137);
+          g.hud.add(tile);
+        });
+        g.txt(g.hud, 490, g.H * 0.45 + 166, "本轮牌样", 12, "#e4c98f");
+      } else if (this.lastResult) this.setReel(resultIcons[this.lastResult]);
     }
   }
   private setReel(key: string) {
-    if (!this.reel?.active) return;
+    if (!this.reel?.active || !key) return;
     this.reel.setTexture(key);
     const im = this.g.textures.get(key).getSourceImage();
     const scale = Math.min(36 / im.width, 36 / im.height);
@@ -109,10 +121,15 @@ export class ExperimentView {
       epoch = g.epoch,
       alive = () => g.epoch === epoch && g.mode === "play";
     g.hardLock = true;
+    // Earlier gift/flip effects may have redrawn the final engine state. Restore
+    // this event's pre-delivery board so emitted cards cannot appear twice.
+    if (e.boardBefore) g.renderBoard({ ...g.p.s, ...e.boardBefore });
     const from = this.origin(e);
     this.lastOrigin = from;
     if (e.actor === "slots") {
-      const choices = Object.values(resultIcons);
+      const samples = g.p.s.tiles.filter(t => t.kind === "normal" && !t.removed);
+      const faceChoices = [...new Set(samples.map(t => g.faceKey(t)))].slice(0, 6);
+      const choices = [...faceChoices, "ui.move", "effects.firecracker", "ui.hint"];
       for (let i = 0; i < 10; i++) {
         this.setReel(choices[i % choices.length]);
         g.sfx("button");
@@ -120,7 +137,9 @@ export class ExperimentView {
         if (!alive()) return;
       }
       this.lastResult = e.result || "hint";
-      this.setReel(resultIcons[this.lastResult]);
+      this.lastFaces = e.previewFaces || [];
+      const emitted = e.result === "stackNormal" ? g.p.s.tiles.find(t => t.id === e.ids?.[0]) : undefined;
+      this.setReel(emitted ? g.faceKey(emitted) : resultIcons[this.lastResult]);
       this.machine?.setVisible(false);
       await g.nativeFx!.play(
         "slotSpitting",
@@ -147,9 +166,15 @@ export class ExperimentView {
       g.nativeFx!.stars(from, 10);
       g.sfx("firecrackerFly");
     }
-    if (e.result === "pairMove" || e.result === "pairBomb") {
-      await Promise.all(
-        (e.ids || []).map(async (id, i) => {
+    if (e.result === "pairMove" || e.result === "pairBomb" || e.result === "stackNormal") {
+      // Build ordinary stacks from the bottom up; no two flying matching tiles
+      // collide or auto-collect. They land into the board's normal blocking rules.
+      const ordered = [...(e.ids || [])].sort((a, b) =>
+        (g.p.s.tiles.find(t => t.id === a)?.z || 0) -
+        (g.p.s.tiles.find(t => t.id === b)?.z || 0));
+      const landed: Phaser.GameObjects.Container[] = [];
+      for (let i = 0; i < ordered.length; i++) {
+          const id = ordered[i];
           const t = g.p.s.tiles.find((t) => t.id === id)!;
           const to = g.motionView!.position(t);
           const card = g
@@ -161,17 +186,17 @@ export class ExperimentView {
             x: to.x,
             y: to.y,
             scale: 1,
-            duration: 450,
-            delay: i * 90,
+            duration: e.result === "stackNormal" ? 240 : 380,
             ease: "Cubic.Out",
           });
-          card.destroy();
+          if (!alive()) { card.destroy(); landed.forEach(c => c.destroy()); return; }
+          landed.push(card);
           if (alive()) g.nativeFx!.stars(to, 10);
-        }),
-      );
+      }
       if (!alive()) return;
       g.renderBoard();
-      this.message(e.text || "送来一对特殊牌");
+      landed.forEach(c => c.destroy());
+      this.message(e.text || "新牌已叠放 · 先找解法");
     } else if (e.result === "iq") {
       await g.nativeFx!.fly(
         "f.play.iqLabel",

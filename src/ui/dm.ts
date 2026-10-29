@@ -99,6 +99,8 @@ export function openLevelDM(g: FidelityScene) {
   giftButton.textContent = "宝箱开箱演示";
   giftButton.addEventListener("click", () => {
     start(13);
+    // Deterministic positive receipt only for the explicitly labelled FX demo.
+    g.p.s.seed = 1;
     g.dispatch(g.p.gift());
   });
   card.querySelector(".dm-quick")!.append(giftButton);

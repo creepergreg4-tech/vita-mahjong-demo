@@ -132,8 +132,8 @@ export class StashCoach {
         point = g.currentPoint(t.id);
       }
       message = t
-        ? "② 点这张表面普通牌，移入暂存"
-        : "暂无可暂存的普通牌 · 再点空格取消";
+        ? "② 点表面牌暂存 · 夹住、蓝背、特殊均可"
+        : "暂无可暂存的表面牌 · 再点空格取消";
     }
     this.phase = phase;
     // Replace the transient instruction, so two captions never overlap.
@@ -141,7 +141,7 @@ export class StashCoach {
     g.notice = undefined;
     const c = g.add.container().setDepth(150);
     this.layer = c;
-    const y = g.H * 0.205;
+    const y = g.H * (s.experiment?.type === "dragon" ? 0.195 : 0.205);
     c.add(
       g.add
         .graphics()

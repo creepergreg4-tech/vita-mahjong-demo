@@ -140,7 +140,7 @@ function solveDynamic(
       const candidates = s.tiles.filter(
         (t) =>
           !t.removed &&
-          t.kind === "normal" &&
+          !t.bonus &&
           (s.tray.includes(t.id) || (onBoard(s, t) && exposed(s, t))),
       );
       actions.push(
@@ -172,7 +172,9 @@ function solveDynamic(
     failed.add(key);
     return null;
   };
-  return dfs(initial);
+  // Callers consume plans with shift/splice. Never expose the cached array.
+  const result = dfs(initial);
+  return result ? result.slice() : null;
 }
 /** Bounded, memoized sequential-collection search. null includes budget exhaustion.
  * Gifts/blasts are optional benefits in the search; callers replan after actual effects.
@@ -286,7 +288,7 @@ export function solve(
       for (let i = 0; i < n; i++)
         if (board & bit[i] && !(up[i] & board)) candidates.push(i);
       for (const i of candidates) {
-        if (ts[i].kind !== "normal") continue;
+        if (ts[i].bonus) continue;
         const tail = dfs(
           m,
           tray.filter((j) => j !== i),
