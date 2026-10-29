@@ -1070,7 +1070,11 @@ export class Puzzle {
   private certifiedHintPath(): Action[] | null {
     // Machine emissions alter IDs and future reward draws. Validate the actual
     // engine route, rather than handing out a stale authored-board suffix.
-    if (this.s.experiment) return solve(this.s, 60000, 150);
+    if (this.s.experiment) {
+      // The next step of a validated local stack clear is cheap even on a phone.
+      const local = experimentClearActions(this.s);
+      return local?.length ? local : solve(this.s, 60000, 150);
+    }
     if (!this.level.solution?.length) return null;
     const signature = `${this.level.id}:${this.signature()}:${JSON.stringify(this.level.solution)}`;
     let cache = witnessHints.get(signature);

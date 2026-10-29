@@ -4,6 +4,8 @@ import fs from 'node:fs';
 const browser=await chromium.launch({headless:true,executablePath:process.env.PLAYWRIGHT_CHROMIUM_EXECUTABLE||'C:/Program Files/Google/Chrome/Application/chrome.exe',args:['--use-gl=angle','--use-angle=swiftshader']});
 const page=await browser.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
 const errors=[];page.on('pageerror',e=>errors.push(e.message));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
+page.on('response',r=>{if(r.status()>=400)console.log('HTTP',r.status(),r.url());});
+page.on('requestfailed',r=>console.log('REQUEST FAILED',r.url(),r.failure()?.errorText));
 const dir=process.env.SCREENSHOT_DIR||'test-output/v9-reward';fs.mkdirSync(dir,{recursive:true});
 const url=process.env.GAME_URL||'http://localhost:4191/';
 const st=()=>page.evaluate(()=>JSON.parse(window.render_game_to_text()));

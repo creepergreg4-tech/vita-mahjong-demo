@@ -105,6 +105,7 @@ export class FidelityScene extends Phaser.Scene {
   iqView?: C;
   hintIds: number[] = [];
   test = false;
+  failedAssets: string[] = [];
   fullNotified = false;
   lastBlockedNotice = 0;
   blockedSoundPlayed = false;
@@ -141,6 +142,7 @@ export class FidelityScene extends Phaser.Scene {
     this.app = this.registry.get("app");
     this.H = this.app.height;
     const status = document.getElementById("loading");
+    this.load.on("loaderror", (file: Phaser.Loader.File) => this.failedAssets.push(file.key));
     for (const [key, url] of Object.entries(this.app.manifest.faces))
       this.load.image(`faces.${key}`, url);
     const uiKeys = new Set([
@@ -259,6 +261,14 @@ export class FidelityScene extends Phaser.Scene {
     });
   }
   create() {
+    if (this.failedAssets.length) {
+      const loading = document.getElementById("loading");
+      if (loading) {
+        loading.textContent = "素材未加载完整，点此重新加载";
+        loading.onclick = () => location.reload();
+      }
+      return;
+    }
     document.getElementById("loading")?.remove();
     this.test = new URLSearchParams(location.search).has("test");
     this.makeShardFrames();

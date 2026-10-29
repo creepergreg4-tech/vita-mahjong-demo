@@ -30,7 +30,7 @@ try {
   const tops=newTiles.filter(t=>t.free);assert.equal(tops.length,2);assert.notEqual(tops[0].face,tops[1].face);assert.ok(newTiles.some(t=>!t.exposed));
   if(level===19)assert.equal(await p.evaluate(()=>window.__game.scene.scenes[0].experimentView.lastFaces.length),3);
   await p.screenshot({path:dir+`/${level}-03-stacked-puzzle.png`});
-  const plan=await p.evaluate(()=>window.__test.solve());assert.ok(plan?.length);
+  const plan=await p.evaluate(()=>window.__game.scene.scenes[0].p.certifiedHintPath());assert.ok(plan?.length);
   // Exercise the new geometry through the real touch path and show a usable next state.
   for(const a of plan.slice(0,6)) {if(a.type==='stash')await p.evaluate(()=>window.__test.stash());for(const id of a.type==='pair'?[a.a,a.b]:[a.a]){const t=(await st()).tiles.find(t=>t.id===id);if(!t)continue;if(t.hidden){await tap(id);await ready();}await tap(id);await ready();}}
   assert.equal((await st()).modal,false);await p.screenshot({path:dir+`/${level}-04-after-decisions.png`});

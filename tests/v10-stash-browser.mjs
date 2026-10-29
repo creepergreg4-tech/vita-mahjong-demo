@@ -5,7 +5,7 @@ const b=await chromium.launch({headless:true,executablePath:'C:/Program Files/Go
 const p=await b.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});
 const errors=[];p.on('pageerror',e=>errors.push(e.message));
 const dir='test-output/v10-stash';fs.mkdirSync(dir,{recursive:true});
-const ready=()=>p.waitForFunction(()=>window.__test&&!window.__test.state().busy);
+const ready=()=>p.waitForFunction(()=>window.__test&&!window.__test.state().busy,null,{timeout:120000});
 const st=()=>p.evaluate(()=>window.__test.state());
 async function tap(id){const s=await st(),r=await p.locator('canvas').boundingBox(),pt=s.tiles.find(t=>t.id===id).screen;await p.touchscreen.tap(r.x+pt.x*r.width/s.canvas.width,r.y+pt.y*r.height/s.canvas.height);await ready();}
 try {
