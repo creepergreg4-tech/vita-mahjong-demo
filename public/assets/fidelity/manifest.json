@@ -1,0 +1,5470 @@
+{
+  "home": {
+    "logo": "assets/fidelity/home-logo.png",
+    "startButton": "assets/fidelity/home-startButton.png",
+    "journeyButton": "assets/fidelity/home-journeyButton.png",
+    "profile": "assets/fidelity/home-profile.png",
+    "profileFrame": "assets/fidelity/home-profileFrame.png",
+    "leaf": "assets/fidelity/home-leaf.png",
+    "leafCounterBackground": "assets/fidelity/home-leafCounterBackground.png",
+    "settingsButton": "assets/fidelity/home-settingsButton.png",
+    "ranksButton": "assets/fidelity/home-ranksButton.png",
+    "giftButton": "assets/fidelity/home-giftButton.png",
+    "infoButton": "assets/fidelity/home-infoButton.png",
+    "door": "assets/fidelity/home-door.png",
+    "carvedDoor": "assets/fidelity/home-carvedDoor.png",
+    "carvedDoorShadow": "assets/fidelity/home-carvedDoorShadow.png",
+    "blinds": "assets/fidelity/home-blinds.png",
+    "tassel": "assets/fidelity/home-tassel.png",
+    "bambooShadow": "assets/fidelity/home-bambooShadow.png",
+    "idleNative": "assets/fidelity/home-idleNative.png"
+  },
+  "play": {
+    "background": "assets/fidelity/play-background.png",
+    "iqLabel": "assets/fidelity/play-iqLabel.png",
+    "iqFontStrip": "assets/fidelity/play-iqFontStrip.png",
+    "tray4": "assets/fidelity/play-tray4.png",
+    "tray5": "assets/fidelity/play-tray5.png",
+    "tray6": "assets/fidelity/play-tray6.png",
+    "tray4Blue": "assets/fidelity/play-tray4Blue.png",
+    "tilePlainBlueStrip": "assets/fidelity/play-tilePlainBlueStrip.png",
+    "tilePlainGreenStrip": "assets/fidelity/play-tilePlainGreenStrip.png",
+    "backBlueStrip": "assets/fidelity/play-backBlueStrip.png",
+    "backBlueFull": "assets/fidelity/play-backBlueFull.png",
+    "tileShadow": "assets/fidelity/play-tileShadow.png",
+    "iqRail": "assets/fidelity/play-iqRail.png",
+    "iqFill": "assets/fidelity/play-iqFill.png",
+    "backButton": "assets/fidelity/play-backButton.png",
+    "menuButton": "assets/fidelity/play-menuButton.png",
+    "restartButton": "assets/fidelity/play-restartButton.png",
+    "plainButton": "assets/fidelity/play-plainButton.png",
+    "undoIcon": "assets/fidelity/play-undoIcon.png",
+    "shuffleIcon": "assets/fidelity/play-shuffleIcon.png",
+    "hintIcon": "assets/fidelity/play-hintIcon.png",
+    "magnetIcon": "assets/fidelity/play-magnetIcon.png",
+    "moveIcon": "assets/fidelity/play-moveIcon.png",
+    "closeButton": "assets/fidelity/play-closeButton.png",
+    "tilePlainBlue": "assets/fidelity/play-tilePlainBlue.png",
+    "tilePlainGreen": "assets/fidelity/play-tilePlainGreen.png",
+    "backBlue": "assets/fidelity/play-backBlue.png",
+    "ropeCloseButton": "assets/fidelity/play-closeButton.png",
+    "dialogPanel": "assets/fidelity/play-dialogPanel.png",
+    "greenButton": "assets/fidelity/play-greenButton.png",
+    "dialogHeader": "assets/fidelity/play-dialogHeader.png",
+    "beigeButton": "assets/fidelity/play-beigeButton.png",
+    "backPattern": "assets/fidelity/play-backPattern.png",
+    "guideHand": "assets/fidelity/play-guideHand.png"
+  },
+  "rank": {
+    "first": "assets/fidelity/rank-first.png",
+    "second": "assets/fidelity/rank-second.png",
+    "third": "assets/fidelity/rank-third.png",
+    "goldRibbon": "assets/fidelity/rank-goldRibbon.png",
+    "silverRibbon": "assets/fidelity/rank-silverRibbon.png",
+    "bronzeRibbon": "assets/fidelity/rank-bronzeRibbon.png",
+    "goldFlag": "assets/fidelity/rank-goldFlag.png",
+    "silverFlag": "assets/fidelity/rank-silverFlag.png",
+    "bronzeFlag": "assets/fidelity/rank-bronzeFlag.png",
+    "card": "assets/fidelity/rank-card.png",
+    "panel": "assets/fidelity/rank-panel.png",
+    "firstPodium": "assets/fidelity/rank-firstPodium.png",
+    "secondPodium": "assets/fidelity/rank-secondPodium.png",
+    "thirdPodium": "assets/fidelity/rank-thirdPodium.png",
+    "lantern": "assets/fidelity/rank-lantern.png",
+    "lotus": "assets/fidelity/rank-lotus.png",
+    "panda": "assets/fidelity/rank-panda.png",
+    "titleLabel": "assets/fidelity/rank-titleLabel.png",
+    "user_icon_0013": "assets/fidelity/rank-user_icon_0013.png",
+    "user_icon_0066": "assets/fidelity/rank-user_icon_0066.png",
+    "user_icon_0069": "assets/fidelity/rank-user_icon_0069.png",
+    "user_icon_0006": "assets/fidelity/rank-user_icon_0006.png",
+    "user_icon_2513": "assets/fidelity/rank-user_icon_2513.png",
+    "user_icon_2402": "assets/fidelity/rank-user_icon_2402.png",
+    "user_icon_0065": "assets/fidelity/rank-user_icon_0065.png",
+    "user_icon_2401": "assets/fidelity/rank-user_icon_2401.png",
+    "user_icon_2502": "assets/fidelity/rank-user_icon_2502.png",
+    "user_icon_loading": "assets/fidelity/rank-user_icon_loading.png",
+    "user_icon_0067": "assets/fidelity/rank-user_icon_0067.png",
+    "user_icon_0062": "assets/fidelity/rank-user_icon_0062.png",
+    "user_icon_0021": "assets/fidelity/rank-user_icon_0021.png",
+    "user_icon_2512": "assets/fidelity/rank-user_icon_2512.png",
+    "user_icon_2511": "assets/fidelity/rank-user_icon_2511.png",
+    "user_icon_0014": "assets/fidelity/rank-user_icon_0014.png",
+    "user_icon_0020": "assets/fidelity/rank-user_icon_0020.png",
+    "user_icon_0068": "assets/fidelity/rank-user_icon_0068.png",
+    "user_icon_0016": "assets/fidelity/rank-user_icon_0016.png",
+    "user_icon_0009": "assets/fidelity/rank-user_icon_0009.png",
+    "user_icon_0001": "assets/fidelity/rank-user_icon_0001.png",
+    "user_icon_0064": "assets/fidelity/rank-user_icon_0064.png",
+    "user_icon_2508": "assets/fidelity/rank-user_icon_2508.png",
+    "user_icon_0060": "assets/fidelity/rank-user_icon_0060.png",
+    "user_icon_2507": "assets/fidelity/rank-user_icon_2507.png",
+    "user_icon_0063": "assets/fidelity/rank-user_icon_0063.png",
+    "user_icon_0017": "assets/fidelity/rank-user_icon_0017.png",
+    "user_icon_2510": "assets/fidelity/rank-user_icon_2510.png",
+    "user_icon_2506": "assets/fidelity/rank-user_icon_2506.png",
+    "user_icon_2501": "assets/fidelity/rank-user_icon_2501.png",
+    "user_icon_2403": "assets/fidelity/rank-user_icon_2403.png",
+    "user_icon_0005": "assets/fidelity/rank-user_icon_0005.png",
+    "user_icon_2504": "assets/fidelity/rank-user_icon_2504.png",
+    "user_icon_0061": "assets/fidelity/rank-user_icon_0061.png",
+    "user_icon_0012": "assets/fidelity/rank-user_icon_0012.png",
+    "user_icon_0011": "assets/fidelity/rank-user_icon_0011.png",
+    "user_icon_0015": "assets/fidelity/rank-user_icon_0015.png",
+    "user_icon_0010": "assets/fidelity/rank-user_icon_0010.png",
+    "user_icon_0002": "assets/fidelity/rank-user_icon_0002.png",
+    "user_icon_0003": "assets/fidelity/rank-user_icon_0003.png",
+    "user_icon_2503": "assets/fidelity/rank-user_icon_2503.png",
+    "user_icon_0019": "assets/fidelity/rank-user_icon_0019.png",
+    "user_icon_0004": "assets/fidelity/rank-user_icon_0004.png",
+    "user_icon_2505": "assets/fidelity/rank-user_icon_2505.png",
+    "user_icon_0018": "assets/fidelity/rank-user_icon_0018.png",
+    "user_icon_2509": "assets/fidelity/rank-user_icon_2509.png",
+    "user_icon_0008": "assets/fidelity/rank-user_icon_0008.png",
+    "user_icon_0007": "assets/fidelity/rank-user_icon_0007.png"
+  },
+  "faces": {
+    "animalV1_1": "assets/fidelity/faces-animalV1_1.png",
+    "extra_flower_3": "assets/fidelity/faces-extra_flower_3.png",
+    "extra_30": "assets/fidelity/faces-extra_30.png",
+    "retro_1": "assets/fidelity/faces-retro_1.png",
+    "retro_10": "assets/fidelity/faces-retro_10.png",
+    "dog_12": "assets/fidelity/faces-dog_12.png",
+    "extra_6": "assets/fidelity/faces-extra_6.png",
+    "extra_20": "assets/fidelity/faces-extra_20.png",
+    "extra_1": "assets/fidelity/faces-extra_1.png",
+    "animal_5": "assets/fidelity/faces-animal_5.png",
+    "dog_4": "assets/fidelity/faces-dog_4.png",
+    "snack_9": "assets/fidelity/faces-snack_9.png",
+    "extra_3": "assets/fidelity/faces-extra_3.png",
+    "extra_flowerV2_4": "assets/fidelity/faces-extra_flowerV2_4.png",
+    "extra_23": "assets/fidelity/faces-extra_23.png",
+    "animal_9": "assets/fidelity/faces-animal_9.png",
+    "extra_flower_11": "assets/fidelity/faces-extra_flower_11.png",
+    "extra_flowerV2_5": "assets/fidelity/faces-extra_flowerV2_5.png",
+    "extra_31": "assets/fidelity/faces-extra_31.png",
+    "snack_4": "assets/fidelity/faces-snack_4.png",
+    "retroV2_8": "assets/fidelity/faces-retroV2_8.png",
+    "retro_2": "assets/fidelity/faces-retro_2.png",
+    "extra_15": "assets/fidelity/faces-extra_15.png",
+    "extra_7": "assets/fidelity/faces-extra_7.png",
+    "extra_flowerV2_10": "assets/fidelity/faces-extra_flowerV2_10.png",
+    "snack_3": "assets/fidelity/faces-snack_3.png",
+    "extra_2": "assets/fidelity/faces-extra_2.png",
+    "extra_flower_9": "assets/fidelity/faces-extra_flower_9.png",
+    "animal_1": "assets/fidelity/faces-animal_1.png",
+    "retro_7": "assets/fidelity/faces-retro_7.png",
+    "animalV1_2": "assets/fidelity/faces-animalV1_2.png",
+    "extra_flowerV2_2": "assets/fidelity/faces-extra_flowerV2_2.png",
+    "retroV2_4": "assets/fidelity/faces-retroV2_4.png",
+    "retroV2_7": "assets/fidelity/faces-retroV2_7.png",
+    "extra_27": "assets/fidelity/faces-extra_27.png",
+    "snack_12": "assets/fidelity/faces-snack_12.png",
+    "dog_2": "assets/fidelity/faces-dog_2.png",
+    "retroV2_12": "assets/fidelity/faces-retroV2_12.png",
+    "extra_33": "assets/fidelity/faces-extra_33.png",
+    "extra_22": "assets/fidelity/faces-extra_22.png",
+    "animal_6": "assets/fidelity/faces-animal_6.png",
+    "extra_flower_12": "assets/fidelity/faces-extra_flower_12.png",
+    "dog_7": "assets/fidelity/faces-dog_7.png",
+    "retroV2_10": "assets/fidelity/faces-retroV2_10.png",
+    "extra_10": "assets/fidelity/faces-extra_10.png",
+    "extra_29": "assets/fidelity/faces-extra_29.png",
+    "extra_flowerV2_6": "assets/fidelity/faces-extra_flowerV2_6.png",
+    "snack_2": "assets/fidelity/faces-snack_2.png",
+    "extra_flowerV2_11": "assets/fidelity/faces-extra_flowerV2_11.png",
+    "extra_34": "assets/fidelity/faces-extra_34.png",
+    "retroV2_2": "assets/fidelity/faces-retroV2_2.png",
+    "animal_2": "assets/fidelity/faces-animal_2.png",
+    "extra_flowerV2_12": "assets/fidelity/faces-extra_flowerV2_12.png",
+    "snack_7": "assets/fidelity/faces-snack_7.png",
+    "snack_5": "assets/fidelity/faces-snack_5.png",
+    "retroV2_1": "assets/fidelity/faces-retroV2_1.png",
+    "extra_16": "assets/fidelity/faces-extra_16.png",
+    "extra_flowerV2_1": "assets/fidelity/faces-extra_flowerV2_1.png",
+    "snack_8": "assets/fidelity/faces-snack_8.png",
+    "animal_11": "assets/fidelity/faces-animal_11.png",
+    "snack_10": "assets/fidelity/faces-snack_10.png",
+    "retroV2_6": "assets/fidelity/faces-retroV2_6.png",
+    "extra_9": "assets/fidelity/faces-extra_9.png",
+    "retroV2_3": "assets/fidelity/faces-retroV2_3.png",
+    "dog_3": "assets/fidelity/faces-dog_3.png",
+    "extra_8": "assets/fidelity/faces-extra_8.png",
+    "extra_flowerV2_7": "assets/fidelity/faces-extra_flowerV2_7.png",
+    "dog_8": "assets/fidelity/faces-dog_8.png",
+    "retroV2_11": "assets/fidelity/faces-retroV2_11.png",
+    "dog_5": "assets/fidelity/faces-dog_5.png",
+    "extra_28": "assets/fidelity/faces-extra_28.png",
+    "snack_6": "assets/fidelity/faces-snack_6.png",
+    "extra_flowerV2_3": "assets/fidelity/faces-extra_flowerV2_3.png",
+    "retro_6": "assets/fidelity/faces-retro_6.png",
+    "retro_9": "assets/fidelity/faces-retro_9.png",
+    "extra_24": "assets/fidelity/faces-extra_24.png",
+    "dog_1": "assets/fidelity/faces-dog_1.png",
+    "extra_13": "assets/fidelity/faces-extra_13.png",
+    "dog_11": "assets/fidelity/faces-dog_11.png",
+    "extra_flower_4": "assets/fidelity/faces-extra_flower_4.png",
+    "extra_26": "assets/fidelity/faces-extra_26.png",
+    "extra_12": "assets/fidelity/faces-extra_12.png",
+    "extra_4": "assets/fidelity/faces-extra_4.png",
+    "animal_3": "assets/fidelity/faces-animal_3.png",
+    "extra_flower_1": "assets/fidelity/faces-extra_flower_1.png",
+    "extra_flower_5": "assets/fidelity/faces-extra_flower_5.png",
+    "dog_10": "assets/fidelity/faces-dog_10.png",
+    "extra_14": "assets/fidelity/faces-extra_14.png",
+    "extra_flower_6": "assets/fidelity/faces-extra_flower_6.png",
+    "dog_6": "assets/fidelity/faces-dog_6.png",
+    "extra_flower_7": "assets/fidelity/faces-extra_flower_7.png",
+    "extra_35": "assets/fidelity/faces-extra_35.png",
+    "snack_1": "assets/fidelity/faces-snack_1.png",
+    "retroV2_9": "assets/fidelity/faces-retroV2_9.png",
+    "snack_11": "assets/fidelity/faces-snack_11.png",
+    "extra_5": "assets/fidelity/faces-extra_5.png",
+    "animal_4": "assets/fidelity/faces-animal_4.png",
+    "retroV2_5": "assets/fidelity/faces-retroV2_5.png",
+    "extra_flower_10": "assets/fidelity/faces-extra_flower_10.png",
+    "retro_5": "assets/fidelity/faces-retro_5.png",
+    "retro_12": "assets/fidelity/faces-retro_12.png",
+    "extra_19": "assets/fidelity/faces-extra_19.png",
+    "extra_32": "assets/fidelity/faces-extra_32.png",
+    "dog_9": "assets/fidelity/faces-dog_9.png",
+    "animal_7": "assets/fidelity/faces-animal_7.png",
+    "retro_11": "assets/fidelity/faces-retro_11.png",
+    "animal_8": "assets/fidelity/faces-animal_8.png",
+    "retro_8": "assets/fidelity/faces-retro_8.png",
+    "extra_flowerV2_9": "assets/fidelity/faces-extra_flowerV2_9.png",
+    "extra_17": "assets/fidelity/faces-extra_17.png",
+    "extra_25": "assets/fidelity/faces-extra_25.png",
+    "extra_18": "assets/fidelity/faces-extra_18.png",
+    "retro_3": "assets/fidelity/faces-retro_3.png",
+    "retro_4": "assets/fidelity/faces-retro_4.png",
+    "extra_11": "assets/fidelity/faces-extra_11.png",
+    "extra_flower_8": "assets/fidelity/faces-extra_flower_8.png",
+    "extra_flowerV2_8": "assets/fidelity/faces-extra_flowerV2_8.png",
+    "extra_flower_2": "assets/fidelity/faces-extra_flower_2.png",
+    "animal_10": "assets/fidelity/faces-animal_10.png",
+    "extra_36": "assets/fidelity/faces-extra_36.png",
+    "extra_21": "assets/fidelity/faces-extra_21.png"
+  },
+  "effects": {
+    "whiteShards": "assets/fidelity/effects-whiteShards.png",
+    "tileShardsGreen": "assets/fidelity/effects-tileShardsGreen.png",
+    "tileShardsBlue": "assets/fidelity/effects-tileShardsBlue.png",
+    "smallShards": "assets/fidelity/effects-smallShards.png",
+    "magnetLarge": "assets/fidelity/effects-magnetLarge.png"
+  },
+  "glyphs": {
+    "sourceSegments": [
+      [
+        0,
+        18
+      ],
+      [
+        23,
+        79
+      ],
+      [
+        86,
+        129
+      ],
+      [
+        139,
+        182
+      ],
+      [
+        185,
+        210
+      ],
+      [
+        216,
+        256
+      ],
+      [
+        260,
+        301
+      ],
+      [
+        305,
+        349
+      ],
+      [
+        353,
+        526
+      ],
+      [
+        530,
+        573
+      ],
+      [
+        577,
+        599
+      ],
+      [
+        604,
+        626
+      ]
+    ],
+    "letterI": "assets/fidelity/glyphs-letterI.png",
+    "letterQ": "assets/fidelity/glyphs-letterQ.png",
+    "plus": "assets/fidelity/glyphs-plus.png",
+    "0": "assets/fidelity/glyphs-0.png",
+    "1": "assets/fidelity/glyphs-1.png",
+    "2": "assets/fidelity/glyphs-2.png",
+    "3": "assets/fidelity/glyphs-3.png",
+    "4": "assets/fidelity/glyphs-4.png",
+    "5": "assets/fidelity/glyphs-5.png",
+    "7": "assets/fidelity/glyphs-7.png",
+    "comma": "assets/fidelity/glyphs-comma.png",
+    "period": "assets/fidelity/glyphs-period.png",
+    "6": "assets/fidelity/glyphs-6.png",
+    "8": "assets/fidelity/glyphs-8.png",
+    "9": "assets/fidelity/glyphs-9.png"
+  },
+  "evidence": [
+    {
+      "key": "home.logo",
+      "type": "Sprite",
+      "name": "common_logo_0001",
+      "id": 13897,
+      "source": "resources.assets",
+      "file": "common_logo_0001_13897.png",
+      "width": 912,
+      "height": 385,
+      "atlas_id": 175862,
+      "export": "assets/fidelity/home-logo.png",
+      "notes": null
+    },
+    {
+      "key": "home.startButton",
+      "type": "Sprite",
+      "name": "home_pic_btn_level",
+      "id": 12549,
+      "source": "resources.assets",
+      "file": "home_pic_btn_level_12549.png",
+      "width": 726,
+      "height": 222,
+      "atlas_id": 175878,
+      "export": "assets/fidelity/home-startButton.png",
+      "notes": null
+    },
+    {
+      "key": "home.journeyButton",
+      "type": "Sprite",
+      "name": "home_pic_btn_journey",
+      "id": 13785,
+      "source": "resources.assets",
+      "file": "home_pic_btn_journey_13785.png",
+      "width": 726,
+      "height": 222,
+      "atlas_id": 175878,
+      "export": "assets/fidelity/home-journeyButton.png",
+      "notes": null
+    },
+    {
+      "key": "home.profile",
+      "type": "Sprite",
+      "name": "user_icon_loading",
+      "id": 12093,
+      "source": "resources.assets",
+      "file": "user_icon_loading_12093.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175907,
+      "export": "assets/fidelity/home-profile.png",
+      "notes": null
+    },
+    {
+      "key": "home.profileFrame",
+      "type": "Sprite",
+      "name": "user_frame_1001",
+      "id": 11953,
+      "source": "resources.assets",
+      "file": "user_frame_1001_11953.png",
+      "width": 300,
+      "height": 300,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/home-profileFrame.png",
+      "notes": null
+    },
+    {
+      "key": "home.leaf",
+      "type": "Sprite",
+      "name": "dailygame_icon_leafgreen",
+      "id": 11978,
+      "source": "resources.assets",
+      "file": "dailygame_icon_leafgreen_11978.png",
+      "width": 323,
+      "height": 297,
+      "atlas_id": 175866,
+      "export": "assets/fidelity/home-leaf.png",
+      "notes": null
+    },
+    {
+      "key": "home.leafCounterBackground",
+      "type": "Sprite",
+      "name": "common_pic_0101",
+      "id": 12968,
+      "file": "common_pic_0101_12968.png",
+      "width": 128,
+      "height": 57,
+      "source": "resources.assets",
+      "export": "assets/fidelity/home-leafCounterBackground.png",
+      "notes": null
+    },
+    {
+      "key": "home.settingsButton",
+      "type": "Sprite",
+      "name": "common_btn_0010",
+      "id": 11744,
+      "file": "common_btn_0010_11744.png",
+      "width": 96,
+      "height": 100,
+      "source": "resources.assets",
+      "export": "assets/fidelity/home-settingsButton.png",
+      "notes": null
+    },
+    {
+      "key": "home.ranksButton",
+      "type": "Sprite",
+      "name": "common_btn_0029",
+      "id": 13995,
+      "file": "common_btn_0029_13995.png",
+      "width": 96,
+      "height": 100,
+      "source": "resources.assets",
+      "export": "assets/fidelity/home-ranksButton.png",
+      "notes": null
+    },
+    {
+      "key": "home.giftButton",
+      "type": "Sprite",
+      "name": "common_btn_0023",
+      "id": 13906,
+      "file": "common_btn_0023_13906.png",
+      "width": 96,
+      "height": 100,
+      "source": "resources.assets",
+      "export": "assets/fidelity/home-giftButton.png",
+      "notes": null
+    },
+    {
+      "key": "home.infoButton",
+      "type": "Sprite",
+      "name": "common_btn_0018",
+      "id": 13753,
+      "file": "common_btn_0018_13753.png",
+      "width": 100,
+      "height": 100,
+      "source": "resources.assets",
+      "export": "assets/fidelity/home-infoButton.png",
+      "notes": null
+    },
+    {
+      "key": "home.door",
+      "file": "home-7476-men.png",
+      "name": "home-7476-men.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/home-door.png",
+      "notes": null
+    },
+    {
+      "key": "home.carvedDoor",
+      "file": "home-7476-suo.png",
+      "name": "home-7476-suo.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/home-carvedDoor.png",
+      "notes": null
+    },
+    {
+      "key": "home.carvedDoorShadow",
+      "file": "home-7476-suo_2.png",
+      "name": "home-7476-suo_2.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/home-carvedDoorShadow.png",
+      "notes": null
+    },
+    {
+      "key": "home.blinds",
+      "file": "home-7476-chuanglian.png",
+      "name": "home-7476-chuanglian.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/home-blinds.png",
+      "notes": null
+    },
+    {
+      "key": "home.tassel",
+      "file": "home-7476-guazhui.png",
+      "name": "home-7476-guazhui.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/home-tassel.png",
+      "notes": null
+    },
+    {
+      "key": "home.bambooShadow",
+      "file": "home-7476-guangying_1_2.png",
+      "name": "home-7476-guangying_1_2.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/home-bambooShadow.png",
+      "notes": null
+    },
+    {
+      "key": "play.background",
+      "type": "Sprite",
+      "name": "bg",
+      "id": 11793,
+      "file": "bg_11793.png",
+      "width": 946,
+      "height": 2048,
+      "source": "resources.assets",
+      "atlas_id": 175837,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/play-background.png",
+      "notes": null
+    },
+    {
+      "key": "play.iqLabel",
+      "type": "Sprite",
+      "name": "tile_play_iq",
+      "id": 13819,
+      "file": "tile_play_iq_13819.png",
+      "width": 75,
+      "height": 60,
+      "source": "resources.assets",
+      "atlas_id": 175888,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/play-iqLabel.png",
+      "notes": null
+    },
+    {
+      "key": "play.iqFontStrip",
+      "type": "Texture2D",
+      "name": "iq_card_numbaer",
+      "id": 934,
+      "file": "iq_card_numbaer_934.png",
+      "width": 626,
+      "height": 68,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-iqFontStrip.png",
+      "notes": null
+    },
+    {
+      "key": "play.tray4",
+      "type": "Sprite",
+      "name": "tile_bg_holder4",
+      "id": 13916,
+      "source": "resources.assets",
+      "file": "tile_bg_holder4_13916.png",
+      "width": 527,
+      "height": 183,
+      "atlas_id": 175888,
+      "export": "assets/fidelity/play-tray4.png",
+      "notes": null
+    },
+    {
+      "key": "play.tray5",
+      "type": "Sprite",
+      "name": "tile_bg_holder5",
+      "id": 11587,
+      "source": "resources.assets",
+      "file": "tile_bg_holder5_11587.png",
+      "width": 649,
+      "height": 183,
+      "atlas_id": 175888,
+      "export": "assets/fidelity/play-tray5.png",
+      "notes": null
+    },
+    {
+      "key": "play.tray6",
+      "type": "Sprite",
+      "name": "tile_bg_holder6",
+      "id": 13910,
+      "source": "resources.assets",
+      "file": "tile_bg_holder6_13910.png",
+      "width": 771,
+      "height": 183,
+      "atlas_id": 175888,
+      "export": "assets/fidelity/play-tray6.png",
+      "notes": null
+    },
+    {
+      "key": "play.tray4Blue",
+      "type": "Sprite",
+      "name": "tile_bg_holder4_blue",
+      "id": 13679,
+      "source": "resources.assets",
+      "file": "tile_bg_holder4_blue_13679.png",
+      "width": 527,
+      "height": 183,
+      "atlas_id": 175888,
+      "export": "assets/fidelity/play-tray4Blue.png",
+      "notes": null
+    },
+    {
+      "key": "play.tilePlainBlueStrip",
+      "type": "Sprite",
+      "name": "cardface_pic_tile_test_5",
+      "id": 12105,
+      "source": "resources.assets",
+      "file": "cardface_pic_tile_test_5_12105.png",
+      "width": 114,
+      "height": 333,
+      "atlas_id": 175843,
+      "export": "assets/fidelity/play-tilePlainBlueStrip.png",
+      "notes": null
+    },
+    {
+      "key": "play.tilePlainGreenStrip",
+      "type": "Sprite",
+      "name": "cardface_pic_tile",
+      "id": 12342,
+      "source": "resources.assets",
+      "file": "cardface_pic_tile_12342.png",
+      "width": 114,
+      "height": 333,
+      "atlas_id": 175851,
+      "export": "assets/fidelity/play-tilePlainGreenStrip.png",
+      "notes": null
+    },
+    {
+      "key": "play.backBlueStrip",
+      "type": "Sprite",
+      "name": "cardface_pic_back_test_5",
+      "id": 13597,
+      "source": "resources.assets",
+      "file": "cardface_pic_back_test_5_13597.png",
+      "width": 114,
+      "height": 333,
+      "atlas_id": 175843,
+      "export": "assets/fidelity/play-backBlueStrip.png",
+      "notes": null
+    },
+    {
+      "key": "play.backBlueFull",
+      "type": "Sprite",
+      "name": "cardface_pic_back_1",
+      "id": 13571,
+      "source": "resources.assets",
+      "file": "cardface_pic_back_1_13571.png",
+      "width": 271,
+      "height": 333,
+      "atlas_id": 175856,
+      "export": "assets/fidelity/play-backBlueFull.png",
+      "notes": null
+    },
+    {
+      "key": "play.tileShadow",
+      "type": "Sprite",
+      "name": "cardface_pic_shadow_3",
+      "id": 11843,
+      "source": "resources.assets",
+      "file": "cardface_pic_shadow_3_11843.png",
+      "width": 497,
+      "height": 467,
+      "atlas_id": 175843,
+      "export": "assets/fidelity/play-tileShadow.png",
+      "notes": null
+    },
+    {
+      "key": "play.iqRail",
+      "type": "Sprite",
+      "name": "tile_play_iq_bg_golden",
+      "id": 12257,
+      "file": "tile_play_iq_bg_golden_12257.png",
+      "width": 512,
+      "height": 38,
+      "source": "resources.assets",
+      "atlas_id": 175888,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/play-iqRail.png",
+      "notes": null
+    },
+    {
+      "key": "play.iqFill",
+      "type": "Sprite",
+      "name": "tile_play_iq_golden",
+      "id": 12914,
+      "file": "tile_play_iq_golden_12914.png",
+      "width": 512,
+      "height": 38,
+      "source": "resources.assets",
+      "atlas_id": 175888,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/play-iqFill.png",
+      "notes": null
+    },
+    {
+      "key": "play.backButton",
+      "type": "Sprite",
+      "name": "common_btn_0001",
+      "id": 13317,
+      "file": "common_btn_0001_13317.png",
+      "width": 100,
+      "height": 100,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-backButton.png",
+      "notes": "Button keys already include the complete wooden circular button. Icon keys are standalone overlay artwork; plainButton is the empty brown frame."
+    },
+    {
+      "key": "play.menuButton",
+      "type": "Sprite",
+      "name": "play_btn_0003",
+      "id": 11453,
+      "file": "play_btn_0003_11453.png",
+      "width": 100,
+      "height": 100,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-menuButton.png",
+      "notes": "Button keys already include the complete wooden circular button. Icon keys are standalone overlay artwork; plainButton is the empty brown frame."
+    },
+    {
+      "key": "play.restartButton",
+      "type": "Sprite",
+      "name": "play_btn_pic_0012",
+      "id": 13670,
+      "file": "play_btn_pic_0012_13670.png",
+      "width": 96,
+      "height": 100,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-restartButton.png",
+      "notes": "Button keys already include the complete wooden circular button. Icon keys are standalone overlay artwork; plainButton is the empty brown frame."
+    },
+    {
+      "key": "play.plainButton",
+      "type": "Sprite",
+      "name": "play_btn_0001",
+      "id": 11802,
+      "file": "play_btn_0001_11802.png",
+      "width": 204,
+      "height": 209,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-plainButton.png",
+      "notes": "Button keys already include the complete wooden circular button. Icon keys are standalone overlay artwork; plainButton is the empty brown frame."
+    },
+    {
+      "key": "play.undoIcon",
+      "type": "Sprite",
+      "name": "play_btn_pic_0001",
+      "id": 12715,
+      "file": "play_btn_pic_0001_12715.png",
+      "width": 120,
+      "height": 120,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-undoIcon.png",
+      "notes": "Button keys already include the complete wooden circular button. Icon keys are standalone overlay artwork; plainButton is the empty brown frame."
+    },
+    {
+      "key": "play.shuffleIcon",
+      "type": "Sprite",
+      "name": "play_btn_pic_0002",
+      "id": 13793,
+      "file": "play_btn_pic_0002_13793.png",
+      "width": 120,
+      "height": 120,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-shuffleIcon.png",
+      "notes": "Button keys already include the complete wooden circular button. Icon keys are standalone overlay artwork; plainButton is the empty brown frame."
+    },
+    {
+      "key": "play.hintIcon",
+      "type": "Sprite",
+      "name": "play_btn_pic_0003",
+      "id": 13143,
+      "file": "play_btn_pic_0003_13143.png",
+      "width": 120,
+      "height": 120,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-hintIcon.png",
+      "notes": "Button keys already include the complete wooden circular button. Icon keys are standalone overlay artwork; plainButton is the empty brown frame."
+    },
+    {
+      "key": "play.magnetIcon",
+      "type": "Sprite",
+      "name": "play_btn_pic_0010",
+      "id": 12032,
+      "file": "play_btn_pic_0010_12032.png",
+      "width": 120,
+      "height": 120,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-magnetIcon.png",
+      "notes": "Button keys already include the complete wooden circular button. Icon keys are standalone overlay artwork; plainButton is the empty brown frame."
+    },
+    {
+      "key": "play.moveIcon",
+      "type": "Sprite",
+      "name": "play_btn_pic_0009",
+      "id": 12320,
+      "file": "play_btn_pic_0009_12320.png",
+      "width": 120,
+      "height": 120,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-moveIcon.png",
+      "notes": "Button keys already include the complete wooden circular button. Icon keys are standalone overlay artwork; plainButton is the empty brown frame."
+    },
+    {
+      "key": "rank.first",
+      "type": "Sprite",
+      "name": "ranking_pic_0007",
+      "id": 11508,
+      "source": "resources.assets",
+      "file": "ranking_pic_0007_11508.png",
+      "width": 84,
+      "height": 86,
+      "atlas_id": 175895,
+      "export": "assets/fidelity/rank-first.png",
+      "notes": null
+    },
+    {
+      "key": "rank.second",
+      "type": "Sprite",
+      "name": "ranking_pic_0008",
+      "id": 12442,
+      "source": "resources.assets",
+      "file": "ranking_pic_0008_12442.png",
+      "width": 84,
+      "height": 86,
+      "atlas_id": 175895,
+      "export": "assets/fidelity/rank-second.png",
+      "notes": null
+    },
+    {
+      "key": "rank.third",
+      "type": "Sprite",
+      "name": "ranking_pic_0009",
+      "id": 11510,
+      "source": "resources.assets",
+      "file": "ranking_pic_0009_11510.png",
+      "width": 84,
+      "height": 86,
+      "atlas_id": 175895,
+      "export": "assets/fidelity/rank-third.png",
+      "notes": null
+    },
+    {
+      "key": "rank.goldRibbon",
+      "type": "Sprite",
+      "name": "ranking_pic_0004",
+      "id": 11924,
+      "source": "resources.assets",
+      "file": "ranking_pic_0004_11924.png",
+      "width": 64,
+      "height": 195,
+      "atlas_id": 175895,
+      "export": "assets/fidelity/rank-goldRibbon.png",
+      "notes": null
+    },
+    {
+      "key": "rank.silverRibbon",
+      "type": "Sprite",
+      "name": "ranking_pic_0005",
+      "id": 13945,
+      "source": "resources.assets",
+      "file": "ranking_pic_0005_13945.png",
+      "width": 64,
+      "height": 195,
+      "atlas_id": 175895,
+      "export": "assets/fidelity/rank-silverRibbon.png",
+      "notes": null
+    },
+    {
+      "key": "rank.bronzeRibbon",
+      "type": "Sprite",
+      "name": "ranking_pic_0006",
+      "id": 12903,
+      "source": "resources.assets",
+      "file": "ranking_pic_0006_12903.png",
+      "width": 64,
+      "height": 195,
+      "atlas_id": 175895,
+      "export": "assets/fidelity/rank-bronzeRibbon.png",
+      "notes": null
+    },
+    {
+      "key": "rank.goldFlag",
+      "type": "Sprite",
+      "name": "ranking_pic_0017",
+      "id": 13329,
+      "source": "resources.assets",
+      "file": "ranking_pic_0017_13329.png",
+      "width": 374,
+      "height": 652,
+      "atlas_id": 175905,
+      "export": "assets/fidelity/rank-goldFlag.png",
+      "notes": null
+    },
+    {
+      "key": "rank.silverFlag",
+      "type": "Sprite",
+      "name": "ranking_pic_0021",
+      "id": 13155,
+      "source": "resources.assets",
+      "file": "ranking_pic_0021_13155.png",
+      "width": 311,
+      "height": 558,
+      "atlas_id": 175905,
+      "export": "assets/fidelity/rank-silverFlag.png",
+      "notes": null
+    },
+    {
+      "key": "rank.bronzeFlag",
+      "type": "Sprite",
+      "name": "ranking_pic_0019",
+      "id": 12677,
+      "source": "resources.assets",
+      "file": "ranking_pic_0019_12677.png",
+      "width": 311,
+      "height": 560,
+      "atlas_id": 175905,
+      "export": "assets/fidelity/rank-bronzeFlag.png",
+      "notes": null
+    },
+    {
+      "key": "rank.card",
+      "type": "Sprite",
+      "name": "rank_result_0004",
+      "id": 11838,
+      "source": "resources.assets",
+      "file": "rank_result_0004_11838.png",
+      "width": 62,
+      "height": 64,
+      "atlas_id": 175902,
+      "export": "assets/fidelity/rank-card.png",
+      "notes": null
+    },
+    {
+      "key": "rank.panel",
+      "type": "Sprite",
+      "name": "ranking_pic_0002",
+      "id": 14035,
+      "source": "resources.assets",
+      "file": "ranking_pic_0002_14035.png",
+      "width": 275,
+      "height": 489,
+      "atlas_id": 175892,
+      "export": "assets/fidelity/rank-panel.png",
+      "notes": null
+    },
+    {
+      "key": "rank.firstPodium",
+      "type": "Sprite",
+      "name": "ranking_podium_1",
+      "id": 12956,
+      "source": "resources.assets",
+      "file": "ranking_podium_1_12956.png",
+      "width": 366,
+      "height": 191,
+      "atlas_id": 175891,
+      "export": "assets/fidelity/rank-firstPodium.png",
+      "notes": null
+    },
+    {
+      "key": "rank.secondPodium",
+      "type": "Sprite",
+      "name": "ranking_podium_2",
+      "id": 13266,
+      "source": "resources.assets",
+      "file": "ranking_podium_2_13266.png",
+      "width": 256,
+      "height": 137,
+      "atlas_id": 175891,
+      "export": "assets/fidelity/rank-secondPodium.png",
+      "notes": null
+    },
+    {
+      "key": "rank.thirdPodium",
+      "type": "Sprite",
+      "name": "ranking_podium_3",
+      "id": 12701,
+      "source": "resources.assets",
+      "file": "ranking_podium_3_12701.png",
+      "width": 256,
+      "height": 127,
+      "atlas_id": 175891,
+      "export": "assets/fidelity/rank-thirdPodium.png",
+      "notes": null
+    },
+    {
+      "key": "rank.lantern",
+      "type": "Sprite",
+      "name": "ranking_pic_06",
+      "id": 13828,
+      "source": "resources.assets",
+      "file": "ranking_pic_06_13828.png",
+      "width": 245,
+      "height": 268,
+      "atlas_id": 175897,
+      "export": "assets/fidelity/rank-lantern.png",
+      "notes": null
+    },
+    {
+      "key": "rank.lotus",
+      "type": "Sprite",
+      "name": "ranking_pic_07",
+      "id": 12492,
+      "source": "resources.assets",
+      "file": "ranking_pic_07_12492.png",
+      "width": 245,
+      "height": 268,
+      "atlas_id": 175897,
+      "export": "assets/fidelity/rank-lotus.png",
+      "notes": null
+    },
+    {
+      "key": "rank.panda",
+      "type": "Sprite",
+      "name": "ranking_pic_05",
+      "id": 12470,
+      "source": "resources.assets",
+      "file": "ranking_pic_05_12470.png",
+      "width": 245,
+      "height": 268,
+      "atlas_id": 175897,
+      "export": "assets/fidelity/rank-panda.png",
+      "notes": null
+    },
+    {
+      "key": "rank.titleLabel",
+      "type": "Sprite",
+      "name": "ranking_pic_0036",
+      "id": 12436,
+      "source": "resources.assets",
+      "file": "ranking_pic_0036_12436.png",
+      "width": 1024,
+      "height": 804,
+      "atlas_id": 175898,
+      "export": "assets/fidelity/rank-titleLabel.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0013",
+      "type": "Sprite",
+      "name": "user_icon_0013",
+      "id": 11433,
+      "source": "resources.assets",
+      "file": "user_icon_0013_11433.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0013.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0066",
+      "type": "Sprite",
+      "name": "user_icon_0066",
+      "id": 11532,
+      "source": "resources.assets",
+      "file": "user_icon_0066_11532.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0066.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0069",
+      "type": "Sprite",
+      "name": "user_icon_0069",
+      "id": 11547,
+      "source": "resources.assets",
+      "file": "user_icon_0069_11547.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0069.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0006",
+      "type": "Sprite",
+      "name": "user_icon_0006",
+      "id": 11585,
+      "source": "resources.assets",
+      "file": "user_icon_0006_11585.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0006.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2513",
+      "type": "Sprite",
+      "name": "user_icon_2513",
+      "id": 11679,
+      "source": "resources.assets",
+      "file": "user_icon_2513_11679.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2513.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2402",
+      "type": "Sprite",
+      "name": "user_icon_2402",
+      "id": 11763,
+      "source": "resources.assets",
+      "file": "user_icon_2402_11763.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2402.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0065",
+      "type": "Sprite",
+      "name": "user_icon_0065",
+      "id": 11792,
+      "source": "resources.assets",
+      "file": "user_icon_0065_11792.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0065.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2401",
+      "type": "Sprite",
+      "name": "user_icon_2401",
+      "id": 11935,
+      "source": "resources.assets",
+      "file": "user_icon_2401_11935.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2401.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2502",
+      "type": "Sprite",
+      "name": "user_icon_2502",
+      "id": 12025,
+      "source": "resources.assets",
+      "file": "user_icon_2502_12025.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2502.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_loading",
+      "type": "Sprite",
+      "name": "user_icon_loading",
+      "id": 12093,
+      "source": "resources.assets",
+      "file": "user_icon_loading_12093.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175907,
+      "export": "assets/fidelity/rank-user_icon_loading.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0067",
+      "type": "Sprite",
+      "name": "user_icon_0067",
+      "id": 12280,
+      "source": "resources.assets",
+      "file": "user_icon_0067_12280.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0067.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0062",
+      "type": "Sprite",
+      "name": "user_icon_0062",
+      "id": 12381,
+      "source": "resources.assets",
+      "file": "user_icon_0062_12381.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0062.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0021",
+      "type": "Sprite",
+      "name": "user_icon_0021",
+      "id": 12396,
+      "source": "resources.assets",
+      "file": "user_icon_0021_12396.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0021.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2512",
+      "type": "Sprite",
+      "name": "user_icon_2512",
+      "id": 12475,
+      "source": "resources.assets",
+      "file": "user_icon_2512_12475.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2512.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2511",
+      "type": "Sprite",
+      "name": "user_icon_2511",
+      "id": 12622,
+      "source": "resources.assets",
+      "file": "user_icon_2511_12622.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2511.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0014",
+      "type": "Sprite",
+      "name": "user_icon_0014",
+      "id": 12629,
+      "source": "resources.assets",
+      "file": "user_icon_0014_12629.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0014.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0020",
+      "type": "Sprite",
+      "name": "user_icon_0020",
+      "id": 12637,
+      "source": "resources.assets",
+      "file": "user_icon_0020_12637.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0020.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0068",
+      "type": "Sprite",
+      "name": "user_icon_0068",
+      "id": 12785,
+      "source": "resources.assets",
+      "file": "user_icon_0068_12785.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0068.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0016",
+      "type": "Sprite",
+      "name": "user_icon_0016",
+      "id": 12823,
+      "source": "resources.assets",
+      "file": "user_icon_0016_12823.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0016.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0009",
+      "type": "Sprite",
+      "name": "user_icon_0009",
+      "id": 12836,
+      "source": "resources.assets",
+      "file": "user_icon_0009_12836.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0009.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0001",
+      "type": "Sprite",
+      "name": "user_icon_0001",
+      "id": 12864,
+      "source": "resources.assets",
+      "file": "user_icon_0001_12864.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0001.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0064",
+      "type": "Sprite",
+      "name": "user_icon_0064",
+      "id": 12877,
+      "source": "resources.assets",
+      "file": "user_icon_0064_12877.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0064.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2508",
+      "type": "Sprite",
+      "name": "user_icon_2508",
+      "id": 12889,
+      "source": "resources.assets",
+      "file": "user_icon_2508_12889.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2508.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0060",
+      "type": "Sprite",
+      "name": "user_icon_0060",
+      "id": 12940,
+      "source": "resources.assets",
+      "file": "user_icon_0060_12940.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0060.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2507",
+      "type": "Sprite",
+      "name": "user_icon_2507",
+      "id": 12987,
+      "source": "resources.assets",
+      "file": "user_icon_2507_12987.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2507.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0063",
+      "type": "Sprite",
+      "name": "user_icon_0063",
+      "id": 13048,
+      "source": "resources.assets",
+      "file": "user_icon_0063_13048.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0063.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0017",
+      "type": "Sprite",
+      "name": "user_icon_0017",
+      "id": 13129,
+      "source": "resources.assets",
+      "file": "user_icon_0017_13129.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0017.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2510",
+      "type": "Sprite",
+      "name": "user_icon_2510",
+      "id": 13153,
+      "source": "resources.assets",
+      "file": "user_icon_2510_13153.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2510.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2506",
+      "type": "Sprite",
+      "name": "user_icon_2506",
+      "id": 13186,
+      "source": "resources.assets",
+      "file": "user_icon_2506_13186.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2506.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2501",
+      "type": "Sprite",
+      "name": "user_icon_2501",
+      "id": 13261,
+      "source": "resources.assets",
+      "file": "user_icon_2501_13261.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2501.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2403",
+      "type": "Sprite",
+      "name": "user_icon_2403",
+      "id": 13282,
+      "source": "resources.assets",
+      "file": "user_icon_2403_13282.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2403.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0005",
+      "type": "Sprite",
+      "name": "user_icon_0005",
+      "id": 13351,
+      "source": "resources.assets",
+      "file": "user_icon_0005_13351.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0005.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2504",
+      "type": "Sprite",
+      "name": "user_icon_2504",
+      "id": 13364,
+      "source": "resources.assets",
+      "file": "user_icon_2504_13364.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2504.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0061",
+      "type": "Sprite",
+      "name": "user_icon_0061",
+      "id": 13372,
+      "source": "resources.assets",
+      "file": "user_icon_0061_13372.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0061.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0012",
+      "type": "Sprite",
+      "name": "user_icon_0012",
+      "id": 13392,
+      "source": "resources.assets",
+      "file": "user_icon_0012_13392.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0012.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0011",
+      "type": "Sprite",
+      "name": "user_icon_0011",
+      "id": 13446,
+      "source": "resources.assets",
+      "file": "user_icon_0011_13446.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0011.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0015",
+      "type": "Sprite",
+      "name": "user_icon_0015",
+      "id": 13488,
+      "source": "resources.assets",
+      "file": "user_icon_0015_13488.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0015.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0010",
+      "type": "Sprite",
+      "name": "user_icon_0010",
+      "id": 13511,
+      "source": "resources.assets",
+      "file": "user_icon_0010_13511.png",
+      "width": 128,
+      "height": 128,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0010.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0002",
+      "type": "Sprite",
+      "name": "user_icon_0002",
+      "id": 13637,
+      "source": "resources.assets",
+      "file": "user_icon_0002_13637.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0002.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0003",
+      "type": "Sprite",
+      "name": "user_icon_0003",
+      "id": 13660,
+      "source": "resources.assets",
+      "file": "user_icon_0003_13660.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0003.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2503",
+      "type": "Sprite",
+      "name": "user_icon_2503",
+      "id": 13665,
+      "source": "resources.assets",
+      "file": "user_icon_2503_13665.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2503.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0019",
+      "type": "Sprite",
+      "name": "user_icon_0019",
+      "id": 13734,
+      "source": "resources.assets",
+      "file": "user_icon_0019_13734.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0019.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0004",
+      "type": "Sprite",
+      "name": "user_icon_0004",
+      "id": 13760,
+      "source": "resources.assets",
+      "file": "user_icon_0004_13760.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0004.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2505",
+      "type": "Sprite",
+      "name": "user_icon_2505",
+      "id": 13837,
+      "source": "resources.assets",
+      "file": "user_icon_2505_13837.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2505.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0018",
+      "type": "Sprite",
+      "name": "user_icon_0018",
+      "id": 13915,
+      "source": "resources.assets",
+      "file": "user_icon_0018_13915.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0018.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_2509",
+      "type": "Sprite",
+      "name": "user_icon_2509",
+      "id": 13956,
+      "source": "resources.assets",
+      "file": "user_icon_2509_13956.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_2509.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0008",
+      "type": "Sprite",
+      "name": "user_icon_0008",
+      "id": 13994,
+      "source": "resources.assets",
+      "file": "user_icon_0008_13994.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0008.png",
+      "notes": null
+    },
+    {
+      "key": "rank.user_icon_0007",
+      "type": "Sprite",
+      "name": "user_icon_0007",
+      "id": 14051,
+      "source": "resources.assets",
+      "file": "user_icon_0007_14051.png",
+      "width": 180,
+      "height": 180,
+      "atlas_id": 175906,
+      "export": "assets/fidelity/rank-user_icon_0007.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animalV1_1",
+      "type": "Sprite",
+      "name": "cardface_animalV1_1",
+      "id": 11441,
+      "file": "cardface_animalV1_1_11441.png",
+      "width": 210,
+      "height": 167,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animalV1_1.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flower_3",
+      "type": "Sprite",
+      "name": "cardface_extra_flower_3",
+      "id": 11451,
+      "file": "cardface_extra_flower_3_11451.png",
+      "width": 183,
+      "height": 230,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flower_3.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_30",
+      "type": "Sprite",
+      "name": "cardface_extra_30",
+      "id": 11454,
+      "file": "cardface_extra_30_11454.png",
+      "width": 238,
+      "height": 293,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_30.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retro_1",
+      "type": "Sprite",
+      "name": "cardface_retro_1",
+      "id": 11467,
+      "file": "cardface_retro_1_11467.png",
+      "width": 200,
+      "height": 194,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retro_1.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retro_10",
+      "type": "Sprite",
+      "name": "cardface_retro_10",
+      "id": 11472,
+      "file": "cardface_retro_10_11472.png",
+      "width": 208,
+      "height": 189,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retro_10.png",
+      "notes": null
+    },
+    {
+      "key": "faces.dog_12",
+      "type": "Sprite",
+      "name": "cardface_dog_12",
+      "id": 11494,
+      "file": "cardface_dog_12_11494.png",
+      "width": 224,
+      "height": 249,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-dog_12.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_6",
+      "type": "Sprite",
+      "name": "cardface_extra_6",
+      "id": 11517,
+      "file": "cardface_extra_6_11517.png",
+      "width": 187,
+      "height": 184,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_6.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_20",
+      "type": "Sprite",
+      "name": "cardface_extra_20",
+      "id": 11556,
+      "file": "cardface_extra_20_11556.png",
+      "width": 227,
+      "height": 234,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_20.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_1",
+      "type": "Sprite",
+      "name": "cardface_extra_1",
+      "id": 11576,
+      "file": "cardface_extra_1_11576.png",
+      "width": 209,
+      "height": 206,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_1.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animal_5",
+      "type": "Sprite",
+      "name": "cardface_animal_5",
+      "id": 11610,
+      "file": "cardface_animal_5_11610.png",
+      "width": 213,
+      "height": 220,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animal_5.png",
+      "notes": null
+    },
+    {
+      "key": "faces.dog_4",
+      "type": "Sprite",
+      "name": "cardface_dog_4",
+      "id": 11613,
+      "file": "cardface_dog_4_11613.png",
+      "width": 224,
+      "height": 249,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-dog_4.png",
+      "notes": null
+    },
+    {
+      "key": "faces.snack_9",
+      "type": "Sprite",
+      "name": "cardface_snack_9",
+      "id": 11639,
+      "file": "cardface_snack_9_11639.png",
+      "width": 208,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-snack_9.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_3",
+      "type": "Sprite",
+      "name": "cardface_extra_3",
+      "id": 11641,
+      "file": "cardface_extra_3_11641.png",
+      "width": 209,
+      "height": 224,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_3.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flowerV2_4",
+      "type": "Sprite",
+      "name": "cardface_extra_flowerV2_4",
+      "id": 11708,
+      "file": "cardface_extra_flowerV2_4_11708.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flowerV2_4.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_23",
+      "type": "Sprite",
+      "name": "cardface_extra_23",
+      "id": 11724,
+      "file": "cardface_extra_23_11724.png",
+      "width": 238,
+      "height": 293,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_23.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animal_9",
+      "type": "Sprite",
+      "name": "cardface_animal_9",
+      "id": 11770,
+      "file": "cardface_animal_9_11770.png",
+      "width": 167,
+      "height": 224,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animal_9.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flower_11",
+      "type": "Sprite",
+      "name": "cardface_extra_flower_11",
+      "id": 11800,
+      "file": "cardface_extra_flower_11_11800.png",
+      "width": 190,
+      "height": 225,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flower_11.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flowerV2_5",
+      "type": "Sprite",
+      "name": "cardface_extra_flowerV2_5",
+      "id": 11830,
+      "file": "cardface_extra_flowerV2_5_11830.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flowerV2_5.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_31",
+      "type": "Sprite",
+      "name": "cardface_extra_31",
+      "id": 11865,
+      "file": "cardface_extra_31_11865.png",
+      "width": 238,
+      "height": 293,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_31.png",
+      "notes": null
+    },
+    {
+      "key": "faces.snack_4",
+      "type": "Sprite",
+      "name": "cardface_snack_4",
+      "id": 11878,
+      "file": "cardface_snack_4_11878.png",
+      "width": 208,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-snack_4.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retroV2_8",
+      "type": "Sprite",
+      "name": "cardface_retroV2_8",
+      "id": 11927,
+      "file": "cardface_retroV2_8_11927.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retroV2_8.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retro_2",
+      "type": "Sprite",
+      "name": "cardface_retro_2",
+      "id": 11933,
+      "file": "cardface_retro_2_11933.png",
+      "width": 162,
+      "height": 244,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retro_2.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_15",
+      "type": "Sprite",
+      "name": "cardface_extra_15",
+      "id": 11940,
+      "file": "cardface_extra_15_11940.png",
+      "width": 227,
+      "height": 234,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_15.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_7",
+      "type": "Sprite",
+      "name": "cardface_extra_7",
+      "id": 11975,
+      "file": "cardface_extra_7_11975.png",
+      "width": 201,
+      "height": 196,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_7.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flowerV2_10",
+      "type": "Sprite",
+      "name": "cardface_extra_flowerV2_10",
+      "id": 12007,
+      "file": "cardface_extra_flowerV2_10_12007.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flowerV2_10.png",
+      "notes": null
+    },
+    {
+      "key": "faces.snack_3",
+      "type": "Sprite",
+      "name": "cardface_snack_3",
+      "id": 12014,
+      "file": "cardface_snack_3_12014.png",
+      "width": 208,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-snack_3.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_2",
+      "type": "Sprite",
+      "name": "cardface_extra_2",
+      "id": 12063,
+      "file": "cardface_extra_2_12063.png",
+      "width": 209,
+      "height": 206,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_2.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flower_9",
+      "type": "Sprite",
+      "name": "cardface_extra_flower_9",
+      "id": 12069,
+      "file": "cardface_extra_flower_9_12069.png",
+      "width": 182,
+      "height": 223,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flower_9.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animal_1",
+      "type": "Sprite",
+      "name": "cardface_animal_1",
+      "id": 12087,
+      "file": "cardface_animal_1_12087.png",
+      "width": 241,
+      "height": 176,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animal_1.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retro_7",
+      "type": "Sprite",
+      "name": "cardface_retro_7",
+      "id": 12118,
+      "file": "cardface_retro_7_12118.png",
+      "width": 214,
+      "height": 237,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retro_7.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animalV1_2",
+      "type": "Sprite",
+      "name": "cardface_animalV1_2",
+      "id": 12141,
+      "file": "cardface_animalV1_2_12141.png",
+      "width": 187,
+      "height": 215,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animalV1_2.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flowerV2_2",
+      "type": "Sprite",
+      "name": "cardface_extra_flowerV2_2",
+      "id": 12164,
+      "file": "cardface_extra_flowerV2_2_12164.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flowerV2_2.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retroV2_4",
+      "type": "Sprite",
+      "name": "cardface_retroV2_4",
+      "id": 12177,
+      "file": "cardface_retroV2_4_12177.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retroV2_4.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retroV2_7",
+      "type": "Sprite",
+      "name": "cardface_retroV2_7",
+      "id": 12197,
+      "file": "cardface_retroV2_7_12197.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retroV2_7.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_27",
+      "type": "Sprite",
+      "name": "cardface_extra_27",
+      "id": 12199,
+      "file": "cardface_extra_27_12199.png",
+      "width": 238,
+      "height": 293,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_27.png",
+      "notes": null
+    },
+    {
+      "key": "faces.snack_12",
+      "type": "Sprite",
+      "name": "cardface_snack_12",
+      "id": 12202,
+      "file": "cardface_snack_12_12202.png",
+      "width": 208,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-snack_12.png",
+      "notes": null
+    },
+    {
+      "key": "faces.dog_2",
+      "type": "Sprite",
+      "name": "cardface_dog_2",
+      "id": 12204,
+      "file": "cardface_dog_2_12204.png",
+      "width": 224,
+      "height": 249,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-dog_2.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retroV2_12",
+      "type": "Sprite",
+      "name": "cardface_retroV2_12",
+      "id": 12249,
+      "file": "cardface_retroV2_12_12249.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retroV2_12.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_33",
+      "type": "Sprite",
+      "name": "cardface_extra_33",
+      "id": 12271,
+      "file": "cardface_extra_33_12271.png",
+      "width": 238,
+      "height": 293,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_33.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_22",
+      "type": "Sprite",
+      "name": "cardface_extra_22",
+      "id": 12273,
+      "file": "cardface_extra_22_12273.png",
+      "width": 191,
+      "height": 244,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_22.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animal_6",
+      "type": "Sprite",
+      "name": "cardface_animal_6",
+      "id": 12281,
+      "file": "cardface_animal_6_12281.png",
+      "width": 241,
+      "height": 174,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animal_6.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flower_12",
+      "type": "Sprite",
+      "name": "cardface_extra_flower_12",
+      "id": 12306,
+      "file": "cardface_extra_flower_12_12306.png",
+      "width": 142,
+      "height": 233,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flower_12.png",
+      "notes": null
+    },
+    {
+      "key": "faces.dog_7",
+      "type": "Sprite",
+      "name": "cardface_dog_7",
+      "id": 12324,
+      "file": "cardface_dog_7_12324.png",
+      "width": 224,
+      "height": 249,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-dog_7.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retroV2_10",
+      "type": "Sprite",
+      "name": "cardface_retroV2_10",
+      "id": 12330,
+      "file": "cardface_retroV2_10_12330.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retroV2_10.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_10",
+      "type": "Sprite",
+      "name": "cardface_extra_10",
+      "id": 12333,
+      "file": "cardface_extra_10_12333.png",
+      "width": 209,
+      "height": 204,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_10.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_29",
+      "type": "Sprite",
+      "name": "cardface_extra_29",
+      "id": 12366,
+      "file": "cardface_extra_29_12366.png",
+      "width": 238,
+      "height": 293,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_29.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flowerV2_6",
+      "type": "Sprite",
+      "name": "cardface_extra_flowerV2_6",
+      "id": 12393,
+      "file": "cardface_extra_flowerV2_6_12393.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flowerV2_6.png",
+      "notes": null
+    },
+    {
+      "key": "faces.snack_2",
+      "type": "Sprite",
+      "name": "cardface_snack_2",
+      "id": 12400,
+      "file": "cardface_snack_2_12400.png",
+      "width": 208,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-snack_2.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flowerV2_11",
+      "type": "Sprite",
+      "name": "cardface_extra_flowerV2_11",
+      "id": 12466,
+      "file": "cardface_extra_flowerV2_11_12466.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flowerV2_11.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_34",
+      "type": "Sprite",
+      "name": "cardface_extra_34",
+      "id": 12476,
+      "file": "cardface_extra_34_12476.png",
+      "width": 238,
+      "height": 293,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_34.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retroV2_2",
+      "type": "Sprite",
+      "name": "cardface_retroV2_2",
+      "id": 12477,
+      "file": "cardface_retroV2_2_12477.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retroV2_2.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animal_2",
+      "type": "Sprite",
+      "name": "cardface_animal_2",
+      "id": 12486,
+      "file": "cardface_animal_2_12486.png",
+      "width": 213,
+      "height": 220,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animal_2.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flowerV2_12",
+      "type": "Sprite",
+      "name": "cardface_extra_flowerV2_12",
+      "id": 12490,
+      "file": "cardface_extra_flowerV2_12_12490.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flowerV2_12.png",
+      "notes": null
+    },
+    {
+      "key": "faces.snack_7",
+      "type": "Sprite",
+      "name": "cardface_snack_7",
+      "id": 12540,
+      "file": "cardface_snack_7_12540.png",
+      "width": 208,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-snack_7.png",
+      "notes": null
+    },
+    {
+      "key": "faces.snack_5",
+      "type": "Sprite",
+      "name": "cardface_snack_5",
+      "id": 12604,
+      "file": "cardface_snack_5_12604.png",
+      "width": 208,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-snack_5.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retroV2_1",
+      "type": "Sprite",
+      "name": "cardface_retroV2_1",
+      "id": 12667,
+      "file": "cardface_retroV2_1_12667.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retroV2_1.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_16",
+      "type": "Sprite",
+      "name": "cardface_extra_16",
+      "id": 12692,
+      "file": "cardface_extra_16_12692.png",
+      "width": 213,
+      "height": 220,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_16.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flowerV2_1",
+      "type": "Sprite",
+      "name": "cardface_extra_flowerV2_1",
+      "id": 12739,
+      "file": "cardface_extra_flowerV2_1_12739.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flowerV2_1.png",
+      "notes": null
+    },
+    {
+      "key": "faces.snack_8",
+      "type": "Sprite",
+      "name": "cardface_snack_8",
+      "id": 12786,
+      "file": "cardface_snack_8_12786.png",
+      "width": 208,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-snack_8.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animal_11",
+      "type": "Sprite",
+      "name": "cardface_animal_11",
+      "id": 12787,
+      "file": "cardface_animal_11_12787.png",
+      "width": 191,
+      "height": 244,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animal_11.png",
+      "notes": null
+    },
+    {
+      "key": "faces.snack_10",
+      "type": "Sprite",
+      "name": "cardface_snack_10",
+      "id": 12798,
+      "file": "cardface_snack_10_12798.png",
+      "width": 208,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-snack_10.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retroV2_6",
+      "type": "Sprite",
+      "name": "cardface_retroV2_6",
+      "id": 12801,
+      "file": "cardface_retroV2_6_12801.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retroV2_6.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_9",
+      "type": "Sprite",
+      "name": "cardface_extra_9",
+      "id": 12807,
+      "file": "cardface_extra_9_12807.png",
+      "width": 195,
+      "height": 178,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_9.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retroV2_3",
+      "type": "Sprite",
+      "name": "cardface_retroV2_3",
+      "id": 12824,
+      "file": "cardface_retroV2_3_12824.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retroV2_3.png",
+      "notes": null
+    },
+    {
+      "key": "faces.dog_3",
+      "type": "Sprite",
+      "name": "cardface_dog_3",
+      "id": 12839,
+      "file": "cardface_dog_3_12839.png",
+      "width": 224,
+      "height": 249,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-dog_3.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_8",
+      "type": "Sprite",
+      "name": "cardface_extra_8",
+      "id": 12847,
+      "file": "cardface_extra_8_12847.png",
+      "width": 153,
+      "height": 252,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_8.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flowerV2_7",
+      "type": "Sprite",
+      "name": "cardface_extra_flowerV2_7",
+      "id": 12853,
+      "file": "cardface_extra_flowerV2_7_12853.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flowerV2_7.png",
+      "notes": null
+    },
+    {
+      "key": "faces.dog_8",
+      "type": "Sprite",
+      "name": "cardface_dog_8",
+      "id": 12867,
+      "file": "cardface_dog_8_12867.png",
+      "width": 224,
+      "height": 249,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-dog_8.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retroV2_11",
+      "type": "Sprite",
+      "name": "cardface_retroV2_11",
+      "id": 12868,
+      "file": "cardface_retroV2_11_12868.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retroV2_11.png",
+      "notes": null
+    },
+    {
+      "key": "faces.dog_5",
+      "type": "Sprite",
+      "name": "cardface_dog_5",
+      "id": 12904,
+      "file": "cardface_dog_5_12904.png",
+      "width": 224,
+      "height": 249,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-dog_5.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_28",
+      "type": "Sprite",
+      "name": "cardface_extra_28",
+      "id": 12916,
+      "file": "cardface_extra_28_12916.png",
+      "width": 238,
+      "height": 293,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_28.png",
+      "notes": null
+    },
+    {
+      "key": "faces.snack_6",
+      "type": "Sprite",
+      "name": "cardface_snack_6",
+      "id": 12921,
+      "file": "cardface_snack_6_12921.png",
+      "width": 208,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-snack_6.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flowerV2_3",
+      "type": "Sprite",
+      "name": "cardface_extra_flowerV2_3",
+      "id": 12925,
+      "file": "cardface_extra_flowerV2_3_12925.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flowerV2_3.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retro_6",
+      "type": "Sprite",
+      "name": "cardface_retro_6",
+      "id": 12957,
+      "file": "cardface_retro_6_12957.png",
+      "width": 207,
+      "height": 206,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retro_6.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retro_9",
+      "type": "Sprite",
+      "name": "cardface_retro_9",
+      "id": 12984,
+      "file": "cardface_retro_9_12984.png",
+      "width": 202,
+      "height": 260,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retro_9.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_24",
+      "type": "Sprite",
+      "name": "cardface_extra_24",
+      "id": 12993,
+      "file": "cardface_extra_24_12993.png",
+      "width": 238,
+      "height": 293,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_24.png",
+      "notes": null
+    },
+    {
+      "key": "faces.dog_1",
+      "type": "Sprite",
+      "name": "cardface_dog_1",
+      "id": 13016,
+      "file": "cardface_dog_1_13016.png",
+      "width": 224,
+      "height": 249,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-dog_1.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_13",
+      "type": "Sprite",
+      "name": "cardface_extra_13",
+      "id": 13098,
+      "file": "cardface_extra_13_13098.png",
+      "width": 213,
+      "height": 220,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_13.png",
+      "notes": null
+    },
+    {
+      "key": "faces.dog_11",
+      "type": "Sprite",
+      "name": "cardface_dog_11",
+      "id": 13101,
+      "file": "cardface_dog_11_13101.png",
+      "width": 224,
+      "height": 249,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-dog_11.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flower_4",
+      "type": "Sprite",
+      "name": "cardface_extra_flower_4",
+      "id": 13184,
+      "file": "cardface_extra_flower_4_13184.png",
+      "width": 167,
+      "height": 250,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flower_4.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_26",
+      "type": "Sprite",
+      "name": "cardface_extra_26",
+      "id": 13192,
+      "file": "cardface_extra_26_13192.png",
+      "width": 238,
+      "height": 293,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_26.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_12",
+      "type": "Sprite",
+      "name": "cardface_extra_12",
+      "id": 13210,
+      "file": "cardface_extra_12_13210.png",
+      "width": 239,
+      "height": 244,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_12.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_4",
+      "type": "Sprite",
+      "name": "cardface_extra_4",
+      "id": 13229,
+      "file": "cardface_extra_4_13229.png",
+      "width": 181,
+      "height": 238,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_4.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animal_3",
+      "type": "Sprite",
+      "name": "cardface_animal_3",
+      "id": 13243,
+      "file": "cardface_animal_3_13243.png",
+      "width": 243,
+      "height": 172,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animal_3.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flower_1",
+      "type": "Sprite",
+      "name": "cardface_extra_flower_1",
+      "id": 13262,
+      "file": "cardface_extra_flower_1_13262.png",
+      "width": 166,
+      "height": 232,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flower_1.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flower_5",
+      "type": "Sprite",
+      "name": "cardface_extra_flower_5",
+      "id": 13263,
+      "file": "cardface_extra_flower_5_13263.png",
+      "width": 153,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flower_5.png",
+      "notes": null
+    },
+    {
+      "key": "faces.dog_10",
+      "type": "Sprite",
+      "name": "cardface_dog_10",
+      "id": 13270,
+      "file": "cardface_dog_10_13270.png",
+      "width": 224,
+      "height": 249,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-dog_10.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_14",
+      "type": "Sprite",
+      "name": "cardface_extra_14",
+      "id": 13281,
+      "file": "cardface_extra_14_13281.png",
+      "width": 243,
+      "height": 172,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_14.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flower_6",
+      "type": "Sprite",
+      "name": "cardface_extra_flower_6",
+      "id": 13332,
+      "file": "cardface_extra_flower_6_13332.png",
+      "width": 176,
+      "height": 256,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flower_6.png",
+      "notes": null
+    },
+    {
+      "key": "faces.dog_6",
+      "type": "Sprite",
+      "name": "cardface_dog_6",
+      "id": 13345,
+      "file": "cardface_dog_6_13345.png",
+      "width": 224,
+      "height": 249,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-dog_6.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flower_7",
+      "type": "Sprite",
+      "name": "cardface_extra_flower_7",
+      "id": 13350,
+      "file": "cardface_extra_flower_7_13350.png",
+      "width": 148,
+      "height": 239,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flower_7.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_35",
+      "type": "Sprite",
+      "name": "cardface_extra_35",
+      "id": 13365,
+      "file": "cardface_extra_35_13365.png",
+      "width": 156,
+      "height": 205,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_35.png",
+      "notes": null
+    },
+    {
+      "key": "faces.snack_1",
+      "type": "Sprite",
+      "name": "cardface_snack_1",
+      "id": 13391,
+      "file": "cardface_snack_1_13391.png",
+      "width": 208,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-snack_1.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retroV2_9",
+      "type": "Sprite",
+      "name": "cardface_retroV2_9",
+      "id": 13445,
+      "file": "cardface_retroV2_9_13445.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retroV2_9.png",
+      "notes": null
+    },
+    {
+      "key": "faces.snack_11",
+      "type": "Sprite",
+      "name": "cardface_snack_11",
+      "id": 13470,
+      "file": "cardface_snack_11_13470.png",
+      "width": 208,
+      "height": 226,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-snack_11.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_5",
+      "type": "Sprite",
+      "name": "cardface_extra_5",
+      "id": 13475,
+      "file": "cardface_extra_5_13475.png",
+      "width": 203,
+      "height": 228,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_5.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animal_4",
+      "type": "Sprite",
+      "name": "cardface_animal_4",
+      "id": 13518,
+      "file": "cardface_animal_4_13518.png",
+      "width": 202,
+      "height": 218,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animal_4.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retroV2_5",
+      "type": "Sprite",
+      "name": "cardface_retroV2_5",
+      "id": 13528,
+      "file": "cardface_retroV2_5_13528.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retroV2_5.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flower_10",
+      "type": "Sprite",
+      "name": "cardface_extra_flower_10",
+      "id": 13539,
+      "file": "cardface_extra_flower_10_13539.png",
+      "width": 156,
+      "height": 239,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flower_10.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retro_5",
+      "type": "Sprite",
+      "name": "cardface_retro_5",
+      "id": 13577,
+      "file": "cardface_retro_5_13577.png",
+      "width": 185,
+      "height": 225,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retro_5.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retro_12",
+      "type": "Sprite",
+      "name": "cardface_retro_12",
+      "id": 13584,
+      "file": "cardface_retro_12_13584.png",
+      "width": 178,
+      "height": 220,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retro_12.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_19",
+      "type": "Sprite",
+      "name": "cardface_extra_19",
+      "id": 13619,
+      "file": "cardface_extra_19_13619.png",
+      "width": 217,
+      "height": 234,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_19.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_32",
+      "type": "Sprite",
+      "name": "cardface_extra_32",
+      "id": 13627,
+      "file": "cardface_extra_32_13627.png",
+      "width": 238,
+      "height": 293,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_32.png",
+      "notes": null
+    },
+    {
+      "key": "faces.dog_9",
+      "type": "Sprite",
+      "name": "cardface_dog_9",
+      "id": 13628,
+      "file": "cardface_dog_9_13628.png",
+      "width": 224,
+      "height": 249,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-dog_9.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animal_7",
+      "type": "Sprite",
+      "name": "cardface_animal_7",
+      "id": 13629,
+      "file": "cardface_animal_7_13629.png",
+      "width": 203,
+      "height": 208,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animal_7.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retro_11",
+      "type": "Sprite",
+      "name": "cardface_retro_11",
+      "id": 13635,
+      "file": "cardface_retro_11_13635.png",
+      "width": 210,
+      "height": 188,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retro_11.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animal_8",
+      "type": "Sprite",
+      "name": "cardface_animal_8",
+      "id": 13682,
+      "file": "cardface_animal_8_13682.png",
+      "width": 228,
+      "height": 201,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animal_8.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retro_8",
+      "type": "Sprite",
+      "name": "cardface_retro_8",
+      "id": 13694,
+      "file": "cardface_retro_8_13694.png",
+      "width": 202,
+      "height": 235,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retro_8.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flowerV2_9",
+      "type": "Sprite",
+      "name": "cardface_extra_flowerV2_9",
+      "id": 13776,
+      "file": "cardface_extra_flowerV2_9_13776.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flowerV2_9.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_17",
+      "type": "Sprite",
+      "name": "cardface_extra_17",
+      "id": 13798,
+      "file": "cardface_extra_17_13798.png",
+      "width": 241,
+      "height": 174,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_17.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_25",
+      "type": "Sprite",
+      "name": "cardface_extra_25",
+      "id": 13799,
+      "file": "cardface_extra_25_13799.png",
+      "width": 238,
+      "height": 293,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_25.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_18",
+      "type": "Sprite",
+      "name": "cardface_extra_18",
+      "id": 13835,
+      "file": "cardface_extra_18_13835.png",
+      "width": 203,
+      "height": 208,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_18.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retro_3",
+      "type": "Sprite",
+      "name": "cardface_retro_3",
+      "id": 13864,
+      "file": "cardface_retro_3_13864.png",
+      "width": 215,
+      "height": 184,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retro_3.png",
+      "notes": null
+    },
+    {
+      "key": "faces.retro_4",
+      "type": "Sprite",
+      "name": "cardface_retro_4",
+      "id": 13902,
+      "file": "cardface_retro_4_13902.png",
+      "width": 205,
+      "height": 192,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-retro_4.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_11",
+      "type": "Sprite",
+      "name": "cardface_extra_11",
+      "id": 13971,
+      "file": "cardface_extra_11_13971.png",
+      "width": 241,
+      "height": 176,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_11.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flower_8",
+      "type": "Sprite",
+      "name": "cardface_extra_flower_8",
+      "id": 13974,
+      "file": "cardface_extra_flower_8_13974.png",
+      "width": 170,
+      "height": 233,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flower_8.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flowerV2_8",
+      "type": "Sprite",
+      "name": "cardface_extra_flowerV2_8",
+      "id": 14007,
+      "file": "cardface_extra_flowerV2_8_14007.png",
+      "width": 247,
+      "height": 304,
+      "source": "resources.assets",
+      "atlas_id": 175855,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flowerV2_8.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_flower_2",
+      "type": "Sprite",
+      "name": "cardface_extra_flower_2",
+      "id": 14038,
+      "file": "cardface_extra_flower_2_14038.png",
+      "width": 174,
+      "height": 233,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_flower_2.png",
+      "notes": null
+    },
+    {
+      "key": "faces.animal_10",
+      "type": "Sprite",
+      "name": "cardface_animal_10",
+      "id": 14049,
+      "file": "cardface_animal_10_14049.png",
+      "width": 239,
+      "height": 244,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-animal_10.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_36",
+      "type": "Sprite",
+      "name": "cardface_extra_36",
+      "id": 14065,
+      "file": "cardface_extra_36_14065.png",
+      "width": 179,
+      "height": 211,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_36.png",
+      "notes": null
+    },
+    {
+      "key": "faces.extra_21",
+      "type": "Sprite",
+      "name": "cardface_extra_21",
+      "id": 14067,
+      "file": "cardface_extra_21_14067.png",
+      "width": 239,
+      "height": 244,
+      "source": "resources.assets",
+      "atlas_id": 175853,
+      "border": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "export": "assets/fidelity/faces-extra_21.png",
+      "notes": null
+    },
+    {
+      "key": "effects.whiteShards",
+      "type": "Texture2D",
+      "name": "et_fragments_colorful_mahjong",
+      "id": 1348,
+      "file": "et_fragments_colorful_mahjong_1348.png",
+      "width": 256,
+      "height": 128,
+      "source": "resources.assets",
+      "export": "assets/fidelity/effects-whiteShards.png",
+      "notes": null
+    },
+    {
+      "key": "effects.tileShardsGreen",
+      "type": "Texture2D",
+      "name": "et_mahjongfragments_001",
+      "id": 1192,
+      "file": "et_mahjongfragments_001_1192.png",
+      "width": 128,
+      "height": 128,
+      "source": "resources.assets",
+      "export": "assets/fidelity/effects-tileShardsGreen.png",
+      "notes": null
+    },
+    {
+      "key": "effects.tileShardsBlue",
+      "type": "Texture2D",
+      "name": "et_mahjongfragments_amber",
+      "id": 1289,
+      "file": "et_mahjongfragments_amber_1289.png",
+      "width": 128,
+      "height": 128,
+      "source": "resources.assets",
+      "export": "assets/fidelity/effects-tileShardsBlue.png",
+      "notes": null
+    },
+    {
+      "key": "effects.smallShards",
+      "type": "Texture2D",
+      "name": "et_mahjongfragments_004",
+      "id": 1469,
+      "file": "et_mahjongfragments_004_1469.png",
+      "width": 768,
+      "height": 768,
+      "source": "resources.assets",
+      "export": "assets/fidelity/effects-smallShards.png",
+      "notes": null
+    },
+    {
+      "key": "play.tilePlainBlue",
+      "file": "tilePlainBlue-reconstructed.png",
+      "name": "tilePlainBlue-reconstructed.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/play-tilePlainBlue.png",
+      "notes": {
+        "originalSprite": 12105,
+        "originalBorders": [
+          56,
+          0,
+          58,
+          0
+        ],
+        "outputSize": [
+          271,
+          333
+        ],
+        "operation": "Original edge-preserving horizontal slice expansion; repeats center seam pixel."
+      }
+    },
+    {
+      "key": "play.tilePlainGreen",
+      "file": "tilePlainGreen-reconstructed.png",
+      "name": "tilePlainGreen-reconstructed.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/play-tilePlainGreen.png",
+      "notes": {
+        "originalSprite": 12342,
+        "originalBorders": [
+          56,
+          0,
+          58,
+          0
+        ],
+        "outputSize": [
+          271,
+          333
+        ],
+        "operation": "Original edge-preserving horizontal slice expansion; repeats center seam pixel."
+      }
+    },
+    {
+      "key": "play.backBlue",
+      "file": "backBlue-reconstructed.png",
+      "name": "backBlue-reconstructed.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/play-backBlue.png",
+      "notes": {
+        "originalSprite": 13597,
+        "originalBorders": [
+          56,
+          0,
+          58,
+          0
+        ],
+        "outputSize": [
+          271,
+          333
+        ],
+        "operation": "Original edge-preserving horizontal slice expansion; repeats center seam pixel."
+      }
+    },
+    {
+      "key": "glyphs.letterI",
+      "file": "iq-glyph-letterI.png",
+      "name": "iq-glyph-letterI.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-letterI.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 105,
+        "crop": [
+          0,
+          0,
+          18,
+          57
+        ],
+        "nativeGlyph": {
+          "index": 105,
+          "uv": {
+            "x": 0.0,
+            "y": 0.1617647111415863,
+            "width": 0.028753994032740593,
+            "height": 0.8382352590560913
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 28.0,
+            "width": 18.0,
+            "height": -57.0
+          },
+          "advance": 18.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.letterQ",
+      "file": "iq-glyph-letterQ.png",
+      "name": "iq-glyph-letterQ.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-letterQ.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 113,
+        "crop": [
+          23,
+          0,
+          79,
+          60
+        ],
+        "nativeGlyph": {
+          "index": 113,
+          "uv": {
+            "x": 0.036741215735673904,
+            "y": 0.11764705926179886,
+            "width": 0.08945687115192413,
+            "height": 0.8823529481887817
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 30.0,
+            "width": 56.0,
+            "height": -60.0
+          },
+          "advance": 56.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.plus",
+      "file": "iq-glyph-plus.png",
+      "name": "iq-glyph-plus.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-plus.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 43,
+        "crop": [
+          86,
+          6,
+          129,
+          52
+        ],
+        "nativeGlyph": {
+          "index": 43,
+          "uv": {
+            "x": 0.1373801976442337,
+            "y": 0.23529411852359772,
+            "width": 0.06869009137153625,
+            "height": 0.6764705777168274
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 23.0,
+            "width": 43.0,
+            "height": -46.0
+          },
+          "advance": 43.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.0",
+      "file": "iq-glyph-0.png",
+      "name": "iq-glyph-0.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-0.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 48,
+        "crop": [
+          138,
+          0,
+          182,
+          58
+        ],
+        "nativeGlyph": {
+          "index": 48,
+          "uv": {
+            "x": 0.22044728696346283,
+            "y": 0.14705882966518402,
+            "width": 0.0702875405550003,
+            "height": 0.8529411554336548
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 29.0,
+            "width": 44.0,
+            "height": -58.0
+          },
+          "advance": 44.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.1",
+      "file": "iq-glyph-1.png",
+      "name": "iq-glyph-1.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-1.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 49,
+        "crop": [
+          185,
+          0,
+          210,
+          57
+        ],
+        "nativeGlyph": {
+          "index": 49,
+          "uv": {
+            "x": 0.2955271601676941,
+            "y": 0.1617647111415863,
+            "width": 0.03993609547615051,
+            "height": 0.8382352590560913
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 28.0,
+            "width": 25.0,
+            "height": -57.0
+          },
+          "advance": 25.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.2",
+      "file": "iq-glyph-2.png",
+      "name": "iq-glyph-2.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-2.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 50,
+        "crop": [
+          216,
+          0,
+          256,
+          57
+        ],
+        "nativeGlyph": {
+          "index": 50,
+          "uv": {
+            "x": 0.3450479209423065,
+            "y": 0.1617647111415863,
+            "width": 0.0638977587223053,
+            "height": 0.8382352590560913
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 28.0,
+            "width": 40.0,
+            "height": -57.0
+          },
+          "advance": 40.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.3",
+      "file": "iq-glyph-3.png",
+      "name": "iq-glyph-3.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-3.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 51,
+        "crop": [
+          260,
+          0,
+          301,
+          58
+        ],
+        "nativeGlyph": {
+          "index": 51,
+          "uv": {
+            "x": 0.415335476398468,
+            "y": 0.14705882966518402,
+            "width": 0.06549519300460815,
+            "height": 0.8529411554336548
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 29.0,
+            "width": 41.0,
+            "height": -58.0
+          },
+          "advance": 41.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.4",
+      "file": "iq-glyph-4.png",
+      "name": "iq-glyph-4.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-4.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 52,
+        "crop": [
+          305,
+          0,
+          349,
+          57
+        ],
+        "nativeGlyph": {
+          "index": 52,
+          "uv": {
+            "x": 0.48722043633461,
+            "y": 0.1617647111415863,
+            "width": 0.0702875554561615,
+            "height": 0.8382352590560913
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 28.0,
+            "width": 44.0,
+            "height": -57.0
+          },
+          "advance": 44.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.5",
+      "file": "iq-glyph-5.png",
+      "name": "iq-glyph-5.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-5.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 53,
+        "crop": [
+          353,
+          0,
+          394,
+          58
+        ],
+        "nativeGlyph": {
+          "index": 53,
+          "uv": {
+            "x": 0.5638977885246277,
+            "y": 0.14705882966518402,
+            "width": 0.06549519300460815,
+            "height": 0.8529411554336548
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 29.0,
+            "width": 41.0,
+            "height": -58.0
+          },
+          "advance": 41.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.7",
+      "file": "iq-glyph-7.png",
+      "name": "iq-glyph-7.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-7.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 55,
+        "crop": [
+          442,
+          0,
+          483,
+          57
+        ],
+        "nativeGlyph": {
+          "index": 55,
+          "uv": {
+            "x": 0.7060703039169312,
+            "y": 0.1617647111415863,
+            "width": 0.06549519300460815,
+            "height": 0.8382352590560913
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 28.0,
+            "width": 41.0,
+            "height": -57.0
+          },
+          "advance": 41.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.comma",
+      "file": "iq-glyph-comma.png",
+      "name": "iq-glyph-comma.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-comma.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 44,
+        "crop": [
+          604,
+          10,
+          626,
+          68
+        ],
+        "nativeGlyph": {
+          "index": 44,
+          "uv": {
+            "x": 0.9648562073707581,
+            "y": 0.0,
+            "width": 0.03514379262924194,
+            "height": 0.8529411554336548
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 29.0,
+            "width": 22.0,
+            "height": -58.0
+          },
+          "advance": 22.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.period",
+      "file": "iq-glyph-period.png",
+      "name": "iq-glyph-period.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-period.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 46,
+        "crop": [
+          577,
+          0,
+          599,
+          58
+        ],
+        "nativeGlyph": {
+          "index": 46,
+          "uv": {
+            "x": 0.9217252135276794,
+            "y": 0.14705882966518402,
+            "width": 0.03514379262924194,
+            "height": 0.8529411554336548
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 29.0,
+            "width": 22.0,
+            "height": -58.0
+          },
+          "advance": 22.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.6",
+      "file": "iq-glyph-6.png",
+      "name": "iq-glyph-6.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-6.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 54,
+        "crop": [
+          397,
+          0,
+          440,
+          58
+        ],
+        "nativeGlyph": {
+          "index": 54,
+          "uv": {
+            "x": 0.6341853141784668,
+            "y": 0.14705882966518402,
+            "width": 0.06869006156921387,
+            "height": 0.8529411554336548
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 29.0,
+            "width": 43.0,
+            "height": -58.0
+          },
+          "advance": 43.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.8",
+      "file": "iq-glyph-8.png",
+      "name": "iq-glyph-8.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-8.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 56,
+        "crop": [
+          486,
+          0,
+          526,
+          58
+        ],
+        "nativeGlyph": {
+          "index": 56,
+          "uv": {
+            "x": 0.7763578295707703,
+            "y": 0.14705882966518402,
+            "width": 0.06389778852462769,
+            "height": 0.8529411554336548
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 29.0,
+            "width": 40.0,
+            "height": -58.0
+          },
+          "advance": 40.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "glyphs.9",
+      "file": "iq-glyph-9.png",
+      "name": "iq-glyph-9.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/glyphs-9.png",
+      "notes": {
+        "sourceTexture": 934,
+        "sourceFont": 11406,
+        "characterCode": 57,
+        "crop": [
+          530,
+          0,
+          573,
+          58
+        ],
+        "nativeGlyph": {
+          "index": 57,
+          "uv": {
+            "x": 0.8466453552246094,
+            "y": 0.14705882966518402,
+            "width": 0.06869012117385864,
+            "height": 0.8529411554336548
+          },
+          "vert": {
+            "x": 0.0,
+            "y": 29.0,
+            "width": 43.0,
+            "height": -58.0
+          },
+          "advance": 43.0,
+          "flipped": false
+        }
+      }
+    },
+    {
+      "key": "home.idleNative",
+      "file": "home-idle-native.png",
+      "name": "home-idle-native.png",
+      "id": null,
+      "source": "Original Home Spine atlas and setup animation",
+      "export": "assets/fidelity/home-idleNative.png",
+      "notes": {
+        "sourceSkeleton": 4333,
+        "animation": "Idle",
+        "worldBounds": [
+          -541,
+          -1390.5,
+          541,
+          1390.5
+        ],
+        "width": 1082,
+        "height": 2781,
+        "renderedPaths": [
+          "HomeUI/guangying_1",
+          "HomeUI/men",
+          "HomeUI/men",
+          "HomeUI/suo_2",
+          "HomeUI/suo_2",
+          "HomeUI/suo",
+          "HomeUI/suo",
+          "HomeUI/chuanglian",
+          "HomeUI/guangying_1_2",
+          "HomeUI/guazhui",
+          "HomeUI/guazhui"
+        ]
+      }
+    },
+    {
+      "key": "play.dialogPanel",
+      "name": "common_pic_0001",
+      "id": 12246,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-dialogPanel.png",
+      "borders": [
+        92.0,
+        99.0,
+        92.0,
+        159.0
+      ],
+      "sourceSize": [
+        212,
+        284
+      ],
+      "outputSize": [
+        1000,
+        1100
+      ],
+      "operation": "Original Unity nine-slice reconstruction",
+      "verifiedAgainst": "research/reference-video/apk-full-outcome.png"
+    },
+    {
+      "key": "play.greenButton",
+      "name": "common_btn_0007",
+      "id": 12548,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-greenButton.png",
+      "borders": [
+        114.0,
+        0.0,
+        118.0,
+        0.0
+      ],
+      "sourceSize": [
+        238,
+        211
+      ],
+      "outputSize": [
+        700,
+        211
+      ],
+      "operation": "Original Unity nine-slice reconstruction",
+      "verifiedAgainst": "research/reference-video/apk-full-outcome.png"
+    },
+    {
+      "key": "play.dialogHeader",
+      "name": "common_pic_0002",
+      "id": 12615,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-dialogHeader.png",
+      "borders": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sourceSize": [
+        1026,
+        135
+      ],
+      "outputSize": [
+        1026,
+        135
+      ],
+      "operation": "Original PNG extraction",
+      "verifiedAgainst": "research/reference-video/apk-full-outcome.png"
+    },
+    {
+      "key": "play.closeButton",
+      "name": "common_pic_close",
+      "id": 12874,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-closeButton.png",
+      "borders": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sourceSize": [
+        58,
+        58
+      ],
+      "outputSize": [
+        58,
+        58
+      ],
+      "operation": "Original PNG extraction",
+      "verifiedAgainst": "Original standalone common_pic_close"
+    },
+    {
+      "key": "play.beigeButton",
+      "name": "common_btn_0009",
+      "id": 13843,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-beigeButton.png",
+      "borders": [
+        117.0,
+        0.0,
+        116.0,
+        0.0
+      ],
+      "sourceSize": [
+        238,
+        211
+      ],
+      "outputSize": [
+        700,
+        211
+      ],
+      "operation": "Original Unity nine-slice reconstruction",
+      "verifiedAgainst": "research/reference-video/apk-full-outcome.png"
+    },
+    {
+      "type": "Sprite",
+      "name": "card_back_pattern_08",
+      "id": "1235054504362078410",
+      "source": "cardbackpattern_269f49e02534fff4344a5ccd29e11aa9.ab",
+      "file": "backpattern-card_back_pattern_08_1235054504362078410.png",
+      "width": 271,
+      "height": 333,
+      "key": "play.backPattern",
+      "export": "assets/fidelity/play-backPattern.png",
+      "notes": "Exact transparent lantern line-art overlay, including its rounded rectangular outline and top/bottom hanging finials. Native271x333; compose directly over play.backBlue at identical bounds; no separateborderoverlay is needed."
+    },
+    {
+      "key": "effects.magnetLarge",
+      "source": "resources.assets",
+      "type": "Sprite",
+      "id": 11993,
+      "name": "play_btn_magnet_pic_0003",
+      "width": 120,
+      "height": 120
+    },
+    {
+      "key": "play.guideHand",
+      "name": "common_hand",
+      "id": 12599,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-guideHand.png",
+      "width": 248,
+      "height": 360
+    }
+  ],
+  "glyphMetrics": {
+    "fontId": 11406,
+    "lineSpacing": 0.10000000149011612,
+    "fontSize": 0.0,
+    "characters": {
+      "letterI": {
+        "index": 105,
+        "uv": {
+          "x": 0.0,
+          "y": 0.1617647111415863,
+          "width": 0.028753994032740593,
+          "height": 0.8382352590560913
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 28.0,
+          "width": 18.0,
+          "height": -57.0
+        },
+        "advance": 18.0,
+        "flipped": false
+      },
+      "letterQ": {
+        "index": 113,
+        "uv": {
+          "x": 0.036741215735673904,
+          "y": 0.11764705926179886,
+          "width": 0.08945687115192413,
+          "height": 0.8823529481887817
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 30.0,
+          "width": 56.0,
+          "height": -60.0
+        },
+        "advance": 56.0,
+        "flipped": false
+      },
+      "plus": {
+        "index": 43,
+        "uv": {
+          "x": 0.1373801976442337,
+          "y": 0.23529411852359772,
+          "width": 0.06869009137153625,
+          "height": 0.6764705777168274
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 23.0,
+          "width": 43.0,
+          "height": -46.0
+        },
+        "advance": 43.0,
+        "flipped": false
+      },
+      "0": {
+        "index": 48,
+        "uv": {
+          "x": 0.22044728696346283,
+          "y": 0.14705882966518402,
+          "width": 0.0702875405550003,
+          "height": 0.8529411554336548
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 29.0,
+          "width": 44.0,
+          "height": -58.0
+        },
+        "advance": 44.0,
+        "flipped": false
+      },
+      "1": {
+        "index": 49,
+        "uv": {
+          "x": 0.2955271601676941,
+          "y": 0.1617647111415863,
+          "width": 0.03993609547615051,
+          "height": 0.8382352590560913
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 28.0,
+          "width": 25.0,
+          "height": -57.0
+        },
+        "advance": 25.0,
+        "flipped": false
+      },
+      "2": {
+        "index": 50,
+        "uv": {
+          "x": 0.3450479209423065,
+          "y": 0.1617647111415863,
+          "width": 0.0638977587223053,
+          "height": 0.8382352590560913
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 28.0,
+          "width": 40.0,
+          "height": -57.0
+        },
+        "advance": 40.0,
+        "flipped": false
+      },
+      "3": {
+        "index": 51,
+        "uv": {
+          "x": 0.415335476398468,
+          "y": 0.14705882966518402,
+          "width": 0.06549519300460815,
+          "height": 0.8529411554336548
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 29.0,
+          "width": 41.0,
+          "height": -58.0
+        },
+        "advance": 41.0,
+        "flipped": false
+      },
+      "4": {
+        "index": 52,
+        "uv": {
+          "x": 0.48722043633461,
+          "y": 0.1617647111415863,
+          "width": 0.0702875554561615,
+          "height": 0.8382352590560913
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 28.0,
+          "width": 44.0,
+          "height": -57.0
+        },
+        "advance": 44.0,
+        "flipped": false
+      },
+      "5": {
+        "index": 53,
+        "uv": {
+          "x": 0.5638977885246277,
+          "y": 0.14705882966518402,
+          "width": 0.06549519300460815,
+          "height": 0.8529411554336548
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 29.0,
+          "width": 41.0,
+          "height": -58.0
+        },
+        "advance": 41.0,
+        "flipped": false
+      },
+      "7": {
+        "index": 55,
+        "uv": {
+          "x": 0.7060703039169312,
+          "y": 0.1617647111415863,
+          "width": 0.06549519300460815,
+          "height": 0.8382352590560913
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 28.0,
+          "width": 41.0,
+          "height": -57.0
+        },
+        "advance": 41.0,
+        "flipped": false
+      },
+      "comma": {
+        "index": 44,
+        "uv": {
+          "x": 0.9648562073707581,
+          "y": 0.0,
+          "width": 0.03514379262924194,
+          "height": 0.8529411554336548
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 29.0,
+          "width": 22.0,
+          "height": -58.0
+        },
+        "advance": 22.0,
+        "flipped": false
+      },
+      "period": {
+        "index": 46,
+        "uv": {
+          "x": 0.9217252135276794,
+          "y": 0.14705882966518402,
+          "width": 0.03514379262924194,
+          "height": 0.8529411554336548
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 29.0,
+          "width": 22.0,
+          "height": -58.0
+        },
+        "advance": 22.0,
+        "flipped": false
+      },
+      "6": {
+        "index": 54,
+        "uv": {
+          "x": 0.6341853141784668,
+          "y": 0.14705882966518402,
+          "width": 0.06869006156921387,
+          "height": 0.8529411554336548
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 29.0,
+          "width": 43.0,
+          "height": -58.0
+        },
+        "advance": 43.0,
+        "flipped": false
+      },
+      "8": {
+        "index": 56,
+        "uv": {
+          "x": 0.7763578295707703,
+          "y": 0.14705882966518402,
+          "width": 0.06389778852462769,
+          "height": 0.8529411554336548
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 29.0,
+          "width": 40.0,
+          "height": -58.0
+        },
+        "advance": 40.0,
+        "flipped": false
+      },
+      "9": {
+        "index": 57,
+        "uv": {
+          "x": 0.8466453552246094,
+          "y": 0.14705882966518402,
+          "width": 0.06869012117385864,
+          "height": 0.8529411554336548
+        },
+        "vert": {
+          "x": 0.0,
+          "y": 29.0,
+          "width": 43.0,
+          "height": -58.0
+        },
+        "advance": 43.0,
+        "flipped": false
+      }
+    }
+  },
+  "dialogSliceMetadata": {
+    "dialogPanel": {
+      "key": "play.dialogPanel",
+      "name": "common_pic_0001",
+      "id": 12246,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-dialogPanel.png",
+      "borders": [
+        92.0,
+        99.0,
+        92.0,
+        159.0
+      ],
+      "sourceSize": [
+        212,
+        284
+      ],
+      "outputSize": [
+        1000,
+        1100
+      ],
+      "operation": "Original Unity nine-slice reconstruction",
+      "verifiedAgainst": "research/reference-video/apk-full-outcome.png"
+    },
+    "greenButton": {
+      "key": "play.greenButton",
+      "name": "common_btn_0007",
+      "id": 12548,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-greenButton.png",
+      "borders": [
+        114.0,
+        0.0,
+        118.0,
+        0.0
+      ],
+      "sourceSize": [
+        238,
+        211
+      ],
+      "outputSize": [
+        700,
+        211
+      ],
+      "operation": "Original Unity nine-slice reconstruction",
+      "verifiedAgainst": "research/reference-video/apk-full-outcome.png"
+    },
+    "dialogHeader": {
+      "key": "play.dialogHeader",
+      "name": "common_pic_0002",
+      "id": 12615,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-dialogHeader.png",
+      "borders": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sourceSize": [
+        1026,
+        135
+      ],
+      "outputSize": [
+        1026,
+        135
+      ],
+      "operation": "Original PNG extraction",
+      "verifiedAgainst": "research/reference-video/apk-full-outcome.png"
+    },
+    "closeButton": {
+      "key": "play.closeButton",
+      "name": "common_pic_close",
+      "id": 12874,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-closeButton.png",
+      "borders": [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sourceSize": [
+        58,
+        58
+      ],
+      "outputSize": [
+        58,
+        58
+      ],
+      "operation": "Original PNG extraction",
+      "verifiedAgainst": "Original standalone common_pic_close"
+    },
+    "beigeButton": {
+      "key": "play.beigeButton",
+      "name": "common_btn_0009",
+      "id": 13843,
+      "source": "resources.assets",
+      "export": "assets/fidelity/play-beigeButton.png",
+      "borders": [
+        117.0,
+        0.0,
+        116.0,
+        0.0
+      ],
+      "sourceSize": [
+        238,
+        211
+      ],
+      "outputSize": [
+        700,
+        211
+      ],
+      "operation": "Original Unity nine-slice reconstruction",
+      "verifiedAgainst": "research/reference-video/apk-full-outcome.png"
+    }
+  },
+  "combo": {
+    "mahjong_sort_combo6": "assets/fidelity/combo-mahjong_sort_combo6.wav",
+    "mahjong_sort_combo3": "assets/fidelity/combo-mahjong_sort_combo3.wav",
+    "mahjong_sort_combo2": "assets/fidelity/combo-mahjong_sort_combo2.wav",
+    "mahjong_sort_combo1": "assets/fidelity/combo-mahjong_sort_combo1.wav",
+    "mahjong_combo_great_test2": "assets/fidelity/combo-mahjong_combo_great_test2.wav",
+    "mahjong_combo_amazing_test2": "assets/fidelity/combo-mahjong_combo_amazing_test2.wav",
+    "mahjong_combo_good_test2": "assets/fidelity/combo-mahjong_combo_good_test2.wav",
+    "mahjong_sort_combo5": "assets/fidelity/combo-mahjong_sort_combo5.wav",
+    "mahjong_combo_unbelievable_test2": "assets/fidelity/combo-mahjong_combo_unbelievable_test2.wav",
+    "mahjong_sort_combo4": "assets/fidelity/combo-mahjong_sort_combo4.wav",
+    "mahjong_combo_excellent_test2": "assets/fidelity/combo-mahjong_combo_excellent_test2.wav",
+    "perfect_combo_sd": "assets/fidelity/combo-perfect_combo_sd.wav",
+    "tile_bg_holder4_multicolor": "assets/fidelity/combo-tile_bg_holder4_multicolor.png",
+    "play_pic_combo_brilliant": "assets/fidelity/combo-play_pic_combo_brilliant.png",
+    "et_unbelievable_glow": "assets/fidelity/combo-et_unbelievable_glow.png",
+    "play_pic_combo_good1": "assets/fidelity/combo-play_pic_combo_good1.png",
+    "play_pic_combo_4": "assets/fidelity/combo-play_pic_combo_4.png",
+    "tile_bg_holder4_glow": "assets/fidelity/combo-tile_bg_holder4_glow.png",
+    "play_pic_combo_bravo": "assets/fidelity/combo-play_pic_combo_bravo.png",
+    "tile_bg_holder4_purple": "assets/fidelity/combo-tile_bg_holder4_purple.png",
+    "play_pic_combo_3": "assets/fidelity/combo-play_pic_combo_3.png",
+    "play_pic_combo_5": "assets/fidelity/combo-play_pic_combo_5.png",
+    "play_pic_combo_unbelievable": "assets/fidelity/combo-play_pic_combo_unbelievable.png",
+    "play_pic_combo_6": "assets/fidelity/combo-play_pic_combo_6.png",
+    "play_pic_combo_amazing1": "assets/fidelity/combo-play_pic_combo_amazing1.png",
+    "play_pic_encourage_perfect2": "assets/fidelity/combo-play_pic_encourage_perfect2.png",
+    "et_shattereffect_holder_002": "assets/fidelity/combo-et_shattereffect_holder_002.png",
+    "ui_tileholder_glow_001": "assets/fidelity/combo-ui_tileholder_glow_001.png",
+    "play_pic_combo_goodchoice": "assets/fidelity/combo-play_pic_combo_goodchoice.png",
+    "play_pic_combo_great1": "assets/fidelity/combo-play_pic_combo_great1.png",
+    "play_pic_combo_2": "assets/fidelity/combo-play_pic_combo_2.png",
+    "play_pic_combo_9": "assets/fidelity/combo-play_pic_combo_9.png",
+    "play_pic_combo_goodeye": "assets/fidelity/combo-play_pic_combo_goodeye.png",
+    "play_pic_combo_1": "assets/fidelity/combo-play_pic_combo_1.png",
+    "play_pic_combo_perfect2": "assets/fidelity/combo-play_pic_combo_perfect2.png",
+    "play_pic_combo_smartmove": "assets/fidelity/combo-play_pic_combo_smartmove.png",
+    "tile_bg_holder4_yellow": "assets/fidelity/combo-tile_bg_holder4_yellow.png",
+    "tile_bg_holder4_mask": "assets/fidelity/combo-tile_bg_holder4_mask.png",
+    "play_pic_combo_7": "assets/fidelity/combo-play_pic_combo_7.png",
+    "tile_bg_holder4_blue": "assets/fidelity/combo-tile_bg_holder4_blue.png",
+    "play_pic_combo_excellent": "assets/fidelity/combo-play_pic_combo_excellent.png",
+    "play_pic_combo_flower2": "assets/fidelity/combo-play_pic_combo_flower2.png",
+    "tile_bg_holder4_green": "assets/fidelity/combo-tile_bg_holder4_green.png",
+    "play_pic_combo_flower1": "assets/fidelity/combo-play_pic_combo_flower1.png",
+    "play_pic_combo_0": "assets/fidelity/combo-play_pic_combo_0.png",
+    "play_pic_combo_8": "assets/fidelity/combo-play_pic_combo_8.png",
+    "play_tile_encourage_perfect": "assets/fidelity/combo-play_tile_encourage_perfect.png",
+    "play_pic_special_encourage_question": "assets/fidelity/combo-runtime-play_pic_special_encourage_question.png",
+    "play_pic_special_encourage_02": "assets/fidelity/combo-runtime-play_pic_special_encourage_02.png",
+    "play_pic_special_encourage_03": "assets/fidelity/combo-runtime-play_pic_special_encourage_03.png",
+    "play_pic_special_encourage_04": "assets/fidelity/combo-runtime-play_pic_special_encourage_04.png",
+    "play_pic_special_encourage_07": "assets/fidelity/combo-runtime-play_pic_special_encourage_07.png",
+    "play_pic_special_encourage_01": "assets/fidelity/combo-runtime-play_pic_special_encourage_01.png",
+    "play_pic_special_encourage_06": "assets/fidelity/combo-runtime-play_pic_special_encourage_06.png",
+    "sactx-0-1024x1024-ASTC 6x6-SpecialEncourageV2-83a452a9": "assets/fidelity/combo-runtime-sactx-0-1024x1024-ASTC_6x6-SpecialEncourageV2-83a452a9.png",
+    "play_pic_special_encourage_05": "assets/fidelity/combo-runtime-play_pic_special_encourage_05.png",
+    "play_pic_special_encourage_08": "assets/fidelity/combo-runtime-play_pic_special_encourage_08.png",
+    "EncourageText1": "assets/fidelity/combo-runtime-EncourageText1.png",
+    "EncourageText2": "assets/fidelity/combo-runtime-EncourageText2.png",
+    "play_pic_combo_num_unbelievable6": "assets/fidelity/combo-runtime-play_pic_combo_num_unbelievable6.png",
+    "play_pic_combo_num_excellent8": "assets/fidelity/combo-runtime-play_pic_combo_num_excellent8.png",
+    "play_pic_combo_num_unbelievable7": "assets/fidelity/combo-runtime-play_pic_combo_num_unbelievable7.png",
+    "play_pic_combo_num_amazing5": "assets/fidelity/combo-runtime-play_pic_combo_num_amazing5.png",
+    "play_pic_combo_num_good0": "assets/fidelity/combo-runtime-play_pic_combo_num_good0.png",
+    "play_pic_combo_num_great8": "assets/fidelity/combo-runtime-play_pic_combo_num_great8.png",
+    "play_pic_combo_num_good6": "assets/fidelity/combo-runtime-play_pic_combo_num_good6.png",
+    "play_pic_combo_num_unbelievable0": "assets/fidelity/combo-runtime-play_pic_combo_num_unbelievable0.png",
+    "play_pic_combo_num_excellent5": "assets/fidelity/combo-runtime-play_pic_combo_num_excellent5.png",
+    "play_pic_combo_num_great6": "assets/fidelity/combo-runtime-play_pic_combo_num_great6.png",
+    "play_pic_combo_num_excellent2": "assets/fidelity/combo-runtime-play_pic_combo_num_excellent2.png",
+    "play_pic_combo_num_great7": "assets/fidelity/combo-runtime-play_pic_combo_num_great7.png",
+    "play_pic_combo_num_good5": "assets/fidelity/combo-runtime-play_pic_combo_num_good5.png",
+    "play_pic_combo_num_good4": "assets/fidelity/combo-runtime-play_pic_combo_num_good4.png",
+    "play_pic_combo_num_excellent9": "assets/fidelity/combo-runtime-play_pic_combo_num_excellent9.png",
+    "play_pic_combo_num_good": "assets/fidelity/combo-runtime-play_pic_combo_num_good.png",
+    "play_pic_combo_num_great3": "assets/fidelity/combo-runtime-play_pic_combo_num_great3.png",
+    "play_pic_combo_num_great0": "assets/fidelity/combo-runtime-play_pic_combo_num_great0.png",
+    "play_pic_combo_num_amazing0": "assets/fidelity/combo-runtime-play_pic_combo_num_amazing0.png",
+    "play_pic_combo_num_excellent4": "assets/fidelity/combo-runtime-play_pic_combo_num_excellent4.png",
+    "play_pic_combo_num_amazing": "assets/fidelity/combo-runtime-play_pic_combo_num_amazing.png",
+    "play_pic_combo_num_excellent6": "assets/fidelity/combo-runtime-play_pic_combo_num_excellent6.png",
+    "play_pic_combo_num_good7": "assets/fidelity/combo-runtime-play_pic_combo_num_good7.png",
+    "play_pic_combo_num_good3": "assets/fidelity/combo-runtime-play_pic_combo_num_good3.png",
+    "play_pic_combo_num_good9": "assets/fidelity/combo-runtime-play_pic_combo_num_good9.png",
+    "play_pic_combo_num_excellent7": "assets/fidelity/combo-runtime-play_pic_combo_num_excellent7.png",
+    "play_pic_combo_num_unbelievable1": "assets/fidelity/combo-runtime-play_pic_combo_num_unbelievable1.png",
+    "play_pic_combo_num_great9": "assets/fidelity/combo-runtime-play_pic_combo_num_great9.png",
+    "play_pic_combo_num_amazing9": "assets/fidelity/combo-runtime-play_pic_combo_num_amazing9.png",
+    "play_pic_combo_num_amazing2": "assets/fidelity/combo-runtime-play_pic_combo_num_amazing2.png",
+    "play_pic_combo_num_amazing3": "assets/fidelity/combo-runtime-play_pic_combo_num_amazing3.png",
+    "play_pic_combo_num_great1": "assets/fidelity/combo-runtime-play_pic_combo_num_great1.png",
+    "play_pic_combo_num_amazing6": "assets/fidelity/combo-runtime-play_pic_combo_num_amazing6.png",
+    "play_pic_combo_num_amazing4": "assets/fidelity/combo-runtime-play_pic_combo_num_amazing4.png",
+    "play_pic_combo_num_good2": "assets/fidelity/combo-runtime-play_pic_combo_num_good2.png",
+    "play_pic_combo_num_unbelievable8": "assets/fidelity/combo-runtime-play_pic_combo_num_unbelievable8.png",
+    "play_pic_combo_num_great5": "assets/fidelity/combo-runtime-play_pic_combo_num_great5.png",
+    "play_pic_combo_num_unbelievable5": "assets/fidelity/combo-runtime-play_pic_combo_num_unbelievable5.png",
+    "play_pic_combo_num_amazing7": "assets/fidelity/combo-runtime-play_pic_combo_num_amazing7.png",
+    "play_pic_combo_num_unbelievable": "assets/fidelity/combo-runtime-play_pic_combo_num_unbelievable.png",
+    "play_pic_combo_num_good1": "assets/fidelity/combo-runtime-play_pic_combo_num_good1.png",
+    "play_pic_combo_num_great4": "assets/fidelity/combo-runtime-play_pic_combo_num_great4.png",
+    "play_pic_combo_num_unbelievable4": "assets/fidelity/combo-runtime-play_pic_combo_num_unbelievable4.png",
+    "play_pic_combo_num_unbelievable3": "assets/fidelity/combo-runtime-play_pic_combo_num_unbelievable3.png",
+    "play_pic_combo_num_excellent": "assets/fidelity/combo-runtime-play_pic_combo_num_excellent.png",
+    "play_pic_combo_num_excellent1": "assets/fidelity/combo-runtime-play_pic_combo_num_excellent1.png",
+    "play_pic_combo_num_unbelievable2": "assets/fidelity/combo-runtime-play_pic_combo_num_unbelievable2.png",
+    "play_pic_combo_num_excellent3": "assets/fidelity/combo-runtime-play_pic_combo_num_excellent3.png",
+    "play_pic_combo_num_good8": "assets/fidelity/combo-runtime-play_pic_combo_num_good8.png",
+    "play_pic_combo_num_excellent0": "assets/fidelity/combo-runtime-play_pic_combo_num_excellent0.png",
+    "play_pic_combo_num_great2": "assets/fidelity/combo-runtime-play_pic_combo_num_great2.png",
+    "play_pic_combo_num_great": "assets/fidelity/combo-runtime-play_pic_combo_num_great.png",
+    "play_pic_combo_num_amazing8": "assets/fidelity/combo-runtime-play_pic_combo_num_amazing8.png",
+    "play_pic_combo_num_amazing1": "assets/fidelity/combo-runtime-play_pic_combo_num_amazing1.png",
+    "play_pic_combo_num_unbelievable9": "assets/fidelity/combo-runtime-play_pic_combo_num_unbelievable9.png",
+    "sactx-0-2048x1024-ASTC 6x6-ComboNum-bdb93485": "assets/fidelity/combo-runtime-sactx-0-2048x1024-ASTC_6x6-ComboNum-bdb93485.png",
+    "PerfectTipsEmoji_Test_1_SkeletonData": "assets/fidelity/combo-runtime-PerfectTipsEmoji_Test_1_SkeletonData.png",
+    "sactx-0-1024x1024-ASTC 6x6-SpecialEncourage-ba8b64b7": "assets/fidelity/combo-runtime-sactx-0-1024x1024-ASTC_6x6-SpecialEncourage-ba8b64b7.png",
+    "mahjong_match_combo_v2_scale6": "assets/fidelity/combo-runtime-mahjong_match_combo_v2_scale6.wav",
+    "mahjong_match_combo_v2_scale1": "assets/fidelity/combo-runtime-mahjong_match_combo_v2_scale1.wav",
+    "mahjong_match_combo_v1_scale3": "assets/fidelity/combo-runtime-mahjong_match_combo_v1_scale3.wav",
+    "mahjong_match_combo_v1_scale7": "assets/fidelity/combo-runtime-mahjong_match_combo_v1_scale7.wav",
+    "mahjong_match_combo_v2_scale4": "assets/fidelity/combo-runtime-mahjong_match_combo_v2_scale4.wav",
+    "mahjong_match_combo_v1_scale2": "assets/fidelity/combo-runtime-mahjong_match_combo_v1_scale2.wav",
+    "mahjong_match_combo_v1_scale6": "assets/fidelity/combo-runtime-mahjong_match_combo_v1_scale6.wav",
+    "mahjong_match_combo_v2_scale3": "assets/fidelity/combo-runtime-mahjong_match_combo_v2_scale3.wav",
+    "mahjong_match_combo_v2_scale7": "assets/fidelity/combo-runtime-mahjong_match_combo_v2_scale7.wav",
+    "mahjong_match_combo_v2_scale5": "assets/fidelity/combo-runtime-mahjong_match_combo_v2_scale5.wav",
+    "mahjong_match_combo_v1_scale1": "assets/fidelity/combo-runtime-mahjong_match_combo_v1_scale1.wav",
+    "mahjong_match_combo_v2_scale2": "assets/fidelity/combo-runtime-mahjong_match_combo_v2_scale2.wav",
+    "mahjong_match_combo_v1_scale5": "assets/fidelity/combo-runtime-mahjong_match_combo_v1_scale5.wav",
+    "mahjong_match_combo_v1_scale4": "assets/fidelity/combo-runtime-mahjong_match_combo_v1_scale4.wav",
+    "PerfectTipsEmoji_2": "assets/fidelity/combo-runtime-PerfectTipsEmoji_2.png",
+    "PerfectTipsEmoji_3": "assets/fidelity/combo-runtime-PerfectTipsEmoji_3.png",
+    "PerfectTipsEmoji_1": "assets/fidelity/combo-runtime-PerfectTipsEmoji_1.png",
+    "stage": "assets/fidelity/combo-runtime-stage.png",
+    "PerfectTipsEmoji_5": "assets/fidelity/combo-runtime-PerfectTipsEmoji_5.png",
+    "PerfectTipsEmoji_4": "assets/fidelity/combo-runtime-PerfectTipsEmoji_4.png",
+    "combo_legendary_new": "assets/fidelity/combo-runtime-combo_legendary_new.png",
+    "combo_excellent_new": "assets/fidelity/combo-runtime-combo_excellent_new.png",
+    "sactx-0-1024x512-ASTC 6x6-GoodArt-4f8e475e": "assets/fidelity/combo-runtime-sactx-0-1024x512-ASTC_6x6-GoodArt-4f8e475e.png",
+    "combo_amazing_new": "assets/fidelity/combo-runtime-combo_amazing_new.png",
+    "combo_great_new": "assets/fidelity/combo-runtime-combo_great_new.png",
+    "combo_good_new": "assets/fidelity/combo-runtime-combo_good_new.png",
+    "combo_unbelievable_new": "assets/fidelity/combo-runtime-combo_unbelievable_new.png"
+  },
+  "rewardFx": {
+    "Reward": "assets/reward-fx/Reward.png",
+    "GoldCoin": "assets/reward-fx/GoldCoin.png",
+    "cardface_number_7": "assets/reward-fx/cardface_number_7.png",
+    "shop_bg_prop_number": "assets/reward-fx/shop_bg_prop_number.png",
+    "common_icon_0006": "assets/reward-fx/common_icon_0006.png",
+    "FirecrackerMahjong": "assets/reward-fx/FirecrackerMahjong.png",
+    "BombBg": "assets/reward-fx/BombBg.png",
+    "maincollect_pic_redpoint": "assets/reward-fx/maincollect_pic_redpoint.png",
+    "Bomb": "assets/reward-fx/Bomb.png",
+    "cardface_number_1": "assets/reward-fx/cardface_number_1.png",
+    "play_btn_pic_0004": "assets/reward-fx/play_btn_pic_0004.png",
+    "et_reward_light_01": "assets/reward-fx/et_reward_light_01.png",
+    "country_none_icon": "assets/reward-fx/country_none_icon.png",
+    "cardface_number_8": "assets/reward-fx/cardface_number_8.png",
+    "cardface_number_6": "assets/reward-fx/cardface_number_6.png",
+    "user_country_0004": "assets/reward-fx/user_country_0004.png",
+    "cardface_double_row_firecracker": "assets/reward-fx/cardface_double_row_firecracker.png",
+    "user_country_0001": "assets/reward-fx/user_country_0001.png",
+    "pinata_number": "assets/reward-fx/pinata_number.png",
+    "play_btn_pic_0001": "assets/reward-fx/play_btn_pic_0001.png",
+    "common_icon_0004": "assets/reward-fx/common_icon_0004.png",
+    "cardface_number_5": "assets/reward-fx/cardface_number_5.png",
+    "common_icon_0007": "assets/reward-fx/common_icon_0007.png",
+    "common_icon_0002": "assets/reward-fx/common_icon_0002.png",
+    "user_country_0003": "assets/reward-fx/user_country_0003.png",
+    "dailygame_icon_rewardbg": "assets/reward-fx/dailygame_icon_rewardbg.png",
+    "cardface_number_2": "assets/reward-fx/cardface_number_2.png",
+    "common_icon_0003": "assets/reward-fx/common_icon_0003.png",
+    "cardface_number_9": "assets/reward-fx/cardface_number_9.png",
+    "common_icon_0005": "assets/reward-fx/common_icon_0005.png",
+    "cardface_number_3": "assets/reward-fx/cardface_number_3.png",
+    "cardface_number_4": "assets/reward-fx/cardface_number_4.png",
+    "user_country_0002": "assets/reward-fx/user_country_0002.png",
+    "common_bg_reward": "assets/reward-fx/common_bg_reward.png",
+    "common_icon_0008": "assets/reward-fx/common_icon_0008.png",
+    "result_bg_reward_btn": "assets/reward-fx/result_bg_reward_btn.png",
+    "country_pic_FI": "assets/reward-fx/country_pic_FI.png",
+    "play_btn_pic_0002": "assets/reward-fx/play_btn_pic_0002.png",
+    "et_common_icon_0008": "assets/reward-fx/et_common_icon_0008.png",
+    "play_pic_slot_0001": "assets/reward-fx/play_pic_slot_0001.png",
+    "play_btn_pic_0003": "assets/reward-fx/play_btn_pic_0003.png",
+    "et_glow_001": "assets/reward-fx/et_glow_001.png",
+    "play_btn_pic_0010": "assets/reward-fx/play_btn_pic_0010.png",
+    "eff_glow_005": "assets/reward-fx/eff_glow_005.png",
+    "play_btn_0001": "assets/reward-fx/play_btn_0001.png",
+    "et_star_020_1": "assets/reward-fx/et_star_020_1.png",
+    "et_videocall_icon_green": "assets/reward-fx/et_videocall_icon_green.png",
+    "sactx-0-512x1024-ASTC 6x6-BackReward-5e82f10d": "assets/reward-fx/sactx-0-512x1024-ASTC_6x6-BackReward-5e82f10d.png",
+    "videocall_mahjongboy": "assets/reward-fx/videocall_mahjongboy.png",
+    "et_videocall_button_glow": "assets/reward-fx/et_videocall_button_glow.png",
+    "et_videocall_button_red": "assets/reward-fx/et_videocall_button_red.png",
+    "et_videocall_button_green": "assets/reward-fx/et_videocall_button_green.png",
+    "et_videocall_icon_red": "assets/reward-fx/et_videocall_icon_red.png",
+    "videocall_gift_box_fast": "assets/reward-fx/videocall_gift_box_fast.png",
+    "et_videocall_bubble": "assets/reward-fx/et_videocall_bubble.png",
+    "videocall_avatar": "assets/reward-fx/videocall_avatar.png",
+    "et_videocall_bg": "assets/reward-fx/et_videocall_bg.png",
+    "sactx-0-512x1024-ASTC 6x6-BackRewardBg-aa1bbe4a": "assets/reward-fx/sactx-0-512x1024-ASTC_6x6-BackRewardBg-aa1bbe4a.png",
+    "sactx-0-512x512-ASTC 6x6-SuperPropAtlas-574b90b0": "assets/reward-fx/sactx-0-512x512-ASTC_6x6-SuperPropAtlas-574b90b0.png",
+    "em_bombpopup_particle": "assets/reward-fx/em_bombpopup_particle.png",
+    "et_star_002": "assets/reward-fx/et_star_002.png",
+    "et_shine_002": "assets/reward-fx/et_shine_002.png",
+    "et_ring_001": "assets/reward-fx/et_ring_001.png",
+    "et_trail_032": "assets/reward-fx/et_trail_032.png",
+    "et_rainbow_700": "assets/reward-fx/et_rainbow_700.png",
+    "et_star_702": "assets/reward-fx/et_star_702.png",
+    "et_glow_000": "assets/reward-fx/et_glow_000.png",
+    "et_glow_700": "assets/reward-fx/et_glow_700.png",
+    "super_prop_dialog_bg": "assets/reward-fx/super_prop_dialog_bg.png",
+    "et_glow_710": "assets/reward-fx/et_glow_710.png",
+    "et_glow_003": "assets/reward-fx/et_glow_003.png",
+    "bomb_icon_red": "assets/reward-fx/bomb_icon_red.png",
+    "bomb_bg_red": "assets/reward-fx/bomb_bg_red.png",
+    "tile_play_popup_bg": "assets/reward-fx/tile_play_popup_bg.png",
+    "bomb_state_red": "assets/reward-fx/bomb_state_red.png",
+    "tile_play_popup_inside": "assets/reward-fx/tile_play_popup_inside.png",
+    "bomb_icon_normal": "assets/reward-fx/bomb_icon_normal.png",
+    "bomb_state_normal": "assets/reward-fx/bomb_state_normal.png",
+    "bomb_schedule_normal_5": "assets/reward-fx/bomb_schedule_normal_5.png",
+    "bomb_schedule_red_5": "assets/reward-fx/bomb_schedule_red_5.png",
+    "bomb_bg_normal": "assets/reward-fx/bomb_bg_normal.png",
+    "tile_play_popup_outside": "assets/reward-fx/tile_play_popup_outside.png",
+    "et_shine_101": "assets/reward-fx/et_shine_101.png",
+    "sactx-0-2048x1024-ASTC 6x6-MultiReward-3296adf9": "assets/reward-fx/sactx-0-2048x1024-ASTC_6x6-MultiReward-3296adf9.png",
+    "common_icon_0010": "assets/reward-fx/common_icon_0010.png",
+    "et_common_icon_glow": "assets/reward-fx/et_common_icon_glow.png",
+    "common_icon_0009": "assets/reward-fx/common_icon_0009.png",
+    "et_ring_002": "assets/reward-fx/et_ring_002.png",
+    "guangquan": "assets/reward-fx/guangquan.png",
+    "et_star_003": "assets/reward-fx/et_star_003.png",
+    "et_glow_006": "assets/reward-fx/et_glow_006.png",
+    "splashskin_et_point_001": "assets/reward-fx/splashskin_et_point_001.png",
+    "et_mahjongfragments_soil": "assets/reward-fx/et_mahjongfragments_soil.png",
+    "et_mahjongfragments_wood_500": "assets/reward-fx/et_mahjongfragments_wood_500.png",
+    "et_mahjongfragments_wood": "assets/reward-fx/et_mahjongfragments_wood.png",
+    "et_mahjongfragments_012": "assets/reward-fx/et_mahjongfragments_012.png",
+    "et_mahjongfragments_candy_big": "assets/reward-fx/et_mahjongfragments_candy_big.png",
+    "et_mahjongfragments_wood_700": "assets/reward-fx/et_mahjongfragments_wood_700.png",
+    "et_mahjongfragments_gold": "assets/reward-fx/et_mahjongfragments_gold.png",
+    "et_mahjongfragments_stone": "assets/reward-fx/et_mahjongfragments_stone.png",
+    "et_mahjongfragments_Plush01": "assets/reward-fx/et_mahjongfragments_Plush01.png",
+    "et_mahjongfragments_003": "assets/reward-fx/et_mahjongfragments_003.png",
+    "ui_fragment": "assets/reward-fx/ui_fragment.png",
+    "et_fire_002": "assets/reward-fx/et_fire_002.png",
+    "et_mahjongfragments_001": "assets/reward-fx/et_mahjongfragments_001.png",
+    "et_mahjongfragments_005": "assets/reward-fx/et_mahjongfragments_005.png",
+    "et_mahjongfragments_amber": "assets/reward-fx/et_mahjongfragments_amber.png",
+    "et_mahjongfragments_010": "assets/reward-fx/et_mahjongfragments_010.png",
+    "ui_fragment_fragment4": "assets/reward-fx/ui_fragment_fragment4.png",
+    "et_mahjongfragments_metal": "assets/reward-fx/et_mahjongfragments_metal.png",
+    "et_mahjongfragments_cotton": "assets/reward-fx/et_mahjongfragments_cotton.png",
+    "et_firecracker": "assets/reward-fx/et_firecracker.png",
+    "et_mahjongfragments_011": "assets/reward-fx/et_mahjongfragments_011.png",
+    "et_mahjongfragments_water": "assets/reward-fx/et_mahjongfragments_water.png",
+    "et_mahjongfragments_candy_small": "assets/reward-fx/et_mahjongfragments_candy_small.png",
+    "et_mahjongfragments_jelly": "assets/reward-fx/et_mahjongfragments_jelly.png",
+    "et_mahjongfragments_004": "assets/reward-fx/et_mahjongfragments_004.png",
+    "giftBodyCorrected": "assets/reward-fx/giftBodyCorrected.png",
+    "giftLidCorrected": "assets/reward-fx/giftLidCorrected.png",
+    "giftGlow": "assets/reward-fx/giftGlow.png",
+    "giftTagCorrected": "assets/reward-fx/giftTagCorrected.png",
+    "giftSmoke": "assets/reward-fx/giftSmoke.png",
+    "giftRay": "assets/reward-fx/giftRay.png",
+    "giftSpark": "assets/reward-fx/giftSpark.png"
+  }
+}

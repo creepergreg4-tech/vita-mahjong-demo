@@ -1,0 +1,767 @@
+{
+  "faceAtlas": 175843,
+  "assets": [
+    {
+      "key": "faces.bamboo1",
+      "name": "cardface_pic_bamboos_1",
+      "source": "resources.assets",
+      "path_id": 13757,
+      "width": 191,
+      "height": 174
+    },
+    {
+      "key": "faces.bamboo2",
+      "name": "cardface_pic_bamboos_2",
+      "source": "resources.assets",
+      "path_id": 11837,
+      "width": 41,
+      "height": 208
+    },
+    {
+      "key": "faces.bamboo3",
+      "name": "cardface_pic_bamboos_3",
+      "source": "resources.assets",
+      "path_id": 12527,
+      "width": 141,
+      "height": 204
+    },
+    {
+      "key": "faces.bamboo4",
+      "name": "cardface_pic_bamboos_4",
+      "source": "resources.assets",
+      "path_id": 12516,
+      "width": 127,
+      "height": 206
+    },
+    {
+      "key": "faces.bamboo5",
+      "name": "cardface_pic_bamboos_5",
+      "source": "resources.assets",
+      "path_id": 11447,
+      "width": 141,
+      "height": 206
+    },
+    {
+      "key": "faces.bamboo6",
+      "name": "cardface_pic_bamboos_6",
+      "source": "resources.assets",
+      "path_id": 11499,
+      "width": 149,
+      "height": 208
+    },
+    {
+      "key": "faces.bamboo7",
+      "name": "cardface_pic_bamboos_7",
+      "source": "resources.assets",
+      "path_id": 12565,
+      "width": 141,
+      "height": 226
+    },
+    {
+      "key": "faces.bamboo8",
+      "name": "cardface_pic_bamboos_8",
+      "source": "resources.assets",
+      "path_id": 13246,
+      "width": 153,
+      "height": 222
+    },
+    {
+      "key": "faces.bamboo9",
+      "name": "cardface_pic_bamboos_9",
+      "source": "resources.assets",
+      "path_id": 12736,
+      "width": 149,
+      "height": 226
+    },
+    {
+      "key": "faces.dot1",
+      "name": "cardface_pic_dots_1",
+      "source": "resources.assets",
+      "path_id": 12064,
+      "width": 175,
+      "height": 181
+    },
+    {
+      "key": "faces.dot2",
+      "name": "cardface_pic_dots_2",
+      "source": "resources.assets",
+      "path_id": 13304,
+      "width": 92,
+      "height": 214
+    },
+    {
+      "key": "faces.dot3",
+      "name": "cardface_pic_dots_3",
+      "source": "resources.assets",
+      "path_id": 11551,
+      "width": 192,
+      "height": 225
+    },
+    {
+      "key": "faces.dot4",
+      "name": "cardface_pic_dots_4",
+      "source": "resources.assets",
+      "path_id": 12696,
+      "width": 169,
+      "height": 209
+    },
+    {
+      "key": "faces.dot5",
+      "name": "cardface_pic_dots_5",
+      "source": "resources.assets",
+      "path_id": 12497,
+      "width": 170,
+      "height": 214
+    },
+    {
+      "key": "faces.dot6",
+      "name": "cardface_pic_dots_6",
+      "source": "resources.assets",
+      "path_id": 13056,
+      "width": 138,
+      "height": 245
+    },
+    {
+      "key": "faces.dot7",
+      "name": "cardface_pic_dots_7",
+      "source": "resources.assets",
+      "path_id": 13105,
+      "width": 180,
+      "height": 253
+    },
+    {
+      "key": "faces.dot8",
+      "name": "cardface_pic_dots_8",
+      "source": "resources.assets",
+      "path_id": 12799,
+      "width": 130,
+      "height": 244
+    },
+    {
+      "key": "faces.dot9",
+      "name": "cardface_pic_dots_9",
+      "source": "resources.assets",
+      "path_id": 12482,
+      "width": 179,
+      "height": 210
+    },
+    {
+      "key": "faces.character1",
+      "name": "cardface_pic_characters_1",
+      "source": "resources.assets",
+      "path_id": 12360,
+      "width": 167,
+      "height": 42
+    },
+    {
+      "key": "faces.character2",
+      "name": "cardface_pic_characters_2",
+      "source": "resources.assets",
+      "path_id": 13940,
+      "width": 169,
+      "height": 136
+    },
+    {
+      "key": "faces.character3",
+      "name": "cardface_pic_characters_3",
+      "source": "resources.assets",
+      "path_id": 11981,
+      "width": 185,
+      "height": 156
+    },
+    {
+      "key": "faces.character4",
+      "name": "cardface_pic_characters_4",
+      "source": "resources.assets",
+      "path_id": 13657,
+      "width": 157,
+      "height": 146
+    },
+    {
+      "key": "faces.character5",
+      "name": "cardface_pic_characters_5",
+      "source": "resources.assets",
+      "path_id": 12609,
+      "width": 183,
+      "height": 192
+    },
+    {
+      "key": "faces.character6",
+      "name": "cardface_pic_characters_6",
+      "source": "resources.assets",
+      "path_id": 14055,
+      "width": 157,
+      "height": 168
+    },
+    {
+      "key": "faces.character7",
+      "name": "cardface_pic_characters_7",
+      "source": "resources.assets",
+      "path_id": 13222,
+      "width": 161,
+      "height": 168
+    },
+    {
+      "key": "faces.character8",
+      "name": "cardface_pic_characters_8",
+      "source": "resources.assets",
+      "path_id": 13308,
+      "width": 175,
+      "height": 164
+    },
+    {
+      "key": "faces.character9",
+      "name": "cardface_pic_characters_9",
+      "source": "resources.assets",
+      "path_id": 12789,
+      "width": 175,
+      "height": 178
+    },
+    {
+      "key": "faces.east",
+      "name": "cardface_pic_east",
+      "source": "resources.assets",
+      "path_id": 13216,
+      "width": 177,
+      "height": 218
+    },
+    {
+      "key": "faces.south",
+      "name": "cardface_pic_south",
+      "source": "resources.assets",
+      "path_id": 12270,
+      "width": 191,
+      "height": 222
+    },
+    {
+      "key": "faces.west",
+      "name": "cardface_pic_west",
+      "source": "resources.assets",
+      "path_id": 11916,
+      "width": 189,
+      "height": 196
+    },
+    {
+      "key": "faces.north",
+      "name": "cardface_pic_north",
+      "source": "resources.assets",
+      "path_id": 11513,
+      "width": 185,
+      "height": 202
+    },
+    {
+      "key": "faces.red",
+      "name": "cardface_pic_reddragon",
+      "source": "resources.assets",
+      "path_id": 11768,
+      "width": 161,
+      "height": 226
+    },
+    {
+      "key": "faces.green",
+      "name": "cardface_pic_greendragon",
+      "source": "resources.assets",
+      "path_id": 11590,
+      "width": 187,
+      "height": 202
+    },
+    {
+      "key": "faces.white",
+      "name": "cardface_pic_whitedragon",
+      "source": "resources.assets",
+      "path_id": 11783,
+      "width": 183,
+      "height": 250
+    },
+    {
+      "key": "ui.tile",
+      "name": "cardface_pic_tile_amber_v2",
+      "source": "resources.assets",
+      "path_id": 12395,
+      "width": 271,
+      "height": 333
+    },
+    {
+      "key": "ui.tileBack",
+      "name": "cardface_pic_back_amber",
+      "source": "resources.assets",
+      "path_id": 12837,
+      "width": 271,
+      "height": 333
+    },
+    {
+      "key": "ui.background",
+      "name": "style_pic_bg_0001",
+      "source": "resources.assets",
+      "path_id": 12980,
+      "width": 255,
+      "height": 332
+    },
+    {
+      "key": "ui.button",
+      "name": "play_btn_0001",
+      "source": "resources.assets",
+      "path_id": 11802,
+      "width": 204,
+      "height": 209
+    },
+    {
+      "key": "ui.menu",
+      "name": "play_btn_0003",
+      "source": "resources.assets",
+      "path_id": 11453,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "key": "ui.undo",
+      "name": "play_btn_pic_0001",
+      "source": "resources.assets",
+      "path_id": 12715,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "key": "ui.shuffle",
+      "name": "play_btn_pic_0002",
+      "source": "resources.assets",
+      "path_id": 13793,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "key": "ui.hint",
+      "name": "play_btn_pic_0003",
+      "source": "resources.assets",
+      "path_id": 13143,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "key": "ui.magnet",
+      "name": "play_btn_pic_0010",
+      "source": "resources.assets",
+      "path_id": 12032,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "key": "ui.lock",
+      "name": "play_btn_0007",
+      "source": "resources.assets",
+      "path_id": 12871,
+      "width": 90,
+      "height": 67
+    },
+    {
+      "key": "ui.lockTop",
+      "name": "play_btn_lock_top",
+      "source": "resources.assets",
+      "path_id": 12264,
+      "width": 46,
+      "height": 34
+    },
+    {
+      "key": "ui.lockBottom",
+      "name": "play_btn_lock_bottom",
+      "source": "resources.assets",
+      "path_id": 13771,
+      "width": 60,
+      "height": 44
+    },
+    {
+      "key": "ui.lockBackground",
+      "name": "play_btn_lock_bg",
+      "source": "resources.assets",
+      "path_id": 11668,
+      "width": 90,
+      "height": 67
+    },
+    {
+      "key": "ui.back",
+      "name": "play_btn_pic_0001",
+      "source": "resources.assets",
+      "path_id": 12715,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "key": "ui.move",
+      "name": "play_btn_pic_0009",
+      "source": "resources.assets",
+      "path_id": 12320,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "key": "ui.bomb",
+      "name": "Bomb",
+      "source": "resources.assets",
+      "path_id": 12009,
+      "width": 79,
+      "height": 82
+    },
+    {
+      "key": "ui.startButton",
+      "name": "home_btn_normal",
+      "source": "resources.assets",
+      "path_id": 12738,
+      "width": 211,
+      "height": 212
+    },
+    {
+      "key": "ui.homeLogo",
+      "name": "vita_logo",
+      "source": "resources.assets",
+      "path_id": 11674,
+      "width": 612,
+      "height": 279
+    },
+    {
+      "key": "ui.homeBottom",
+      "name": "home_bg_down",
+      "source": "resources.assets",
+      "path_id": 12967,
+      "width": 1080,
+      "height": 420
+    },
+    {
+      "key": "ui.gift",
+      "name": "dailygame_icon_gift_on",
+      "source": "resources.assets",
+      "path_id": 12004,
+      "width": 113,
+      "height": 124
+    },
+    {
+      "key": "ui.tray",
+      "name": "tile_bg_holder4",
+      "source": "resources.assets",
+      "path_id": 13916,
+      "width": 527,
+      "height": 183
+    },
+    {
+      "key": "ui.hintGlow",
+      "name": "cardface_pic_light",
+      "source": "resources.assets",
+      "path_id": 11689,
+      "width": 436,
+      "height": 498
+    },
+    {
+      "key": "ui.tileShadow",
+      "name": "cardface_pic_shadow",
+      "source": "resources.assets",
+      "path_id": 12213,
+      "width": 415,
+      "height": 480
+    },
+    {
+      "key": "ui.pause",
+      "name": "play_btn_0003",
+      "source": "resources.assets",
+      "path_id": 11453,
+      "width": 100,
+      "height": 100
+    },
+    {
+      "key": "ui.plus",
+      "name": "play_btn_pic_0004",
+      "source": "resources.assets",
+      "path_id": 12225,
+      "width": 38,
+      "height": 38
+    },
+    {
+      "key": "ui.restart",
+      "name": "play_btn_pic_0006",
+      "source": "resources.assets",
+      "path_id": 12525,
+      "width": 120,
+      "height": 120
+    },
+    {
+      "key": "ui.firecrackerFrame",
+      "name": "cardface_double_row_firecracker",
+      "source": "resources.assets",
+      "path_id": 12541,
+      "width": 247,
+      "height": 304
+    },
+    {
+      "key": "ui.greenButton",
+      "name": "play_btn_0014",
+      "source": "resources.assets",
+      "path_id": 11727,
+      "width": 90,
+      "height": 64
+    },
+    {
+      "key": "effects.firecracker",
+      "name": "et_firecracker",
+      "source": "resources.assets",
+      "path_id": 1352,
+      "width": 256,
+      "height": 256
+    },
+    {
+      "key": "effects.firecrackerAtlas",
+      "name": "FirecrackerBomb",
+      "source": "resources.assets",
+      "path_id": 1262,
+      "width": 1376,
+      "height": 516
+    },
+    {
+      "key": "effects.giftAtlas",
+      "name": "GameGiftBox",
+      "source": "resources.assets",
+      "path_id": 999,
+      "width": 2048,
+      "height": 1024
+    },
+    {
+      "key": "effects.homeAtlas",
+      "name": "HomeUI",
+      "source": "resources.assets",
+      "path_id": 1124,
+      "width": 1167,
+      "height": 1407
+    },
+    {
+      "key": "ui.homeDoors",
+      "name": "HomeUI",
+      "source": "resources.assets",
+      "path_id": 1124,
+      "width": 1163,
+      "height": 1403,
+      "atlasRegion": "HomeUI/men_1",
+      "bounds": [
+        2,
+        2,
+        1163,
+        1403
+      ]
+    },
+    {
+      "key": "ui.homeDoorsRight",
+      "name": "HomeUI_2",
+      "source": "resources.assets",
+      "path_id": 1025,
+      "width": 1157,
+      "height": 1403,
+      "atlasRegion": "HomeUI/men_2",
+      "bounds": [
+        2,
+        561,
+        1157,
+        1403
+      ]
+    },
+    {
+      "key": "ui.resultLotus",
+      "name": "victory_settlement",
+      "source": "resources.assets",
+      "path_id": 1194,
+      "width": 126,
+      "height": 189,
+      "atlasRegion": "victory_settlement/L3",
+      "bounds": [
+        340,
+        161,
+        126,
+        189
+      ]
+    },
+    {
+      "key": "ui.resultOrnament",
+      "name": "victory_settlement",
+      "source": "resources.assets",
+      "path_id": 1194,
+      "width": 316,
+      "height": 94,
+      "atlasRegion": "victory_settlement/L6",
+      "bounds": [
+        475,
+        384,
+        316,
+        94
+      ]
+    },
+    {
+      "key": "effects.giftBody",
+      "name": "GameGiftBox",
+      "source": "resources.assets",
+      "path_id": 999,
+      "width": 555,
+      "height": 369,
+      "atlasRegion": "Box/box_1",
+      "bounds": [
+        2,
+        473,
+        555,
+        369
+      ],
+      "rotated90": true
+    },
+    {
+      "key": "effects.giftLid",
+      "name": "GameGiftBox",
+      "source": "resources.assets",
+      "path_id": 999,
+      "width": 549,
+      "height": 288,
+      "atlasRegion": "Box/box_2",
+      "bounds": [
+        2,
+        183,
+        549,
+        288
+      ],
+      "rotated90": false
+    },
+    {
+      "key": "effects.giftTag",
+      "name": "GameGiftBox",
+      "source": "resources.assets",
+      "path_id": 999,
+      "width": 140,
+      "height": 103,
+      "atlasRegion": "Box/box_3",
+      "bounds": [
+        445,
+        2,
+        140,
+        103
+      ],
+      "rotated90": true
+    },
+    {
+      "key": "effects.giftGlow",
+      "name": "GameGiftBox",
+      "source": "resources.assets",
+      "path_id": 999,
+      "width": 350,
+      "height": 350,
+      "atlasRegion": "Fx/glow",
+      "bounds": [
+        917,
+        296,
+        350,
+        350
+      ],
+      "rotated90": false
+    },
+    {
+      "key": "effects.giftSpark",
+      "name": "GameGiftBox",
+      "source": "resources.assets",
+      "path_id": 999,
+      "width": 108,
+      "height": 107,
+      "atlasRegion": "Box/snow",
+      "bounds": [
+        782,
+        35,
+        108,
+        107
+      ],
+      "rotated90": false
+    },
+    {
+      "key": "effects.giftSmoke",
+      "name": "GameGiftBox",
+      "source": "resources.assets",
+      "path_id": 999,
+      "width": 232,
+      "height": 232,
+      "atlasRegion": "Glow/yanwu",
+      "bounds": [
+        1527,
+        266,
+        232,
+        232
+      ],
+      "rotated90": false
+    },
+    {
+      "key": "audio.click",
+      "name": "tile_click_sd",
+      "source": "resources.assets",
+      "path_id": 11276,
+      "bytes": 25956
+    },
+    {
+      "key": "audio.button",
+      "name": "btn_click_sd",
+      "source": "resources.assets",
+      "path_id": 11364,
+      "bytes": 2160
+    },
+    {
+      "key": "audio.match",
+      "name": "mahjong_match_sd",
+      "source": "resources.assets",
+      "path_id": 11324,
+      "bytes": 30278
+    },
+    {
+      "key": "audio.undo",
+      "name": "undo_use_sd",
+      "source": "resources.assets",
+      "path_id": 11310,
+      "bytes": 30414
+    },
+    {
+      "key": "audio.shuffle",
+      "name": "shuffle_use_sd",
+      "source": "resources.assets",
+      "path_id": 11313,
+      "bytes": 107644
+    },
+    {
+      "key": "audio.hint",
+      "name": "hint_use_sd",
+      "source": "resources.assets",
+      "path_id": 11370,
+      "bytes": 163270
+    },
+    {
+      "key": "audio.explosion",
+      "name": "firecracker_bomb",
+      "source": "resources.assets",
+      "path_id": 11327,
+      "bytes": 136524
+    },
+    {
+      "key": "audio.win",
+      "name": "success_sd",
+      "source": "resources.assets",
+      "path_id": 11357,
+      "bytes": 467504
+    },
+    {
+      "key": "audio.gift",
+      "name": "chest_open",
+      "source": "resources.assets",
+      "path_id": 11378,
+      "bytes": 698340
+    },
+    {
+      "key": "audio.firecrackerFly",
+      "name": "firecracker_fly",
+      "source": "resources.assets",
+      "path_id": 11358,
+      "bytes": 120328
+    },
+    {
+      "key": "audio.noMatch",
+      "name": "no_match_sd",
+      "source": "resources.assets",
+      "path_id": 11282,
+      "bytes": 242460
+    }
+  ],
+  "errors": []
+}

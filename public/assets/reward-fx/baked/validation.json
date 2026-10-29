@@ -1,0 +1,77 @@
+{
+  "runtime": "Spine 4.1 WebGL",
+  "transparentCanvas": true,
+  "maxSheetDimension": 2048,
+  "checks": [
+    {
+      "key": "giftOpen",
+      "frameCount": 52,
+      "distinctFrames": 52,
+      "visibleFrames": 52,
+      "alphaPixelRange": [
+        414,
+        15068
+      ]
+    },
+    {
+      "key": "giftGlow",
+      "frameCount": 42,
+      "distinctFrames": 34,
+      "visibleFrames": 32,
+      "alphaPixelRange": [
+        0,
+        44875
+      ]
+    },
+    {
+      "key": "bomb",
+      "frameCount": 20,
+      "distinctFrames": 19,
+      "visibleFrames": 18,
+      "alphaPixelRange": [
+        0,
+        94352
+      ]
+    },
+    {
+      "key": "slotSpitting",
+      "frameCount": 20,
+      "distinctFrames": 20,
+      "visibleFrames": 20,
+      "alphaPixelRange": [
+        19291,
+        39204
+      ]
+    },
+    {
+      "key": "slotCollect",
+      "frameCount": 7,
+      "distinctFrames": 7,
+      "visibleFrames": 7,
+      "alphaPixelRange": [
+        20414,
+        23463
+      ]
+    },
+    {
+      "key": "slotDisappear",
+      "frameCount": 7,
+      "distinctFrames": 7,
+      "visibleFrames": 7,
+      "alphaPixelRange": [
+        7012,
+        20414
+      ]
+    },
+    {
+      "key": "slotIdle",
+      "frameCount": 1,
+      "distinctFrames": 1,
+      "visibleFrames": 1,
+      "alphaPixelRange": [
+        20414,
+        20414
+      ]
+    }
+  ]
+}

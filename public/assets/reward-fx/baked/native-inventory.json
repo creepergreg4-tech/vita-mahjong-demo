@@ -1,0 +1,3319 @@
+[
+  {
+    "name": "FirecrackerBomb",
+    "version": "4.1.08",
+    "x": -286.0980224609375,
+    "y": -285.86767578125,
+    "width": 570.4400634765625,
+    "height": 571.8140258789062,
+    "skins": [
+      "default"
+    ],
+    "animations": [
+      {
+        "name": "Bomb",
+        "duration": 0.8333333730697632
+      }
+    ],
+    "bones": [
+      {
+        "name": "root",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Mian",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "guang1",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "G1",
+        "x": 0.7326927185058594,
+        "y": 0.04974365234375,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "zhadanguangyun",
+        "x": 0.7326927185058594,
+        "y": 0.04974365234375,
+        "scaleX": 0.4680302143096924,
+        "scaleY": 0.4680302143096924
+      },
+      {
+        "name": "guang2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "lightbeam1",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam2",
+        "x": -0.0000037667832657461986,
+        "y": 0.0000031607064556737896,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam3",
+        "x": 3.4348652108428696e-30,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam4",
+        "x": 0.0000012347165920800762,
+        "y": 0.00000128707688418217,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam5",
+        "x": 1.3739460843371478e-29,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam6",
+        "x": -0.000006365266472130315,
+        "y": 0.000006387770554283634,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam7",
+        "x": 3.4348652108428696e-30,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam8",
+        "x": 0.0000036129138152318774,
+        "y": 0.0000037191937281022547,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam9",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam10",
+        "x": -0.0000037667832657461986,
+        "y": 0.0000031607064556737896,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam11",
+        "x": 3.4348652108428696e-30,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam12",
+        "x": 0.0000012347165920800762,
+        "y": 0.00000128707688418217,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam13",
+        "x": 1.3739460843371478e-29,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam14",
+        "x": -0.000006365266472130315,
+        "y": 0.000006387770554283634,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam15",
+        "x": 3.4348652108428696e-30,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "lightbeam16",
+        "x": 0.0000036129138152318774,
+        "y": 0.0000037191937281022547,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "yanwu",
+        "x": -68.77960205078125,
+        "y": 10.876628875732422,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "yanwu2",
+        "x": 26.775981903076172,
+        "y": -7.121791839599609,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "yanwu",
+        "blendMode": 0,
+        "attachment": "yanwu"
+      },
+      {
+        "name": "yanwu3",
+        "blendMode": 0,
+        "attachment": "yanwu"
+      },
+      {
+        "name": "yanwu2",
+        "blendMode": 0,
+        "attachment": "yanwu"
+      },
+      {
+        "name": "yanwu4",
+        "blendMode": 0,
+        "attachment": "yanwu"
+      },
+      {
+        "name": "zhadanguangyun2",
+        "blendMode": 1,
+        "attachment": "lightspot3"
+      },
+      {
+        "name": "lightspot2",
+        "blendMode": 0,
+        "attachment": "lightspot2"
+      },
+      {
+        "name": "G1",
+        "blendMode": 1,
+        "attachment": "G1"
+      },
+      {
+        "name": "guang1",
+        "blendMode": 1,
+        "attachment": "guang1"
+      },
+      {
+        "name": "guang2",
+        "blendMode": 1,
+        "attachment": "guang2"
+      },
+      {
+        "name": "lightbeam1",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam9",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam2",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam10",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam3",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam11",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam4",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam12",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam5",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam13",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam6",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam14",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam7",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam15",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam8",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      },
+      {
+        "name": "lightbeam16",
+        "blendMode": 1,
+        "attachment": "lightbeam1"
+      }
+    ]
+  },
+  {
+    "name": "SlotMachin_1",
+    "version": "4.1.24",
+    "x": -151.79376220703125,
+    "y": -277.629638671875,
+    "width": 332.7155456542969,
+    "height": 440.8950500488281,
+    "skins": [
+      "default",
+      "Down",
+      "Left",
+      "Right",
+      "Up"
+    ],
+    "animations": [
+      {
+        "name": "CollectCard",
+        "duration": 0.2666666805744171
+      },
+      {
+        "name": "Disappear",
+        "duration": 0.2666666805744171
+      },
+      {
+        "name": "Loop",
+        "duration": 0
+      },
+      {
+        "name": "SpittingCard",
+        "duration": 0.8333333730697632
+      }
+    ],
+    "bones": [
+      {
+        "name": "root",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Up",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Down",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Left",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Right",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone",
+        "x": 72.57460021972656,
+        "y": 5.7845306396484375,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Fx1",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "6StageLight",
+        "x": 13.560481071472168,
+        "y": -2.2600693702697754,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_1",
+        "x": -0.000039126258343458176,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_3",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_6",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_7",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.823205828666687,
+        "scaleY": 1.823205828666687
+      },
+      {
+        "name": "Avatar",
+        "x": 1.9540512227235202e-15,
+        "y": 1.4901161193847656e-8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize1",
+        "x": -8.680438995361328,
+        "y": -5.227024078369141,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eff",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "line",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize2",
+        "x": 24.952619552612305,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize3",
+        "x": -30.359493255615234,
+        "y": 0,
+        "scaleX": 0.75,
+        "scaleY": 0.75
+      },
+      {
+        "name": "Main/fall_icon_prize4",
+        "x": 84.24420166015625,
+        "y": 0,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/fall_icon_prize5",
+        "x": -88.35899353027344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/fall_icon_prize6",
+        "x": -57.89628982543945,
+        "y": 0,
+        "scaleX": 0.8999999761581421,
+        "scaleY": 0.8999999761581421
+      },
+      {
+        "name": "Main/fall_icon_prize7",
+        "x": 39.319297790527344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar66",
+        "x": 71.46945190429688,
+        "y": 94.08132934570312,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/TCM_01BG_Light_1",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar67",
+        "x": -87.55514526367188,
+        "y": 104.99510192871094,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar68",
+        "x": 30.318815231323242,
+        "y": 138.76019287109375,
+        "scaleX": 0.800000011920929,
+        "scaleY": 0.800000011920929
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar69",
+        "x": -73.74606323242188,
+        "y": 118.14878845214844,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "line2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize8",
+        "x": -48.35123825073242,
+        "y": 0,
+        "scaleX": 0.12756678462028503,
+        "scaleY": 1.2050859928131104
+      },
+      {
+        "name": "Main/fall_icon_prize9",
+        "x": 59.11436462402344,
+        "y": 0,
+        "scaleX": 0.09567509591579437,
+        "scaleY": 0.9038145542144775
+      },
+      {
+        "name": "Main/fall_icon_prize10",
+        "x": -19.513147354125977,
+        "y": 0,
+        "scaleX": 0.07654008269309998,
+        "scaleY": 0.7230516076087952
+      },
+      {
+        "name": "Main/fall_icon_prize11",
+        "x": 77.65272521972656,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/fall_icon_prize12",
+        "x": -79.9952392578125,
+        "y": 0,
+        "scaleX": 0.11481012403964996,
+        "scaleY": 1.0845774412155151
+      },
+      {
+        "name": "Main/fall_icon_prize13",
+        "x": 18.028837203979492,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar71",
+        "x": 7.7665300369262695,
+        "y": 125.84541320800781,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar73",
+        "x": 104.5654296875,
+        "y": 102.13276672363281,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Fx2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "6StageLight2",
+        "x": -4.5976972579956055,
+        "y": -13.793174743652344,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_2",
+        "x": -0.000039126258343458176,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_4",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_8",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_9",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.823205828666687,
+        "scaleY": 1.823205828666687
+      },
+      {
+        "name": "Avatar2",
+        "x": 1.9540512227235202e-15,
+        "y": 1.4901161193847656e-8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize14",
+        "x": -8.680438995361328,
+        "y": -5.227024078369141,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eff2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "line3",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize15",
+        "x": 24.952619552612305,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize16",
+        "x": -30.359493255615234,
+        "y": 0,
+        "scaleX": 0.75,
+        "scaleY": 0.75
+      },
+      {
+        "name": "Main/fall_icon_prize17",
+        "x": 84.24420166015625,
+        "y": 0,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/fall_icon_prize18",
+        "x": -88.35899353027344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/fall_icon_prize19",
+        "x": -57.89628982543945,
+        "y": 0,
+        "scaleX": 0.8999999761581421,
+        "scaleY": 0.8999999761581421
+      },
+      {
+        "name": "Main/fall_icon_prize20",
+        "x": 39.319297790527344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar70",
+        "x": 71.4694595336914,
+        "y": 87.34521484375,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/TCM_01BG_Light_2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar72",
+        "x": -66.74620056152344,
+        "y": 98.25900268554688,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar74",
+        "x": 30.318815231323242,
+        "y": 138.76019287109375,
+        "scaleX": 0.800000011920929,
+        "scaleY": 0.800000011920929
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar75",
+        "x": -73.74606323242188,
+        "y": 118.14878845214844,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "line4",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize21",
+        "x": -48.35123825073242,
+        "y": 0,
+        "scaleX": 0.12756678462028503,
+        "scaleY": 1.2050859928131104
+      },
+      {
+        "name": "Main/fall_icon_prize22",
+        "x": 59.11436462402344,
+        "y": 0,
+        "scaleX": 0.09567509591579437,
+        "scaleY": 0.9038145542144775
+      },
+      {
+        "name": "Main/fall_icon_prize23",
+        "x": -19.513147354125977,
+        "y": 0,
+        "scaleX": 0.07654008269309998,
+        "scaleY": 0.7230516076087952
+      },
+      {
+        "name": "Main/fall_icon_prize24",
+        "x": 77.65272521972656,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/fall_icon_prize25",
+        "x": -79.9952392578125,
+        "y": 0,
+        "scaleX": 0.11481012403964996,
+        "scaleY": 1.0845774412155151
+      },
+      {
+        "name": "Main/fall_icon_prize26",
+        "x": 18.028837203979492,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar76",
+        "x": 7.766592979431152,
+        "y": 119.10929870605469,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar77",
+        "x": 104.5654296875,
+        "y": 102.13276672363281,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Fx3",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "6StageLight3",
+        "x": 0.000039126258343458176,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_5",
+        "x": -0.000039126258343458176,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_10",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_11",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_12",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.823205828666687,
+        "scaleY": 1.823205828666687
+      },
+      {
+        "name": "Avatar3",
+        "x": 1.9540512227235202e-15,
+        "y": 1.4901161193847656e-8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize27",
+        "x": -8.680438995361328,
+        "y": -5.227024078369141,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eff3",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "line5",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize28",
+        "x": 24.952619552612305,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize29",
+        "x": -30.359493255615234,
+        "y": 0,
+        "scaleX": 0.75,
+        "scaleY": 0.75
+      },
+      {
+        "name": "Main/fall_icon_prize30",
+        "x": 84.24420166015625,
+        "y": 0,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/fall_icon_prize31",
+        "x": -88.35899353027344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/fall_icon_prize32",
+        "x": -57.89628982543945,
+        "y": 0,
+        "scaleX": 0.8999999761581421,
+        "scaleY": 0.8999999761581421
+      },
+      {
+        "name": "Main/fall_icon_prize33",
+        "x": 39.319297790527344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar78",
+        "x": 71.46945190429688,
+        "y": 51.18511962890625,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/TCM_01BG_Light_3",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar79",
+        "x": -87.55514526367188,
+        "y": 62.09889602661133,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar80",
+        "x": 30.318815231323242,
+        "y": 138.76019287109375,
+        "scaleX": 0.800000011920929,
+        "scaleY": 0.800000011920929
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar81",
+        "x": -73.74606323242188,
+        "y": 118.14878845214844,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "line6",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize34",
+        "x": -48.35123825073242,
+        "y": 0,
+        "scaleX": 0.12756678462028503,
+        "scaleY": 1.2050859928131104
+      },
+      {
+        "name": "Main/fall_icon_prize35",
+        "x": 59.11436462402344,
+        "y": 0,
+        "scaleX": 0.09567509591579437,
+        "scaleY": 0.9038145542144775
+      },
+      {
+        "name": "Main/fall_icon_prize36",
+        "x": -19.513147354125977,
+        "y": 0,
+        "scaleX": 0.07654008269309998,
+        "scaleY": 0.7230516076087952
+      },
+      {
+        "name": "Main/fall_icon_prize37",
+        "x": 77.65272521972656,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/fall_icon_prize38",
+        "x": -79.9952392578125,
+        "y": 0,
+        "scaleX": 0.11481012403964996,
+        "scaleY": 1.0845774412155151
+      },
+      {
+        "name": "Main/fall_icon_prize39",
+        "x": 18.028837203979492,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar82",
+        "x": 7.766547203063965,
+        "y": 82.94920349121094,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar83",
+        "x": 104.5654296875,
+        "y": 102.13276672363281,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Fx4",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "6StageLight4",
+        "x": 10.612037658691406,
+        "y": -16.360149383544922,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_13",
+        "x": -0.000039126258343458176,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_14",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_15",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_16",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.823205828666687,
+        "scaleY": 1.823205828666687
+      },
+      {
+        "name": "Avatar4",
+        "x": 1.9540512227235202e-15,
+        "y": 1.4901161193847656e-8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize40",
+        "x": -8.680438995361328,
+        "y": -5.227024078369141,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eff4",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "line7",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize41",
+        "x": 24.952619552612305,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize42",
+        "x": -30.359493255615234,
+        "y": 0,
+        "scaleX": 0.75,
+        "scaleY": 0.75
+      },
+      {
+        "name": "Main/fall_icon_prize43",
+        "x": 84.24420166015625,
+        "y": 0,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/fall_icon_prize44",
+        "x": -88.35899353027344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/fall_icon_prize45",
+        "x": -57.89628982543945,
+        "y": 0,
+        "scaleX": 0.8999999761581421,
+        "scaleY": 0.8999999761581421
+      },
+      {
+        "name": "Main/fall_icon_prize46",
+        "x": 39.319297790527344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar84",
+        "x": 71.46945190429688,
+        "y": 51.18511962890625,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/TCM_01BG_Light_4",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar85",
+        "x": -87.55514526367188,
+        "y": 62.09889602661133,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar86",
+        "x": 30.318815231323242,
+        "y": 138.76019287109375,
+        "scaleX": 0.800000011920929,
+        "scaleY": 0.800000011920929
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar87",
+        "x": -73.74606323242188,
+        "y": 118.14878845214844,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "line8",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize47",
+        "x": -48.35123825073242,
+        "y": 0,
+        "scaleX": 0.12756678462028503,
+        "scaleY": 1.2050859928131104
+      },
+      {
+        "name": "Main/fall_icon_prize48",
+        "x": 59.11436462402344,
+        "y": 0,
+        "scaleX": 0.09567509591579437,
+        "scaleY": 0.9038145542144775
+      },
+      {
+        "name": "Main/fall_icon_prize49",
+        "x": -19.513147354125977,
+        "y": 0,
+        "scaleX": 0.07654008269309998,
+        "scaleY": 0.7230516076087952
+      },
+      {
+        "name": "Main/fall_icon_prize50",
+        "x": 77.65272521972656,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/fall_icon_prize51",
+        "x": -79.9952392578125,
+        "y": 0,
+        "scaleX": 0.11481012403964996,
+        "scaleY": 1.0845774412155151
+      },
+      {
+        "name": "Main/fall_icon_prize52",
+        "x": 18.028837203979492,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar88",
+        "x": 7.766547203063965,
+        "y": 82.94920349121094,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar89",
+        "x": 104.5654296875,
+        "y": 102.13276672363281,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Uinty_shuzi",
+        "x": -2.385497808456421,
+        "y": 4.8386688232421875,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "AvatarGacha_Gacha/StageLight_1",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/StageLight_2",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/StageLight_3",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/StageLight_4",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/TCM_01BG_Light_1",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/TCM_01BG_Light_3",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/TCM_01BG_Light_5",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/TCM_01BG_Light_7",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/TCM_01BG_Light_2",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/TCM_01BG_Light_4",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/TCM_01BG_Light_6",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/TCM_01BG_Light_8",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar66",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar70",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar78",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar84",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar67",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar72",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar79",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar85",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar71",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar76",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar82",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar88",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar68",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar74",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar80",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar86",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar69",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar75",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar81",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar87",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar73",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar77",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar83",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar89",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX_fw1206",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1218",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1230",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1242",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1212",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1224",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1236",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1248",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1210",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1222",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1234",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1246",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1216",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX_fw1228",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX_fw1240",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX_fw1252",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX_fw1207",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1219",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1231",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1243",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1213",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1225",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1237",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1249",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1208",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1220",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1232",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1244",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1214",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1226",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1238",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1250",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1209",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1221",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1233",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1245",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1215",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX_fw1227",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX_fw1239",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX_fw1251",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX_fw1211",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1223",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1235",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1247",
+        "blendMode": 1,
+        "attachment": "CFX_fw1206"
+      },
+      {
+        "name": "Main/CFX_fw1217",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX_fw1229",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX_fw1241",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "Main/CFX_fw1253",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "mack",
+        "blendMode": 0,
+        "attachment": "mack"
+      },
+      {
+        "name": "AvatarGacha_Gacha/Energy_light_3",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/Energy_light_4",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/Energy_light_5",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/Energy_light_6",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/Ta",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/Ta2",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/Ta3",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/Ta4",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/balllight_2",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/balllight_3",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/balllight_4",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "AvatarGacha_Gacha/balllight_5",
+        "blendMode": 1,
+        "attachment": null
+      },
+      {
+        "name": "5",
+        "blendMode": 0,
+        "attachment": null
+      },
+      {
+        "name": "Ykaikou2",
+        "blendMode": 0,
+        "attachment": "Ykaikou"
+      },
+      {
+        "name": "Yjiantou",
+        "blendMode": 0,
+        "attachment": "Yjiantou"
+      },
+      {
+        "name": "Zkaikou2",
+        "blendMode": 0,
+        "attachment": "Zkaikou"
+      },
+      {
+        "name": "Skaikou2",
+        "blendMode": 0,
+        "attachment": "Skaikou"
+      },
+      {
+        "name": "Sjiantou",
+        "blendMode": 0,
+        "attachment": "Sjiantou"
+      },
+      {
+        "name": "Zjiantou",
+        "blendMode": 0,
+        "attachment": "Zjiantou"
+      },
+      {
+        "name": "Xkaikou2",
+        "blendMode": 0,
+        "attachment": "Xkaikou"
+      },
+      {
+        "name": "Xjiantou",
+        "blendMode": 0,
+        "attachment": "Xjiantou"
+      }
+    ]
+  },
+  {
+    "name": "SlotMachine_2",
+    "version": "4.1.24",
+    "x": -132.88551330566406,
+    "y": -169.6613311767578,
+    "width": 273.0000305175781,
+    "height": 335,
+    "skins": [
+      "default",
+      "Down",
+      "Left",
+      "Right",
+      "Up"
+    ],
+    "animations": [
+      {
+        "name": "CollectCard",
+        "duration": 0.2666666805744171
+      },
+      {
+        "name": "Disappear",
+        "duration": 0.2666666805744171
+      },
+      {
+        "name": "Loop",
+        "duration": 0
+      },
+      {
+        "name": "SpittingCard",
+        "duration": 0.8333333730697632
+      }
+    ],
+    "bones": [
+      {
+        "name": "root",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Up",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Down",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Left",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Right",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone",
+        "x": 72.57460021972656,
+        "y": 5.7845306396484375,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Fx1",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "6StageLight",
+        "x": 13.560481071472168,
+        "y": -2.2600693702697754,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_1",
+        "x": -0.000039126258343458176,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_3",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_6",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_7",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.823205828666687,
+        "scaleY": 1.823205828666687
+      },
+      {
+        "name": "Avatar",
+        "x": 1.9540512227235202e-15,
+        "y": 1.4901161193847656e-8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize1",
+        "x": -8.680438995361328,
+        "y": -5.227024078369141,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eff",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "line",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize2",
+        "x": 24.952619552612305,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize3",
+        "x": -30.359493255615234,
+        "y": 0,
+        "scaleX": 0.75,
+        "scaleY": 0.75
+      },
+      {
+        "name": "Main/fall_icon_prize4",
+        "x": 84.24420166015625,
+        "y": 0,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/fall_icon_prize5",
+        "x": -88.35899353027344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/fall_icon_prize6",
+        "x": -57.89628982543945,
+        "y": 0,
+        "scaleX": 0.8999999761581421,
+        "scaleY": 0.8999999761581421
+      },
+      {
+        "name": "Main/fall_icon_prize7",
+        "x": 39.319297790527344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar66",
+        "x": 71.46945190429688,
+        "y": 94.08132934570312,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/TCM_01BG_Light_1",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar67",
+        "x": -87.55514526367188,
+        "y": 104.99510192871094,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar68",
+        "x": 30.318815231323242,
+        "y": 138.76019287109375,
+        "scaleX": 0.800000011920929,
+        "scaleY": 0.800000011920929
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar69",
+        "x": -73.74606323242188,
+        "y": 118.14878845214844,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "line2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize8",
+        "x": -48.35123825073242,
+        "y": 0,
+        "scaleX": 0.12756678462028503,
+        "scaleY": 1.2050859928131104
+      },
+      {
+        "name": "Main/fall_icon_prize9",
+        "x": 59.11436462402344,
+        "y": 0,
+        "scaleX": 0.09567509591579437,
+        "scaleY": 0.9038145542144775
+      },
+      {
+        "name": "Main/fall_icon_prize10",
+        "x": -19.513147354125977,
+        "y": 0,
+        "scaleX": 0.07654008269309998,
+        "scaleY": 0.7230516076087952
+      },
+      {
+        "name": "Main/fall_icon_prize11",
+        "x": 77.65272521972656,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/fall_icon_prize12",
+        "x": -79.9952392578125,
+        "y": 0,
+        "scaleX": 0.11481012403964996,
+        "scaleY": 1.0845774412155151
+      },
+      {
+        "name": "Main/fall_icon_prize13",
+        "x": 18.028837203979492,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar71",
+        "x": 7.7665300369262695,
+        "y": 125.84541320800781,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar73",
+        "x": 104.5654296875,
+        "y": 102.13276672363281,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Fx2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "6StageLight2",
+        "x": -4.5976972579956055,
+        "y": -13.793174743652344,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_2",
+        "x": -0.000039126258343458176,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_4",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_8",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_9",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.823205828666687,
+        "scaleY": 1.823205828666687
+      },
+      {
+        "name": "Avatar2",
+        "x": 1.9540512227235202e-15,
+        "y": 1.4901161193847656e-8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize14",
+        "x": -8.680438995361328,
+        "y": -5.227024078369141,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eff2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "line3",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize15",
+        "x": 24.952619552612305,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize16",
+        "x": -30.359493255615234,
+        "y": 0,
+        "scaleX": 0.75,
+        "scaleY": 0.75
+      },
+      {
+        "name": "Main/fall_icon_prize17",
+        "x": 84.24420166015625,
+        "y": 0,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/fall_icon_prize18",
+        "x": -88.35899353027344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/fall_icon_prize19",
+        "x": -57.89628982543945,
+        "y": 0,
+        "scaleX": 0.8999999761581421,
+        "scaleY": 0.8999999761581421
+      },
+      {
+        "name": "Main/fall_icon_prize20",
+        "x": 39.319297790527344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar70",
+        "x": 71.4694595336914,
+        "y": 87.34521484375,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/TCM_01BG_Light_2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar72",
+        "x": -66.74620056152344,
+        "y": 98.25900268554688,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar74",
+        "x": 30.318815231323242,
+        "y": 138.76019287109375,
+        "scaleX": 0.800000011920929,
+        "scaleY": 0.800000011920929
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar75",
+        "x": -73.74606323242188,
+        "y": 118.14878845214844,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "line4",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize21",
+        "x": -48.35123825073242,
+        "y": 0,
+        "scaleX": 0.12756678462028503,
+        "scaleY": 1.2050859928131104
+      },
+      {
+        "name": "Main/fall_icon_prize22",
+        "x": 59.11436462402344,
+        "y": 0,
+        "scaleX": 0.09567509591579437,
+        "scaleY": 0.9038145542144775
+      },
+      {
+        "name": "Main/fall_icon_prize23",
+        "x": -19.513147354125977,
+        "y": 0,
+        "scaleX": 0.07654008269309998,
+        "scaleY": 0.7230516076087952
+      },
+      {
+        "name": "Main/fall_icon_prize24",
+        "x": 77.65272521972656,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/fall_icon_prize25",
+        "x": -79.9952392578125,
+        "y": 0,
+        "scaleX": 0.11481012403964996,
+        "scaleY": 1.0845774412155151
+      },
+      {
+        "name": "Main/fall_icon_prize26",
+        "x": 18.028837203979492,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar76",
+        "x": 7.766592979431152,
+        "y": 119.10929870605469,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar77",
+        "x": 104.5654296875,
+        "y": 102.13276672363281,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Fx3",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "6StageLight3",
+        "x": 0.000039126258343458176,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_5",
+        "x": -0.000039126258343458176,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_10",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_11",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_12",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.823205828666687,
+        "scaleY": 1.823205828666687
+      },
+      {
+        "name": "Avatar3",
+        "x": 1.9540512227235202e-15,
+        "y": 1.4901161193847656e-8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize27",
+        "x": -8.680438995361328,
+        "y": -5.227024078369141,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eff3",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "line5",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize28",
+        "x": 24.952619552612305,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize29",
+        "x": -30.359493255615234,
+        "y": 0,
+        "scaleX": 0.75,
+        "scaleY": 0.75
+      },
+      {
+        "name": "Main/fall_icon_prize30",
+        "x": 84.24420166015625,
+        "y": 0,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/fall_icon_prize31",
+        "x": -88.35899353027344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/fall_icon_prize32",
+        "x": -57.89628982543945,
+        "y": 0,
+        "scaleX": 0.8999999761581421,
+        "scaleY": 0.8999999761581421
+      },
+      {
+        "name": "Main/fall_icon_prize33",
+        "x": 39.319297790527344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar78",
+        "x": 71.46945190429688,
+        "y": 51.18511962890625,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/TCM_01BG_Light_3",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar79",
+        "x": -87.55514526367188,
+        "y": 62.09889602661133,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar80",
+        "x": 30.318815231323242,
+        "y": 138.76019287109375,
+        "scaleX": 0.800000011920929,
+        "scaleY": 0.800000011920929
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar81",
+        "x": -73.74606323242188,
+        "y": 118.14878845214844,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "line6",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize34",
+        "x": -48.35123825073242,
+        "y": 0,
+        "scaleX": 0.12756678462028503,
+        "scaleY": 1.2050859928131104
+      },
+      {
+        "name": "Main/fall_icon_prize35",
+        "x": 59.11436462402344,
+        "y": 0,
+        "scaleX": 0.09567509591579437,
+        "scaleY": 0.9038145542144775
+      },
+      {
+        "name": "Main/fall_icon_prize36",
+        "x": -19.513147354125977,
+        "y": 0,
+        "scaleX": 0.07654008269309998,
+        "scaleY": 0.7230516076087952
+      },
+      {
+        "name": "Main/fall_icon_prize37",
+        "x": 77.65272521972656,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/fall_icon_prize38",
+        "x": -79.9952392578125,
+        "y": 0,
+        "scaleX": 0.11481012403964996,
+        "scaleY": 1.0845774412155151
+      },
+      {
+        "name": "Main/fall_icon_prize39",
+        "x": 18.028837203979492,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar82",
+        "x": 7.766547203063965,
+        "y": 82.94920349121094,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar83",
+        "x": 104.5654296875,
+        "y": 102.13276672363281,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Fx4",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "6StageLight4",
+        "x": 10.612037658691406,
+        "y": -16.360149383544922,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_13",
+        "x": -0.000039126258343458176,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "StageLight_14",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_15",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.3667349815368652,
+        "scaleY": 1.3667349815368652
+      },
+      {
+        "name": "StageLight_16",
+        "x": -4.944763660430908,
+        "y": 8.241189956665039,
+        "scaleX": 1.823205828666687,
+        "scaleY": 1.823205828666687
+      },
+      {
+        "name": "Avatar4",
+        "x": 1.9540512227235202e-15,
+        "y": 1.4901161193847656e-8,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize40",
+        "x": -8.680438995361328,
+        "y": -5.227024078369141,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "eff4",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "line7",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize41",
+        "x": 24.952619552612305,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize42",
+        "x": -30.359493255615234,
+        "y": 0,
+        "scaleX": 0.75,
+        "scaleY": 0.75
+      },
+      {
+        "name": "Main/fall_icon_prize43",
+        "x": 84.24420166015625,
+        "y": 0,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/fall_icon_prize44",
+        "x": -88.35899353027344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/fall_icon_prize45",
+        "x": -57.89628982543945,
+        "y": 0,
+        "scaleX": 0.8999999761581421,
+        "scaleY": 0.8999999761581421
+      },
+      {
+        "name": "Main/fall_icon_prize46",
+        "x": 39.319297790527344,
+        "y": 0,
+        "scaleX": 0.5,
+        "scaleY": 0.5
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar84",
+        "x": 71.46945190429688,
+        "y": 51.18511962890625,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/TCM_01BG_Light_4",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar85",
+        "x": -87.55514526367188,
+        "y": 62.09889602661133,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar86",
+        "x": 30.318815231323242,
+        "y": 138.76019287109375,
+        "scaleX": 0.800000011920929,
+        "scaleY": 0.800000011920929
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar87",
+        "x": -73.74606323242188,
+        "y": 118.14878845214844,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "line8",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Main/fall_icon_prize47",
+        "x": -48.35123825073242,
+        "y": 0,
+        "scaleX": 0.12756678462028503,
+        "scaleY": 1.2050859928131104
+      },
+      {
+        "name": "Main/fall_icon_prize48",
+        "x": 59.11436462402344,
+        "y": 0,
+        "scaleX": 0.09567509591579437,
+        "scaleY": 0.9038145542144775
+      },
+      {
+        "name": "Main/fall_icon_prize49",
+        "x": -19.513147354125977,
+        "y": 0,
+        "scaleX": 0.07654008269309998,
+        "scaleY": 0.7230516076087952
+      },
+      {
+        "name": "Main/fall_icon_prize50",
+        "x": 77.65272521972656,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/fall_icon_prize51",
+        "x": -79.9952392578125,
+        "y": 0,
+        "scaleX": 0.11481012403964996,
+        "scaleY": 1.0845774412155151
+      },
+      {
+        "name": "Main/fall_icon_prize52",
+        "x": 18.028837203979492,
+        "y": 0,
+        "scaleX": 0.06378339231014252,
+        "scaleY": 0.6025429964065552
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar88",
+        "x": 7.766547203063965,
+        "y": 82.94920349121094,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Main/CFX3_T_GlowStar89",
+        "x": 104.5654296875,
+        "y": 102.13276672363281,
+        "scaleX": 0.6000000238418579,
+        "scaleY": 0.6000000238418579
+      },
+      {
+        "name": "Uinty_shuzi",
+        "x": -2.385497808456421,
+        "y": 4.8386688232421875,
+        "scaleX": 1,
+        "scaleY": 1
+      }
+    ],
+    "slots": [
+      {
+        "name": "BG",
+        "blendMode": 0,
+        "attachment": "BG"
+      },
+      {
+        "name": "Zkaikou",
+        "blendMode": 0,
+        "attachment": "Zkaikou"
+      },
+      {
+        "name": "Ykaikou",
+        "blendMode": 0,
+        "attachment": "Ykaikou"
+      },
+      {
+        "name": "Skaikou",
+        "blendMode": 0,
+        "attachment": "Skaikou"
+      },
+      {
+        "name": "Xkaikou",
+        "blendMode": 0,
+        "attachment": "Xkaikou"
+      }
+    ]
+  },
+  {
+    "name": "Box_Up_1767",
+    "version": "4.1.24",
+    "x": -729.5918579101562,
+    "y": -556.6334228515625,
+    "width": 1598.932373046875,
+    "height": 984.8507690429688,
+    "skins": [
+      "default"
+    ],
+    "animations": [
+      {
+        "name": "Box_Up",
+        "duration": 2.1666667461395264
+      }
+    ],
+    "bones": [
+      {
+        "name": "root",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "box",
+        "x": 250.6292724609375,
+        "y": 182.875244140625,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "box_1",
+        "x": -237.65701293945312,
+        "y": -5.0965576171875,
+        "scaleX": 0.17619000375270844,
+        "scaleY": 0.17619000375270844
+      },
+      {
+        "name": "box_2",
+        "x": -2.9103775024414062,
+        "y": 117.3486328125,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "2_2",
+        "x": 117.14551544189453,
+        "y": -162.04742431640625,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "box_3",
+        "x": -14.500091552734375,
+        "y": -164.3975830078125,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "2_1",
+        "x": -151.92259216308594,
+        "y": -162.04742431640625,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "2_3",
+        "x": 271.2823181152344,
+        "y": -36.374908447265625,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "2_4",
+        "x": 14.566695213317871,
+        "y": 103.79824829101562,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "2_5",
+        "x": -270.61328125,
+        "y": -43.893829345703125,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "fx",
+        "x": -16.437789916992188,
+        "y": -257.643798828125,
+        "scaleX": 0.17619000375270844,
+        "scaleY": 0.17619000375270844
+      },
+      {
+        "name": "glow",
+        "x": 667.5612182617188,
+        "y": 1065.531005859375,
+        "scaleX": 1,
+        "scaleY": 0.7867802381515503
+      },
+      {
+        "name": "glow2",
+        "x": -711.0166625976562,
+        "y": 1429.5736083984375,
+        "scaleX": 1,
+        "scaleY": 0.7867802381515503
+      },
+      {
+        "name": "glow3",
+        "x": -330.5483703613281,
+        "y": 1361.1484375,
+        "scaleX": 1,
+        "scaleY": 0.7867802381515503
+      },
+      {
+        "name": "glow4",
+        "x": -236.27700805664062,
+        "y": 1358.2408447265625,
+        "scaleX": 1,
+        "scaleY": 0.42785072326660156
+      },
+      {
+        "name": "glow5",
+        "x": 822.2406005859375,
+        "y": 1322.136474609375,
+        "scaleX": 1,
+        "scaleY": 0.42785072326660156
+      },
+      {
+        "name": "glow6",
+        "x": 539.916748046875,
+        "y": 1270.950439453125,
+        "scaleX": 0.7253648042678833,
+        "scaleY": 0.214702308177948
+      },
+      {
+        "name": "glow7",
+        "x": 63.92351531982422,
+        "y": 1305.923828125,
+        "scaleX": 1,
+        "scaleY": 0.5588429570198059
+      }
+    ],
+    "slots": [
+      {
+        "name": "box_4",
+        "blendMode": 0,
+        "attachment": "Box/box_1"
+      },
+      {
+        "name": "glow",
+        "blendMode": 1,
+        "attachment": "Box/glow"
+      },
+      {
+        "name": "glow13",
+        "blendMode": 1,
+        "attachment": "Box/glow"
+      },
+      {
+        "name": "glow7",
+        "blendMode": 1,
+        "attachment": "Box/glow"
+      },
+      {
+        "name": "glow14",
+        "blendMode": 1,
+        "attachment": "Box/glow"
+      },
+      {
+        "name": "glow2",
+        "blendMode": 1,
+        "attachment": "Box/glow"
+      },
+      {
+        "name": "glow3",
+        "blendMode": 1,
+        "attachment": "Box/glow"
+      },
+      {
+        "name": "glow9",
+        "blendMode": 1,
+        "attachment": "Box/glow"
+      },
+      {
+        "name": "glow4",
+        "blendMode": 1,
+        "attachment": "Box/glow"
+      },
+      {
+        "name": "glow11",
+        "blendMode": 1,
+        "attachment": "Box/glow"
+      },
+      {
+        "name": "glow12",
+        "blendMode": 1,
+        "attachment": "Box/glow"
+      },
+      {
+        "name": "glow5",
+        "blendMode": 1,
+        "attachment": "Box/glow"
+      },
+      {
+        "name": "glow10",
+        "blendMode": 1,
+        "attachment": "Box/glow"
+      },
+      {
+        "name": "box_2",
+        "blendMode": 0,
+        "attachment": "Box/box_2"
+      },
+      {
+        "name": "box_3",
+        "blendMode": 0,
+        "attachment": "Box/box_3"
+      }
+    ]
+  },
+  {
+    "name": "Box_Down_7340",
+    "version": "4.1.24",
+    "x": -262.517578125,
+    "y": 107.62187194824219,
+    "width": 491.9501647949219,
+    "height": 191.10523986816406,
+    "skins": [
+      "default"
+    ],
+    "animations": [
+      {
+        "name": "Box_Down",
+        "duration": 2.1666667461395264
+      }
+    ],
+    "bones": [
+      {
+        "name": "root",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "bone2",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "box",
+        "x": 250.6292724609375,
+        "y": 182.875244140625,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "box_1",
+        "x": -237.65701293945312,
+        "y": -5.0965576171875,
+        "scaleX": 0.17619000375270844,
+        "scaleY": 0.17619000375270844
+      },
+      {
+        "name": "1",
+        "x": -108.34261322021484,
+        "y": 144.64097595214844,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "2",
+        "x": 141.43820190429688,
+        "y": 136.2964630126953,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "3",
+        "x": -265.22052001953125,
+        "y": 2.7833404541015625,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "4",
+        "x": 266.05035400390625,
+        "y": 5.5649261474609375,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "5",
+        "x": -145.6150360107422,
+        "y": -120.15997314453125,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "6",
+        "x": 118.62969970703125,
+        "y": -120.15997314453125,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "box_5",
+        "x": -236.66427612304688,
+        "y": -36.373321533203125,
+        "scaleX": 0.17619000375270844,
+        "scaleY": 0.17619000375270844
+      }
+    ],
+    "slots": [
+      {
+        "name": "box_1",
+        "blendMode": 0,
+        "attachment": "Box/box_1"
+      },
+      {
+        "name": "box_5",
+        "blendMode": 1,
+        "attachment": "Box/box_5"
+      }
+    ]
+  },
+  {
+    "name": "FX_2_2450",
+    "version": "4.1.24",
+    "x": -73.67677307128906,
+    "y": 140.81561279296875,
+    "width": 113.57666015625,
+    "height": 90.36532592773438,
+    "skins": [
+      "default"
+    ],
+    "animations": [
+      {
+        "name": "Appear",
+        "duration": 1.7333334684371948
+      }
+    ],
+    "bones": [
+      {
+        "name": "root",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Zong",
+        "x": 0,
+        "y": 0,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "glow_hezi",
+        "x": 17.646438598632812,
+        "y": 185.28656005859375,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow/glow_1",
+        "x": -1.7646608352661133,
+        "y": 5.2940826416015625,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow/yanwu",
+        "x": -1.4673957824707031,
+        "y": 1.9879913330078125,
+        "scaleX": 1.134616732597351,
+        "scaleY": 1.134616732597351
+      },
+      {
+        "name": "Glow/glow",
+        "x": -1.7646608352661133,
+        "y": 5.2940826416015625,
+        "scaleX": 1.2040096521377563,
+        "scaleY": 1.2040096521377563
+      },
+      {
+        "name": "lizi",
+        "x": 15.881791114807129,
+        "y": 190.5806427001953,
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      {
+        "name": "Glow/eff_glow_005",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.17000000178813934,
+        "scaleY": 0.17000000178813934
+      },
+      {
+        "name": "Glow/eff_glow_006",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.07999999821186066,
+        "scaleY": 0.08799999952316284
+      },
+      {
+        "name": "Glow/eff_glow_007",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.15000000596046448,
+        "scaleY": 0.15000000596046448
+      },
+      {
+        "name": "Glow/eff_glow_008",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.15000000596046448,
+        "scaleY": 0.15000000596046448
+      },
+      {
+        "name": "Glow/eff_glow_009",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.10000000149011612,
+        "scaleY": 0.10000000149011612
+      },
+      {
+        "name": "Glow/eff_glow_0010",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.12999999523162842,
+        "scaleY": 0.12999999523162842
+      },
+      {
+        "name": "Glow/eff_glow_0011",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.07000000029802322,
+        "scaleY": 0.07000000029802322
+      },
+      {
+        "name": "Glow/eff_glow_0012",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.18000000715255737,
+        "scaleY": 0.18000000715255737
+      },
+      {
+        "name": "Glow/eff_glow_0013",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.12999999523162842,
+        "scaleY": 0.12999999523162842
+      },
+      {
+        "name": "Glow/eff_glow_0014",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.12999999523162842,
+        "scaleY": 0.12999999523162842
+      },
+      {
+        "name": "Glow/eff_glow_0015",
+        "x": 0,
+        "y": 0,
+        "scaleX": 0.12999999523162842,
+        "scaleY": 0.12999999523162842
+      }
+    ],
+    "slots": [
+      {
+        "name": "Glow/yanwu",
+        "blendMode": 1,
+        "attachment": "Glow/yanwu"
+      },
+      {
+        "name": "Glow/glow_1",
+        "blendMode": 0,
+        "attachment": "Glow/glow_1"
+      },
+      {
+        "name": "Glow/glow",
+        "blendMode": 0,
+        "attachment": "Glow/glow"
+      },
+      {
+        "name": "Glow/eff_glow_005",
+        "blendMode": 1,
+        "attachment": "Glow/eff_glow_005"
+      },
+      {
+        "name": "Glow/eff_glow_006",
+        "blendMode": 1,
+        "attachment": "Glow/eff_glow_005"
+      },
+      {
+        "name": "Glow/eff_glow_007",
+        "blendMode": 1,
+        "attachment": "Glow/eff_glow_005"
+      },
+      {
+        "name": "Glow/eff_glow_008",
+        "blendMode": 1,
+        "attachment": "Glow/eff_glow_005"
+      },
+      {
+        "name": "Glow/eff_glow_0011",
+        "blendMode": 1,
+        "attachment": "Glow/eff_glow_005"
+      },
+      {
+        "name": "Glow/eff_glow_0012",
+        "blendMode": 1,
+        "attachment": "Glow/eff_glow_005"
+      },
+      {
+        "name": "Glow/eff_glow_009",
+        "blendMode": 1,
+        "attachment": "Glow/eff_glow_005"
+      },
+      {
+        "name": "Glow/eff_glow_0010",
+        "blendMode": 1,
+        "attachment": "Glow/eff_glow_005"
+      },
+      {
+        "name": "Glow/eff_glow_0013",
+        "blendMode": 1,
+        "attachment": "Glow/eff_glow_005"
+      },
+      {
+        "name": "Glow/eff_glow_0015",
+        "blendMode": 1,
+        "attachment": "Glow/eff_glow_005"
+      },
+      {
+        "name": "Glow/eff_glow_0014",
+        "blendMode": 1,
+        "attachment": "Glow/eff_glow_005"
+      }
+    ]
+  }
+]

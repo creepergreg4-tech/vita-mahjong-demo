@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "provenance": "Rendered from APK Spine 4.1 binary skeletons and original atlas textures with bundled Spine 4.1 WebGL runtime. No replacement illustration.",
+  "fps": 24,
+  "animations": {
+    "giftOpen": {
+      "key": "giftOpen",
+      "pages": [
+        {
+          "file": "/assets/reward-fx/baked/giftOpen-0.png",
+          "frames": 36,
+          "startFrame": 0,
+          "columns": 6,
+          "rows": 6
+        },
+        {
+          "file": "/assets/reward-fx/baked/giftOpen-1.png",
+          "frames": 16,
+          "startFrame": 36,
+          "columns": 6,
+          "rows": 3
+        }
+      ],
+      "files": [
+        "/assets/reward-fx/baked/giftOpen-0.png",
+        "/assets/reward-fx/baked/giftOpen-1.png"
+      ],
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "frameCount": 52,
+      "frames": 52,
+      "fps": 24,
+      "duration": 2.166666746,
+      "loop": false,
+      "bounds": {
+        "x": -566.7166349114837,
+        "y": -400.8175394846785,
+        "right": 788.7229028596828,
+        "top": 781.6622656021464,
+        "width": 1355.4395377711664,
+        "height": 1182.4798050868249
+      },
+      "layers": [
+        {
+          "name": "Box_Down_7340",
+          "atlasName": "GameGiftBox",
+          "animation": "Box_Down"
+        },
+        {
+          "name": "Box_Up_1767",
+          "atlasName": "GameGiftBox",
+          "animation": "Box_Up"
+        }
+      ]
+    },
+    "giftGlow": {
+      "key": "giftGlow",
+      "pages": [
+        {
+          "file": "/assets/reward-fx/baked/giftGlow-0.png",
+          "frames": 36,
+          "startFrame": 0,
+          "columns": 6,
+          "rows": 6
+        },
+        {
+          "file": "/assets/reward-fx/baked/giftGlow-1.png",
+          "frames": 6,
+          "startFrame": 36,
+          "columns": 6,
+          "rows": 1
+        }
+      ],
+      "files": [
+        "/assets/reward-fx/baked/giftGlow-0.png",
+        "/assets/reward-fx/baked/giftGlow-1.png"
+      ],
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "frameCount": 42,
+      "frames": 42,
+      "fps": 24,
+      "duration": 1.733333468,
+      "loop": false,
+      "bounds": {
+        "x": -566.7166349114837,
+        "y": -400.8175394846785,
+        "right": 788.7229028596828,
+        "top": 781.6622656021464,
+        "width": 1355.4395377711664,
+        "height": 1182.4798050868249
+      },
+      "layers": [
+        {
+          "name": "FX_2_2450",
+          "atlasName": "GameGiftBox",
+          "animation": "Appear"
+        }
+      ]
+    },
+    "bomb": {
+      "key": "bomb",
+      "pages": [
+        {
+          "file": "/assets/reward-fx/baked/bomb-0.png",
+          "frames": 20,
+          "startFrame": 0,
+          "columns": 6,
+          "rows": 4
+        }
+      ],
+      "files": [
+        "/assets/reward-fx/baked/bomb-0.png"
+      ],
+      "frameWidth": 320,
+      "frameHeight": 320,
+      "frameCount": 20,
+      "frames": 20,
+      "fps": 24,
+      "duration": 0.833333373,
+      "loop": false,
+      "bounds": {
+        "x": -426.7421776799257,
+        "y": -428.221304908505,
+        "right": 428.203198755763,
+        "top": 426.72407152718375,
+        "width": 854.9453764356888,
+        "height": 854.9453764356888
+      },
+      "layers": [
+        {
+          "name": "FirecrackerBomb",
+          "atlasName": "FirecrackerBomb",
+          "animation": "Bomb"
+        }
+      ]
+    },
+    "slotSpitting": {
+      "key": "slotSpitting",
+      "pages": [
+        {
+          "file": "/assets/reward-fx/baked/slotSpitting-0.png",
+          "frames": 20,
+          "startFrame": 0,
+          "columns": 8,
+          "rows": 3
+        }
+      ],
+      "files": [
+        "/assets/reward-fx/baked/slotSpitting-0.png"
+      ],
+      "frameWidth": 256,
+      "frameHeight": 384,
+      "frameCount": 20,
+      "frames": 20,
+      "fps": 24,
+      "duration": 0.833333373,
+      "loop": false,
+      "bounds": {
+        "x": -229.58395547211683,
+        "y": -533.6354677785189,
+        "right": 220.38768888549288,
+        "top": 237.1995391350723,
+        "width": 449.9716443576097,
+        "height": 770.8350069135913
+      },
+      "layers": [
+        {
+          "name": "SlotMachine_2",
+          "atlasName": "SlotMachine",
+          "animation": "SpittingCard",
+          "skin": "Down"
+        },
+        {
+          "name": "SlotMachin_1",
+          "atlasName": "SlotMachine",
+          "animation": "SpittingCard",
+          "skin": "Down"
+        }
+      ]
+    },
+    "slotCollect": {
+      "key": "slotCollect",
+      "pages": [
+        {
+          "file": "/assets/reward-fx/baked/slotCollect-0.png",
+          "frames": 7,
+          "startFrame": 0,
+          "columns": 7,
+          "rows": 1
+        }
+      ],
+      "files": [
+        "/assets/reward-fx/baked/slotCollect-0.png"
+      ],
+      "frameWidth": 256,
+      "frameHeight": 384,
+      "frameCount": 7,
+      "frames": 7,
+      "fps": 24,
+      "duration": 0.266666681,
+      "loop": false,
+      "bounds": {
+        "x": -229.58395547211683,
+        "y": -533.6354677785189,
+        "right": 220.38768888549288,
+        "top": 237.1995391350723,
+        "width": 449.9716443576097,
+        "height": 770.8350069135913
+      },
+      "layers": [
+        {
+          "name": "SlotMachine_2",
+          "atlasName": "SlotMachine",
+          "animation": "CollectCard",
+          "skin": "Down"
+        },
+        {
+          "name": "SlotMachin_1",
+          "atlasName": "SlotMachine",
+          "animation": "CollectCard",
+          "skin": "Down"
+        }
+      ]
+    },
+    "slotDisappear": {
+      "key": "slotDisappear",
+      "pages": [
+        {
+          "file": "/assets/reward-fx/baked/slotDisappear-0.png",
+          "frames": 7,
+          "startFrame": 0,
+          "columns": 7,
+          "rows": 1
+        }
+      ],
+      "files": [
+        "/assets/reward-fx/baked/slotDisappear-0.png"
+      ],
+      "frameWidth": 256,
+      "frameHeight": 384,
+      "frameCount": 7,
+      "frames": 7,
+      "fps": 24,
+      "duration": 0.266666681,
+      "loop": false,
+      "bounds": {
+        "x": -229.58395547211683,
+        "y": -533.6354677785189,
+        "right": 220.38768888549288,
+        "top": 237.1995391350723,
+        "width": 449.9716443576097,
+        "height": 770.8350069135913
+      },
+      "layers": [
+        {
+          "name": "SlotMachine_2",
+          "atlasName": "SlotMachine",
+          "animation": "Disappear",
+          "skin": "Down"
+        },
+        {
+          "name": "SlotMachin_1",
+          "atlasName": "SlotMachine",
+          "animation": "Disappear",
+          "skin": "Down"
+        }
+      ]
+    },
+    "slotIdle": {
+      "key": "slotIdle",
+      "pages": [
+        {
+          "file": "/assets/reward-fx/baked/slotIdle-0.png",
+          "frames": 1,
+          "startFrame": 0,
+          "columns": 1,
+          "rows": 1
+        }
+      ],
+      "files": [
+        "/assets/reward-fx/baked/slotIdle-0.png"
+      ],
+      "frameWidth": 256,
+      "frameHeight": 384,
+      "frameCount": 1,
+      "frames": 1,
+      "fps": 24,
+      "duration": 0,
+      "loop": true,
+      "bounds": {
+        "x": -229.58395547211683,
+        "y": -533.6354677785189,
+        "right": 220.38768888549288,
+        "top": 237.1995391350723,
+        "width": 449.9716443576097,
+        "height": 770.8350069135913
+      },
+      "layers": [
+        {
+          "name": "SlotMachine_2",
+          "atlasName": "SlotMachine",
+          "animation": "Loop",
+          "skin": "Down"
+        },
+        {
+          "name": "SlotMachin_1",
+          "atlasName": "SlotMachine",
+          "animation": "Loop",
+          "skin": "Down"
+        }
+      ]
+    }
+  }
+}

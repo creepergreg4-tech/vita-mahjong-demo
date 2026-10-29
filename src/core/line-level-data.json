@@ -1,0 +1,381 @@
+{
+  "seed": 31001,
+  "faces": [
+    [
+      0,
+      2,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    [
+      0,
+      1,
+      0,
+      2,
+      3,
+      2,
+      1,
+      3
+    ],
+    [
+      0,
+      3,
+      0,
+      1,
+      2,
+      3,
+      3,
+      0
+    ],
+    [
+      0,
+      0,
+      2,
+      3,
+      1,
+      1,
+      2,
+      3
+    ],
+    [
+      2,
+      0,
+      1,
+      2,
+      3,
+      3,
+      2,
+      0
+    ],
+    [
+      0,
+      2,
+      2,
+      0,
+      3,
+      2,
+      0,
+      0
+    ]
+  ],
+  "solution": [
+    {
+      "type": "collect",
+      "a": 32
+    },
+    {
+      "type": "collect",
+      "a": 1
+    },
+    {
+      "type": "collect",
+      "a": 9
+    },
+    {
+      "type": "collect",
+      "a": 34
+    },
+    {
+      "type": "collect",
+      "a": 10
+    },
+    {
+      "type": "collect",
+      "a": 25
+    },
+    {
+      "type": "collect",
+      "a": 11
+    },
+    {
+      "type": "collect",
+      "a": 26
+    },
+    {
+      "type": "collect",
+      "a": 12
+    },
+    {
+      "type": "collect",
+      "a": 17
+    },
+    {
+      "type": "collect",
+      "a": 13
+    },
+    {
+      "type": "collect",
+      "a": 35
+    },
+    {
+      "type": "collect",
+      "a": 27
+    },
+    {
+      "type": "collect",
+      "a": 36
+    },
+    {
+      "type": "collect",
+      "a": 14
+    },
+    {
+      "type": "collect",
+      "a": 28
+    },
+    {
+      "type": "collect",
+      "a": 15
+    },
+    {
+      "type": "collect",
+      "a": 37
+    },
+    {
+      "type": "collect",
+      "a": 38
+    },
+    {
+      "type": "collect",
+      "a": 41
+    },
+    {
+      "type": "collect",
+      "a": 18
+    },
+    {
+      "type": "collect",
+      "a": 39
+    },
+    {
+      "type": "collect",
+      "a": 19
+    },
+    {
+      "type": "collect",
+      "a": 29
+    },
+    {
+      "type": "collect",
+      "a": 20
+    },
+    {
+      "type": "collect",
+      "a": 30
+    },
+    {
+      "type": "collect",
+      "a": 21
+    },
+    {
+      "type": "collect",
+      "a": 22
+    },
+    {
+      "type": "collect",
+      "a": 23
+    },
+    {
+      "type": "collect",
+      "a": 31
+    },
+    {
+      "type": "collect",
+      "a": 42
+    },
+    {
+      "type": "collect",
+      "a": 43
+    },
+    {
+      "type": "collect",
+      "a": 44
+    },
+    {
+      "type": "collect",
+      "a": 45
+    },
+    {
+      "type": "collect",
+      "a": 46
+    },
+    {
+      "type": "collect",
+      "a": 47
+    }
+  ],
+  "missedGoalSolution": [
+    {
+      "type": "collect",
+      "a": 0
+    },
+    {
+      "type": "collect",
+      "a": 8
+    },
+    {
+      "type": "collect",
+      "a": 1
+    },
+    {
+      "type": "collect",
+      "a": 32
+    },
+    {
+      "type": "collect",
+      "a": 16
+    },
+    {
+      "type": "collect",
+      "a": 24
+    },
+    {
+      "type": "collect",
+      "a": 25
+    },
+    {
+      "type": "collect",
+      "a": 33
+    },
+    {
+      "type": "collect",
+      "a": 9
+    },
+    {
+      "type": "collect",
+      "a": 34
+    },
+    {
+      "type": "collect",
+      "a": 10
+    },
+    {
+      "type": "collect",
+      "a": 40
+    },
+    {
+      "type": "collect",
+      "a": 11
+    },
+    {
+      "type": "collect",
+      "a": 26
+    },
+    {
+      "type": "collect",
+      "a": 12
+    },
+    {
+      "type": "collect",
+      "a": 17
+    },
+    {
+      "type": "collect",
+      "a": 13
+    },
+    {
+      "type": "collect",
+      "a": 35
+    },
+    {
+      "type": "collect",
+      "a": 27
+    },
+    {
+      "type": "collect",
+      "a": 36
+    },
+    {
+      "type": "collect",
+      "a": 14
+    },
+    {
+      "type": "collect",
+      "a": 28
+    },
+    {
+      "type": "collect",
+      "a": 15
+    },
+    {
+      "type": "collect",
+      "a": 37
+    },
+    {
+      "type": "collect",
+      "a": 38
+    },
+    {
+      "type": "collect",
+      "a": 41
+    },
+    {
+      "type": "collect",
+      "a": 18
+    },
+    {
+      "type": "collect",
+      "a": 39
+    },
+    {
+      "type": "collect",
+      "a": 19
+    },
+    {
+      "type": "collect",
+      "a": 29
+    },
+    {
+      "type": "collect",
+      "a": 20
+    },
+    {
+      "type": "collect",
+      "a": 30
+    },
+    {
+      "type": "collect",
+      "a": 21
+    },
+    {
+      "type": "collect",
+      "a": 22
+    },
+    {
+      "type": "collect",
+      "a": 23
+    },
+    {
+      "type": "collect",
+      "a": 31
+    },
+    {
+      "type": "collect",
+      "a": 42
+    },
+    {
+      "type": "collect",
+      "a": 43
+    },
+    {
+      "type": "collect",
+      "a": 44
+    },
+    {
+      "type": "collect",
+      "a": 45
+    },
+    {
+      "type": "collect",
+      "a": 46
+    },
+    {
+      "type": "collect",
+      "a": 47
+    }
+  ]
+}
